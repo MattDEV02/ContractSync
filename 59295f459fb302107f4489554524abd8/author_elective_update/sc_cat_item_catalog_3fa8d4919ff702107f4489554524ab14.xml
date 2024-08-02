@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Contract Request">7ba8d4919ff702107f4489554524ab12</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-02 13:23:24</sys_created_on>
+        <sys_id>3fa8d4919ff702107f4489554524ab14</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Contract Request</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_3fa8d4919ff702107f4489554524ab14</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-02 13:23:24</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ContractSync">59295f459fb302107f4489554524abd8</application>
+        <file_path/>
+        <instance_id>b38cc51487ef86d0912d0f6d0ebb3570</instance_id>
+        <instance_name>nowlearning-nlinst01898695-0001</instance_name>
+        <name>sc_cat_item_catalog_3fa8d4919ff702107f4489554524ab14</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Contract Request">7ba8d4919ff702107f4489554524ab12</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-02 13:23:24</sys_created_on><sys_id>3fa8d4919ff702107f4489554524ab14</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Contract Request</sys_name><sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package><sys_policy/><sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope><sys_update_name>sc_cat_item_catalog_3fa8d4919ff702107f4489554524ab14</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-02 13:23:24</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-529925782</payload_hash>
+        <record_name>Service Catalog.Contract Request</record_name>
+        <reverted_from/>
+        <source>a44a9f859fb302107f4489554524abfb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-02 13:23:24</sys_created_on>
+        <sys_id>b7a814159ff702107f4489554524ab95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191134266ad0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-02 13:23:24</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>fba81415e8f70210bfb23b97d9617094</update_guid>
+        <update_guid_history>fba81415e8f70210bfb23b97d9617094:-529925782</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Contract Request">371958559ff702107f4489554524ab55</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-02 13:25:18</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>233c0230a0f04a209055f91fa9ec91c4</sys_id>
+        <sys_metadata>3fa8d4919ff702107f4489554524ab14</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Contract Request</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_parent display_value="">7ba8d4919ff702107f4489554524ab12</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_scope_delete display_value="">0f884f882080471e972317895cfe61a4</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_3fa8d4919ff702107f4489554524ab14</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_3fa8d4919ff702107f4489554524ab14">b7a814159ff702107f4489554524ab95</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-02 13:25:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

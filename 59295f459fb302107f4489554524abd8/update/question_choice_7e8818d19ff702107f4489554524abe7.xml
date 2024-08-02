@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>1</order>
+        <published_ref/>
+        <question display_value="Contract Request Priority">7a8818d19ff702107f4489554524abd9</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-02 13:22:47</sys_created_on>
+        <sys_id>7e8818d19ff702107f4489554524abe7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1 - Critical</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name>question_choice_7e8818d19ff702107f4489554524abe7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-02 13:22:47</sys_updated_on>
+        <text>1 - Critical</text>
+        <value>1</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=7e8818d19ff702107f4489554524abe7"/>
+</record_update>
