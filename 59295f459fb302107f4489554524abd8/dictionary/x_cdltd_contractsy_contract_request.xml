@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="93c95b859fb302107f4489554524ab65" extends="sc_request" label="Contract Request" max_length="40" name="x_cdltd_contractsy_contract_request" type="collection"/>
+</database>
