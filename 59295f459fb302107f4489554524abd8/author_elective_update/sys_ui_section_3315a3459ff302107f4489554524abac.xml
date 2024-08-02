@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="New Section" section_id="3315a3459ff302107f4489554524abac" sys_domain="global" table="x_cdltd_contractsy_contract_request" version="3" view="ess">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cxs_table_search.xml</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-02 09:38:09</sys_created_on>
+            <sys_id>dc25a3459ff302107f4489554524abf9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Contextual Search Results">11eb1622eb1121003623666cd206fe56</sys_ui_formatter>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_cdltd_contractsy_contract_request" sys_domain="global" view="01cbc153702231107f44a29f360a7896">3315a3459ff302107f4489554524abac</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-02 09:38:09</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>task_relations.xml</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-02 09:38:09</sys_created_on>
+            <sys_id>9025a3459ff302107f4489554524abfa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Task Relations">40bcaf630a0a0aa1001c2747a91ef801</sys_ui_formatter>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_cdltd_contractsy_contract_request" sys_domain="global" view="01cbc153702231107f44a29f360a7896">3315a3459ff302107f4489554524abac</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-02 09:38:09</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>New Section</caption>
+            <header>false</header>
+            <name>x_cdltd_contractsy_contract_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-02 09:38:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3315a3459ff302107f4489554524abac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_cdltd_contractsy_contract_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+            <sys_update_name>sys_ui_section_3315a3459ff302107f4489554524abac</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-02 09:38:07</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Self Service" name="ess">01cbc153702231107f44a29f360a7896</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ContractSync">59295f459fb302107f4489554524abd8</application>
+        <file_path/>
+        <instance_id>b38cc51487ef86d0912d0f6d0ebb3570</instance_id>
+        <instance_name>nowlearning-nlinst01898695-0001</instance_name>
+        <name>sys_ui_section_3315a3459ff302107f4489554524abac</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="New Section" section_id="3315a3459ff302107f4489554524abac" sys_domain="global" table="x_cdltd_contractsy_contract_request" version="3" view="ess"><sys_ui_element action="INSERT_OR_UPDATE"><element>cxs_table_search.xml</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-02 09:38:09</sys_created_on><sys_id>dc25a3459ff302107f4489554524abf9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter display_value="Contextual Search Results">11eb1622eb1121003623666cd206fe56</sys_ui_formatter><sys_ui_section caption="New Section" display_value="New Section" name="x_cdltd_contractsy_contract_request" sys_domain="global" view="01cbc153702231107f44a29f360a7896">3315a3459ff302107f4489554524abac</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-02 09:38:09</sys_updated_on><sys_user/><type>formatter</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>task_relations.xml</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-02 09:38:09</sys_created_on><sys_id>9025a3459ff302107f4489554524abfa</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter display_value="Task Relations">40bcaf630a0a0aa1001c2747a91ef801</sys_ui_formatter><sys_ui_section caption="New Section" display_value="New Section" name="x_cdltd_contractsy_contract_request" sys_domain="global" view="01cbc153702231107f44a29f360a7896">3315a3459ff302107f4489554524abac</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-02 09:38:09</sys_updated_on><sys_user/><type>formatter</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>New Section</caption><header>false</header><name>x_cdltd_contractsy_contract_request</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-02 09:38:07</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3315a3459ff302107f4489554524abac</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_cdltd_contractsy_contract_request</sys_name><sys_overrides/><sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package><sys_policy/><sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope><sys_update_name>sys_ui_section_3315a3459ff302107f4489554524abac</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-02 09:38:07</sys_updated_on><sys_user/><title>false</title><view display_value="Self Service" name="ess">01cbc153702231107f44a29f360a7896</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>1337563335</payload_hash>
+        <record_name>Contract Request</record_name>
+        <reverted_from/>
+        <source>a44a9f859fb302107f4489554524abfb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-02 09:38:09</sys_created_on>
+        <sys_id>5025a3459ff302107f4489554524abfc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19112742e590000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-02 09:38:09</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>d425a345a0f3021026592080e49dc2fb</update_guid>
+        <update_guid_history>d425a345a0f3021026592080e49dc2fb:1337563335</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-02 09:41:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>3a17f1aeb4fb49828e91b6529b046ed1</sys_id>
+        <sys_metadata>3315a3459ff302107f4489554524abac</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Section</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_parent display_value="Contract Request">93c95b859fb302107f4489554524ab65</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_scope_delete display_value="">0f884f882080471e972317895cfe61a4</sys_scope_delete>
+        <sys_update_name>sys_ui_section_3315a3459ff302107f4489554524abac</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_3315a3459ff302107f4489554524abac">5025a3459ff302107f4489554524abfc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-02 09:41:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

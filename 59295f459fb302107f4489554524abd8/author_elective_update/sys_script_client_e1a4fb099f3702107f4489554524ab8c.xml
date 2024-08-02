@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_start_date</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Contract End-Start date check</name>
+        <order/>
+        <script/>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-02 10:53:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e1a4fb099f3702107f4489554524ab8c</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Contract End-Start date check</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name>sys_script_client_e1a4fb099f3702107f4489554524ab8c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-02 11:48:14</sys_updated_on>
+        <table>x_cdltd_contractsy_contract_request</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ContractSync">59295f459fb302107f4489554524abd8</application>
+        <file_path/>
+        <instance_id>b38cc51487ef86d0912d0f6d0ebb3570</instance_id>
+        <instance_name>nowlearning-nlinst01898695-0001</instance_name>
+        <name>sys_script_client_e1a4fb099f3702107f4489554524ab8c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client"><sys_script_client action="INSERT_OR_UPDATE"><active>true</active><applies_extended>false</applies_extended><condition/><description/><field>u_start_date</field><global>true</global><isolate_script>true</isolate_script><messages/><name>Contract End-Start date check</name><order/><script/><sys_class_name>sys_script_client</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-02 10:53:27</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e1a4fb099f3702107f4489554524ab8c</sys_id><sys_mod_count>7</sys_mod_count><sys_name>Contract End-Start date check</sys_name><sys_overrides/><sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package><sys_policy/><sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope><sys_update_name>sys_script_client_e1a4fb099f3702107f4489554524ab8c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-02 11:48:14</sys_updated_on><table>x_cdltd_contractsy_contract_request</table><type>onLoad</type><ui_type>10</ui_type><view/></sys_script_client></record_update>]]></payload>
+        <payload_hash>-677644676</payload_hash>
+        <record_name>Contract End-Start date check</record_name>
+        <reverted_from/>
+        <source>a44a9f859fb302107f4489554524abfb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-02 11:48:14</sys_created_on>
+        <sys_id>31e28c199f7702107f4489554524ab0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19112eb47770000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-02 11:48:14</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>f5e28c19e7770210168d5847b0e69909</update_guid>
+        <update_guid_history>f5e28c19e7770210168d5847b0e69909:-677644676,71a2cc195e770210917368ab790b4b86:1844677820,d45208193d77021089b3df6861924cad:-538402336,ac57330d1237021049b48f8d12512591:1576754494,cd377bc9a8370210508f938760d1a792:-1402818869,eba637c9c4370210622d2e827ba0a43e:-993803685,e676ff898a37021032db39593d2a3a3b:-1902346293,135677898137021033f7702ff82bc281:-830471766</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-02 11:52:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>7114886db6614e88b2698922f5f41e40</sys_id>
+        <sys_metadata>e1a4fb099f3702107f4489554524ab8c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Contract End-Start date check</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_parent display_value="Contract Request">93c95b859fb302107f4489554524ab65</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_scope_delete display_value="">0f884f882080471e972317895cfe61a4</sys_scope_delete>
+        <sys_update_name>sys_script_client_e1a4fb099f3702107f4489554524ab8c</sys_update_name>
+        <sys_update_version display_value="sys_script_client_e1a4fb099f3702107f4489554524ab8c">31e28c199f7702107f4489554524ab0a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-02 11:52:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

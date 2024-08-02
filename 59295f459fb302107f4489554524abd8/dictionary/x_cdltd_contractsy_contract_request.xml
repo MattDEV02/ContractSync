@@ -1,3 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="93c95b859fb302107f4489554524ab65" extends="sc_request" label="Contract Request" max_length="40" name="x_cdltd_contractsy_contract_request" type="collection"/>
+    <element audit="true" db_object_id="93c95b859fb302107f4489554524ab65" extends="sc_request" label="Contract Request" max_length="40" name="x_cdltd_contractsy_contract_request" type="collection">
+        <element label="Automatic renewal" max_length="40" name="u_boolean_4" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="part-time" label="Contract Type" mandatory="true" max_length="40" name="u_contract_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Part-time" sequence="0" value="part-time"/>
+                <element inactive_on_update="false" label="Fixed-term" sequence="1" value="fixed-term"/>
+                <element inactive_on_update="false" label="Freelance" sequence="2" value="freelance"/>
+                <element inactive_on_update="false" label="Apprenticeship" sequence="3" value="apprenticeship"/>
+                <element inactive_on_update="false" label="Internship" sequence="4" value="internship"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="End Date" max_length="40" name="u_end_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Start Date" mandatory="true" max_length="40" name="u_start_date" type="glide_date_time"/>
+    </element>
 </database>

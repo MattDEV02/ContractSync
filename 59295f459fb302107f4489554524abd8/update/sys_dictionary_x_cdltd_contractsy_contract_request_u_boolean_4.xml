@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="" extends="sc_request" table="x_cdltd_contractsy_contract_request">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_boolean_4" table="x_cdltd_contractsy_contract_request">
         <active>true</active>
         <array>false</array>
         <attributes/>
-        <audit>true</audit>
+        <audit>false</audit>
         <calculation/>
         <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label/>
+        <column_label>Automatic renewal</column_label>
         <comments/>
         <create_roles/>
-        <default_value/>
+        <default_value>false</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -21,13 +21,13 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element/>
+        <element>u_boolean_4</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Collection">collection</internal_type>
+        <internal_type display_value="">boolean</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
         <name>x_cdltd_contractsy_contract_request</name>
@@ -46,14 +46,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-08-02 08:48:39</sys_created_on>
-        <sys_name>x_cdltd_contractsy_contract_request</sys_name>
+        <sys_created_on>2024-08-02 09:07:21</sys_created_on>
+        <sys_name>Automatic renewal</sys_name>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
         <sys_policy/>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
-        <sys_update_name>sys_dictionary_x_cdltd_contractsy_contract_request_null</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-08-02 11:07:20</sys_updated_on>
+        <sys_update_name>sys_dictionary_x_cdltd_contractsy_contract_request_u_boolean_4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-02 09:09:17</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
