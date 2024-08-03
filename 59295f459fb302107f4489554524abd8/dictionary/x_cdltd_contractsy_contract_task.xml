@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2a4c40659f3302107f4489554524ab0c" extends="task" label="Contract Task" max_length="40" name="x_cdltd_contractsy_contract_task" type="collection"/>
+</database>
