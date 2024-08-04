@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas">
+    <sys_grid_canvas action="INSERT_OR_UPDATE">
+        <legacy_page display_value="PA Contract Requests Da - New Tab 2">9df5de3d9f3702107f4489554524ab71</legacy_page>
+        <name>PA Contract Requests Da - New Tab 2</name>
+        <sys_class_name>sys_grid_canvas</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-04 11:47:41</sys_created_on>
+        <sys_id>19f5de3d9f3702107f4489554524ab72</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA Contract Requests Da - New Tab 2</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name>sys_grid_canvas_19f5de3d9f3702107f4489554524ab72</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-04 11:47:41</sys_updated_on>
+    </sys_grid_canvas>
+</record_update>

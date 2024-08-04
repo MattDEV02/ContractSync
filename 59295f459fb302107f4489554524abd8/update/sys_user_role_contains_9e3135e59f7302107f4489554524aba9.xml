@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="x_cdltd_contractsy.approver" name="x_cdltd_contractsy.approver">9c5953459fb302107f4489554524ab63</contains>
+        <role display_value="x_cdltd_contractsy.admin" name="x_cdltd_contractsy.admin">9859d3419fb302107f4489554524abfb</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-03 14:28:49</sys_created_on>
+        <sys_id>9e3135e59f7302107f4489554524aba9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cdltd_contractsy.approver.x_cdltd_contractsy.admin</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name>sys_user_role_contains_9e3135e59f7302107f4489554524aba9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-03 14:28:49</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>
