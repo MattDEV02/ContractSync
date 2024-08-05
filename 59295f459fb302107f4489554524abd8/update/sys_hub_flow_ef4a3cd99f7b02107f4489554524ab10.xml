@@ -12,7 +12,7 @@
         <copied_from_name/>
         <description>Contract Request fulfillment flow after Contract  Request submitted.</description>
         <internal_name>contract_request_fulfillment</internal_name>
-        <label_cache>[{"name":"Created or Updated_1.current.parent","label":"Trigger - Record Created or Updated➛Contract Request Record➛Parent","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","parent_table_name":"x_cdltd_contractsy_contract_request","column_name":"parent"},{"name":"5f621eb1-3716-4091-b63e-b69c6822f24d.item","label":"8 - For Each➛Configuration Item Record","reference":"cmdb_ci","reference_display":"Configuration Item Record","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"Created or Updated_1.current.u_start_date","label":"Trigger - Record Created or Updated➛Contract Request Record➛Start Date","reference":"","reference_display":"Start Date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_cdltd_contractsy_contract_request","column_name":"u_start_date"},{"name":"Created or Updated_1.current.priority","label":"Trigger - Record Created or Updated➛Contract Request Record➛Priority","reference":"","reference_display":"Priority","type":"choice","base_type":"choice","parent_table_name":"x_cdltd_contractsy_contract_request","column_name":"priority","choices":[{"label":"-- None --","reference":false,"rawLabel":"-- None --","selected":false,"missing":false,"image":"","used":false,"value":""},{"reference":false,"rawLabel":"1 - Critical","selected":false,"label":"1 - Critical","missing":false,"image":"","used":false,"value":"1","parameters":{"name":"task"}},{"reference":false,"rawLabel":"2 - High","selected":false,"label":"2 - High","missing":false,"image":"","used":false,"value":"2","parameters":{"name":"task"}},{"reference":false,"rawLabel":"3 - Moderate","selected":false,"label":"3 - Moderate","missing":false,"image":"","used":false,"value":"3","parameters":{"name":"task"}},{"reference":false,"rawLabel":"4 - Low","selected":false,"label":"4 - Low","missing":false,"image":"","used":false,"value":"4","parameters":{"name":"task"}},{"reference":false,"rawLabel":"5 - Planning","selected":false,"label":"5 - Planning","missing":false,"image":"","used":false,"value":"5","parameters":{"name":"task"}}]},{"name":"Created or Updated_1.current.requested_for.name","label":"Trigger - Record Created or Updated➛Contract Request Record➛Requested for➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"Created or Updated_1.current.requested_for.manager.email","label":"Trigger - Record Created or Updated➛Contract Request Record➛Requested for➛Manager➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Created or Updated_1.current.requested_for.email","label":"Trigger - Record Created or Updated➛Contract Request Record➛Requested for➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Contract Request Record","reference":"x_cdltd_contractsy_contract_request","reference_display":"Contract Request","type":"reference","base_type":"reference","attributes":{}},{"name":"{{static.9e43134d9f7302107f4489554524abec}}","label":"ContractSync Approvers","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"Created or Updated_1.current.requested_for.manager","label":"Trigger - Record Created or Updated➛Contract Request Record➛Requested for➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"Created or Updated_1.table_name","label":"Trigger - Record Created or Updated➛Contract Request Table","reference":"x_cdltd_contractsy_contract_request","reference_display":"Contract Request","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}},{"name":"Created or Updated_1.current.u_configuration_items","label":"Trigger - Record Created or Updated➛Contract Request Record➛Configuration items","reference":"cmdb_ci","reference_display":"Configuration Item","type":"glide_list","base_type":"glide_list","parent_table_name":"x_cdltd_contractsy_contract_request","column_name":"u_configuration_items"},{"name":"1c179d44-8ac5-4cdd-9a95-8e91b5ece8c0.approval_state","label":"5 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"Created or Updated_1.current.u_automatic_renewal","label":"Trigger - Record Created or Updated➛Contract Request Record➛Automatic renewal","reference":"","reference_display":"Automatic renewal","type":"boolean","base_type":"boolean","parent_table_name":"x_cdltd_contractsy_contract_request","column_name":"u_automatic_renewal"},{"name":"Created or Updated_1.current.u_end_date","label":"Trigger - Record Created or Updated➛Contract Request Record➛End Date","reference":"","reference_display":"End Date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_cdltd_contractsy_contract_request","column_name":"u_end_date"},{"name":"Created or Updated_1.current.u_contract_type","label":"Trigger - Record Created or Updated➛Contract Request Record➛Contract Type","reference":"","reference_display":"Contract Type","type":"choice","base_type":"choice","parent_table_name":"x_cdltd_contractsy_contract_request","column_name":"u_contract_type","choices":[{"reference":false,"rawLabel":"Part-time","selected":false,"label":"Part-time","missing":false,"image":"","used":false,"value":"part-time","parameters":{"name":"x_cdltd_contractsy_contract_request"}},{"reference":false,"rawLabel":"Fixed-term","selected":false,"label":"Fixed-term","missing":false,"image":"","used":false,"value":"fixed-term","parameters":{"name":"x_cdltd_contractsy_contract_request"}},{"reference":false,"rawLabel":"Freelance","selected":false,"label":"Freelance","missing":false,"image":"","used":false,"value":"freelance","parameters":{"name":"x_cdltd_contractsy_contract_request"}},{"reference":false,"rawLabel":"Apprenticeship","selected":false,"label":"Apprenticeship","missing":false,"image":"","used":false,"value":"apprenticeship","parameters":{"name":"x_cdltd_contractsy_contract_request"}},{"reference":false,"rawLabel":"Internship","selected":false,"label":"Internship","missing":false,"image":"","used":false,"value":"internship","parameters":{"name":"x_cdltd_contractsy_contract_request"}}]},{"name":"Created or Updated_1.current.requested_for","label":"Trigger - Record Created or Updated➛Contract Request Record➛Requested for","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_cdltd_contractsy_contract_request","column_name":"requested_for"},{"name":"Created or Updated_1.current.parent","label":"Trigger - Record Created or Updated➛Contract Request Record➛Parent","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","parent_table_name":"x_cdltd_contractsy_contract_request","column_name":"parent"},{"name":"5f621eb1-3716-4091-b63e-b69c6822f24d.item","label":"8 - For Each➛Configuration Item Record","reference":"cmdb_ci","reference_display":"Configuration Item Record","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"Created or Updated_1.current.u_start_date","label":"Trigger - Record Created or Updated➛Contract Request Record➛Start Date","reference":"","reference_display":"Start Date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_cdltd_contractsy_contract_request","column_name":"u_start_date"},{"name":"Created or Updated_1.current.priority","label":"Trigger - Record Created or Updated➛Contract Request Record➛Priority","reference":"","reference_display":"Priority","type":"choice","base_type":"choice","parent_table_name":"x_cdltd_contractsy_contract_request","column_name":"priority","choices":[{"label":"-- None --","reference":false,"rawLabel":"-- None --","selected":false,"missing":false,"image":"","used":false,"value":""},{"reference":false,"rawLabel":"1 - Critical","selected":false,"label":"1 - Critical","missing":false,"image":"","used":false,"value":"1","parameters":{"name":"task"}},{"reference":false,"rawLabel":"2 - High","selected":false,"label":"2 - High","missing":false,"image":"","used":false,"value":"2","parameters":{"name":"task"}},{"reference":false,"rawLabel":"3 - Moderate","selected":false,"label":"3 - Moderate","missing":false,"image":"","used":false,"value":"3","parameters":{"name":"task"}},{"reference":false,"rawLabel":"4 - Low","selected":false,"label":"4 - Low","missing":false,"image":"","used":false,"value":"4","parameters":{"name":"task"}},{"reference":false,"rawLabel":"5 - Planning","selected":false,"label":"5 - Planning","missing":false,"image":"","used":false,"value":"5","parameters":{"name":"task"}}]},{"name":"Created or Updated_1.current.requested_for.name","label":"Trigger - Record Created or Updated➛Contract Request Record➛Requested for➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"Created or Updated_1.current.requested_for.manager.email","label":"Trigger - Record Created or Updated➛Contract Request Record➛Requested for➛Manager➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Created or Updated_1.current.requested_for.email","label":"Trigger - Record Created or Updated➛Contract Request Record➛Requested for➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Contract Request Record","reference":"x_cdltd_contractsy_contract_request","reference_display":"Contract Request","type":"reference","base_type":"reference","attributes":{}},{"name":"{{static.9e43134d9f7302107f4489554524abec}}","label":"ContractSync Approvers","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"Created or Updated_1.current.requested_for.manager","label":"Trigger - Record Created or Updated➛Contract Request Record➛Requested for➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"Created or Updated_1.table_name","label":"Trigger - Record Created or Updated➛Contract Request Table","reference":"x_cdltd_contractsy_contract_request","reference_display":"Contract Request","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}},{"name":"Created or Updated_1.current.u_configuration_items","label":"Trigger - Record Created or Updated➛Contract Request Record➛Configuration items","reference":"cmdb_ci","reference_display":"Configuration Item","type":"glide_list","base_type":"glide_list","parent_table_name":"x_cdltd_contractsy_contract_request","column_name":"u_configuration_items"},{"name":"1c179d44-8ac5-4cdd-9a95-8e91b5ece8c0.approval_state","label":"5 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"959446a9-1ba3-48f0-a313-d79c5d9ef057.record","label":"2 - Create Record➛Contract Record","reference":"x_cdltd_contractsy_contract","reference_display":"Contract Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
         <name>Contract Request fulfillment</name>
@@ -32,7 +32,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ef4a3cd99f7b02107f4489554524ab10</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_name>Contract Request fulfillment</sys_name>
         <sys_overrides/>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
@@ -40,7 +40,7 @@
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_update_name>sys_hub_flow_ef4a3cd99f7b02107f4489554524ab10</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-04 12:00:15</sys_updated_on>
+        <sys_updated_on>2024-08-04 15:30:43</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=ef4a3cd99f7b02107f4489554524ab10"/>
@@ -55,10 +55,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-02 15:52:06</sys_created_on>
         <sys_id>cebab81d9f7b02107f4489554524aba2</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-04 12:00:14</sys_updated_on>
+        <sys_updated_on>2024-08-04 15:30:43</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -380,10 +380,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-02 20:24:17</sys_created_on>
         <sys_id>05097d159f3302107f4489554524ab3d</sys_id>
-        <sys_mod_count>46</sys_mod_count>
+        <sys_mod_count>54</sys_mod_count>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-04 12:00:14</sys_updated_on>
+        <sys_updated_on>2024-08-04 15:30:43</sys_updated_on>
         <ui_id>73b98a0a-b56b-467f-826f-096a5378d883</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=05097d159f3302107f4489554524ab3d"/>
@@ -484,10 +484,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-02 20:24:17</sys_created_on>
         <sys_id>09097d159f3302107f4489554524ab34</sys_id>
-        <sys_mod_count>46</sys_mod_count>
+        <sys_mod_count>54</sys_mod_count>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-04 12:00:14</sys_updated_on>
+        <sys_updated_on>2024-08-04 15:30:43</sys_updated_on>
         <ui_id>15230e70-0cce-46bf-884b-36c18da46ff8</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=09097d159f3302107f4489554524ab34"/>
@@ -574,10 +574,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-02 20:24:17</sys_created_on>
         <sys_id>4d097d159f3302107f4489554524ab43</sys_id>
-        <sys_mod_count>46</sys_mod_count>
+        <sys_mod_count>54</sys_mod_count>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-04 12:00:14</sys_updated_on>
+        <sys_updated_on>2024-08-04 15:30:43</sys_updated_on>
         <ui_id>15e36615-4d16-4b5e-9519-f1e584f21831</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4d097d159f3302107f4489554524ab43"/>
@@ -650,6 +650,7 @@
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=4d097d159f3302107f4489554524ab43"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
+        <action_inputs/>
         <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
         <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
         <attributes/>
@@ -663,14 +664,52 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-04 12:00:14</sys_created_on>
         <sys_id>51d85a319f7702107f4489554524abb8</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-04 12:00:14</sys_updated_on>
+        <sys_updated_on>2024-08-04 15:30:43</sys_updated_on>
         <ui_id>959446a9-1ba3-48f0-a313-d79c5d9ef057</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=51d85a319f7702107f4489554524abb8"/>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1^id=51d85a319f7702107f4489554524abb8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>51d85a319f7702107f4489554524abb8</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-04 15:26:56</sys_created_on>
+        <sys_id>8d2803799f3b02107f4489554524abc9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-04 15:26:56</sys_updated_on>
+        <value>x_cdltd_contractsy_contract</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=51d85a319f7702107f4489554524abb8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>51d85a319f7702107f4489554524abb8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-04 15:26:56</sys_created_on>
+        <sys_id>452803799f3b02107f4489554524abc9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-04 15:26:56</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>51d85a319f7702107f4489554524abb8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-04 15:26:56</sys_created_on>
+        <sys_id>0d2803799f3b02107f4489554524abc9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-04 15:29:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>u_dependent={{Created or Updated_1.current.requested_for}}^u_contract_type=-- None --^u_start_date={{Created or Updated_1.current.u_start_date}}^u_end_date={{Created or Updated_1.current.u_end_date}}^u_automatic_renewal={{Created or Updated_1.current.u_automatic_renewal}}^u_configuration_items={{Created or Updated_1.current.u_configuration_items}}^u_active=false</value>
+    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=51d85a319f7702107f4489554524abb8"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=51d85a319f7702107f4489554524abb8"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -689,10 +728,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-04 08:33:45</sys_created_on>
         <sys_id>64996d399f7302107f4489554524ab5f</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-04 12:00:14</sys_updated_on>
+        <sys_updated_on>2024-08-04 15:30:43</sys_updated_on>
         <ui_id>39ef12ba-6a58-4b5d-b9b9-0fd04f8b8663</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=64996d399f7302107f4489554524ab5f"/>
@@ -765,6 +804,7 @@
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=64996d399f7302107f4489554524ab5f"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
+        <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <attributes/>
@@ -778,14 +818,78 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-04 12:00:14</sys_created_on>
         <sys_id>9dd85a319f7702107f4489554524abc8</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-04 12:00:14</sys_updated_on>
+        <sys_updated_on>2024-08-04 15:30:43</sys_updated_on>
         <ui_id>ee829d22-fa91-4a04-aeba-08b187bd6503</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9dd85a319f7702107f4489554524abc8"/>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1^id=9dd85a319f7702107f4489554524abc8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9dd85a319f7702107f4489554524abc8</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-04 15:28:21</sys_created_on>
+        <sys_id>0e78c7799f3b02107f4489554524ab99</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-04 15:29:03</sys_updated_on>
+        <value>u_active=true</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9dd85a319f7702107f4489554524abc8</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-04 15:28:21</sys_created_on>
+        <sys_id>ce78c7799f3b02107f4489554524ab99</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-04 15:28:21</sys_updated_on>
+        <value>x_cdltd_contractsy_contract</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=9dd85a319f7702107f4489554524abc8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>9dd85a319f7702107f4489554524abc8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-04 15:28:21</sys_created_on>
+        <sys_id>8a78c7799f3b02107f4489554524ab99</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-04 15:28:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{959446a9-1ba3-48f0-a313-d79c5d9ef057.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>9dd85a319f7702107f4489554524abc8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-04 15:28:21</sys_created_on>
+        <sys_id>0678c7799f3b02107f4489554524ab99</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-04 15:28:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>9dd85a319f7702107f4489554524abc8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-04 15:28:21</sys_created_on>
+        <sys_id>c678c7799f3b02107f4489554524ab99</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-04 15:28:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=9dd85a319f7702107f4489554524abc8"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=9dd85a319f7702107f4489554524abc8"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -804,10 +908,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-02 20:36:32</sys_created_on>
         <sys_id>a0db75199f3302107f4489554524ab22</sys_id>
-        <sys_mod_count>42</sys_mod_count>
+        <sys_mod_count>50</sys_mod_count>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-04 12:00:14</sys_updated_on>
+        <sys_updated_on>2024-08-04 15:30:43</sys_updated_on>
         <ui_id>64bd692b-60a1-4b30-8fd8-af6e863d12d2</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a0db75199f3302107f4489554524ab22"/>
@@ -868,10 +972,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-02 20:30:26</sys_created_on>
         <sys_id>d36a79959f3302107f4489554524ab34</sys_id>
-        <sys_mod_count>44</sys_mod_count>
+        <sys_mod_count>52</sys_mod_count>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-04 12:00:14</sys_updated_on>
+        <sys_updated_on>2024-08-04 15:30:43</sys_updated_on>
         <ui_id>3b7d7671-90b0-4c9d-8387-e32e98ed90e2</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d36a79959f3302107f4489554524ab34"/>
@@ -1008,10 +1112,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-02 20:30:26</sys_created_on>
         <sys_id>d76a79959f3302107f4489554524ab2b</sys_id>
-        <sys_mod_count>44</sys_mod_count>
+        <sys_mod_count>52</sys_mod_count>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-04 12:00:14</sys_updated_on>
+        <sys_updated_on>2024-08-04 15:30:43</sys_updated_on>
         <ui_id>7496c75d-1b87-48a8-bc95-17c0fd40c067</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d76a79959f3302107f4489554524ab2b"/>
@@ -1098,10 +1202,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-02 20:42:11</sys_created_on>
         <sys_id>ef1d7d599f3302107f4489554524abf3</sys_id>
-        <sys_mod_count>38</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-04 12:00:14</sys_updated_on>
+        <sys_updated_on>2024-08-04 15:30:43</sys_updated_on>
         <ui_id>b41bcebe-9ee0-4029-b2c6-2287c5453290</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ef1d7d599f3302107f4489554524abf3"/>
@@ -1228,7 +1332,7 @@
         <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
         <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
         <attributes/>
-        <comment>Ask for approval to Contract Approver Group and Requested for Manager</comment>
+        <comment>Ask for approval to Contract Approver Group and Dependent Manager.</comment>
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="Contract Request fulfillment">ef4a3cd99f7b02107f4489554524ab10</flow>
@@ -1238,10 +1342,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 07:05:12</sys_created_on>
         <sys_id>f5bbc0259f3302107f4489554524abf8</sys_id>
-        <sys_mod_count>36</sys_mod_count>
+        <sys_mod_count>44</sys_mod_count>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-04 12:00:14</sys_updated_on>
+        <sys_updated_on>2024-08-04 15:30:43</sys_updated_on>
         <ui_id>1c179d44-8ac5-4cdd-9a95-8e91b5ece8c0</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f5bbc0259f3302107f4489554524abf8"/>
@@ -1401,10 +1505,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-04 08:33:44</sys_created_on>
         <sys_id>2c996d399f7302107f4489554524ab57</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-04 12:00:14</sys_updated_on>
+        <sys_updated_on>2024-08-04 15:30:43</sys_updated_on>
         <ui_id>5f621eb1-3716-4091-b63e-b69c6822f24d</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1447,10 +1551,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-02 20:30:27</sys_created_on>
         <sys_id>676a79959f3302107f4489554524ab38</sys_id>
-        <sys_mod_count>25</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-04 12:00:14</sys_updated_on>
+        <sys_updated_on>2024-08-04 15:30:43</sys_updated_on>
         <ui_id>5a94940d-cfbc-4344-8a7b-432595e99242</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1481,10 +1585,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-02 20:30:26</sys_created_on>
         <sys_id>976a79959f3302107f4489554524ab22</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-04 12:00:14</sys_updated_on>
+        <sys_updated_on>2024-08-04 15:30:43</sys_updated_on>
         <ui_id>339a1bb0-885e-4b65-989d-ec69d0985523</ui_id>
         <workflow_inputs/>
         <workflow_reference/>

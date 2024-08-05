@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_hp_date">
+    <sys_ui_hp_date action="INSERT_OR_UPDATE">
+        <date_field>sys_updated_on</date_field>
+        <date_table>x_cdltd_contractsy_contract_request</date_table>
+        <publisher_reference display_value="Contract Request Updated on filter">12a762429f7302107f4489554524ab1e</publisher_reference>
+        <sys_class_name>sys_ui_hp_date</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-05 07:44:42</sys_created_on>
+        <sys_id>ffd7a2429f7302107f4489554524abb4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>12a762429f7302107f4489554524ab1e</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name>sys_ui_hp_date_ffd7a2429f7302107f4489554524abb4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-05 07:44:42</sys_updated_on>
+    </sys_ui_hp_date>
+</record_update>

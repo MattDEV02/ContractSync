@@ -11,7 +11,7 @@
                 <element inactive_on_update="false" label="Internship" sequence="4" value="internship"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" label="End Date" max_length="40" name="u_end_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="End Date" mandatory="true" max_length="40" name="u_end_date" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" label="Start Date" mandatory="true" max_length="40" name="u_start_date" type="glide_date_time"/>
     </element>
 </database>
