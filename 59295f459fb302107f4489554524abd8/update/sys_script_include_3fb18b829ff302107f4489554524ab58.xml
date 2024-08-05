@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_cdltd_contractsy.ContractUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>ContractUtils</name>
+        <script><![CDATA[var ContractUtils = Class.create();
+ContractUtils.prototype = {
+	initialize: function () {
+		//
+
+		this.expiryNotificationDaysTime =
+			gs.getProperty(
+				"x_cdltd_contractsy.contract.expiry.notificationDays",
+				7,
+			) *
+			24 *
+			60 *
+			60 *
+			1000;
+		this.renewalYearsTime =
+			gs.getProperty("x_cdltd_contractsy.contract.overdue.renewalYears", 1) *
+			12 *
+			30 *
+			24 *
+			60 *
+			60 *
+			1000;
+
+		//
+
+		this.appScopeName = gs.getCurrentScopeName();
+		this.contractTableName = this.appScopeName + "_contract";
+		this.contractExpiry = this.appScopeName + ".ContractExpiry"; // ContractExpiry event name
+		this.contractActivated = this.appScopeName + ".ContractActivated"; // ContractActivated event name
+		this.className = this.constructor.name;
+	},
+	/**********
+	 *
+	 * getActiveAutomaticRenewalContracts - Get a list of Active Contracts with Automatic renewal.
+	 *
+	 * @param - None.
+	 * @return - Array of sys_ids.
+	 *
+	 **********/
+	getActiveAutomaticRenewalContracts: function () {
+		var activeAutomaticRenewalContracts = [];
+
+		var noticeTime = new GlideDateTime();
+		noticeTime.add(this.expiryNotificationDaysTime);
+
+		var activeAutomaticRenewalContractsGR = new GlideRecord(
+			this.contractTableName,
+		);
+		activeAutomaticRenewalContractsGR.addQuery("u_active", true);
+		activeAutomaticRenewalContractsGR.addQuery("u_automatic_renewal", true);
+		activeAutomaticRenewalContractsGR.addQuery("u_end_date", ">=", rightNow);
+		activeAutomaticRenewalContractsGR.addQuery(
+			"u_end_date",
+			"<=",
+			noticeTime,
+		);
+		activeAutomaticRenewalContractsGR.query();
+		while (activeAutomaticRenewalContractsGR.next()) {
+			activeAutomaticRenewalContracts.push(
+				activeAutomaticRenewalContractsGR.sys_id.toString(),
+			);
+		}
+		return activeAutomaticRenewalContracts;
+	},
+	/**********
+	 *
+	 * renewContract -Renew the Contract to the Dependent relative to the Contract with the sys_id equal to the contractSys_id function parameter.
+	 *
+	 * @param - contractSys_id: sys_id of the Contract record to check.
+	 * @return - None.
+	 *
+	 **********/
+	renewContract: function (contractSys_id) {
+		var contractToRenew = new GlideRecord(this.contractTableName);
+
+		if (!contractToRenew.get(contractSys_id)) {
+			gs.debug(
+				">>>DEBUG: " +
+					this.className +
+					": renewContract(" +
+					contractSys_id +
+					"): FAILED TO RETRIEVE RECORD.",
+			);
+			return;
+		}
+
+		// renew the Contract
+
+		var newContractEndDate = new GlideDateTime();
+		newContractEndDate.add(this.expiryNotificationDaysTime);
+		newContractEndDate.add(this.renewalYearsTime);
+		contractToRenew.u_end_date = newContractEndDate;
+		contractToRenew.update();
+
+		return;
+	},
+	/**********
+	 *
+	 * getActiveExpiredContracts - Get a list of Active Contracts that are expired (End date >= now).
+	 *
+	 * @param - None.
+	 * @return - Array of sys_ids.
+	 *
+	 **********/
+	getActiveExpiredContracts: function () {
+		var activeExpiredContracts = [];
+
+		var rightNow = new GlideDateTime();
+
+		var activeExpiredContractsGR = new GlideRecord(this.contractTableName);
+		activeExpiredContractsGR.addQuery("u_active", true);
+		activeExpiredContractsGR.addQuery("u_automatic_renewal", false);
+		activeExpiredContractsGR.addQuery("u_end_date", ">=", rightNow);
+		activeExpiredContractsGR.query();
+
+		while (activeExpiredContractsGR.next()) {
+			activeExpiredContracts.push(
+				activeExpiredContractsGR.sys_id.toString(),
+			);
+		}
+		return activeExpiredContracts;
+	},
+	/**********
+	 *
+	 * makeContractInactive - Make inactive (active = false) the Contract to the Dependent relative to the Contract with the sys_id equal to the contractSys_id function parameter.
+	 *
+	 * @param - contractSys_id: sys_id of the Contract record to check.
+	 * @return - None.
+	 *
+	 **********/
+	makeContractInactive: function (contractSys_id) {
+		var contractToMakeInactive = new GlideRecord(this.contractTableName);
+
+		if (!contractToMakeInactive.get(contractSys_id)) {
+			gs.debug(
+				">>>DEBUG: " +
+					this.className +
+					": makeContractInactive(" +
+					contractSys_id +
+					"): FAILED TO RETRIEVE RECORD.",
+			);
+			return;
+		}
+
+		// Make Contract inactive
+
+		contractToMakeInactive.u_active = false;
+		contractToMakeInactive.update();
+
+		return;
+	},
+	/**********
+	 *
+	 * getActiveAlmostExpiredContracts - Get a list of Active Contracts that are almost expired (End date is almost now + expiryNotificationDaysTime).
+	 *
+	 * @param - None.
+	 * @return - Array of sys_ids.
+	 *
+	 **********/
+	getActiveAlmostExpiredContracts: function () {
+		var activeAlmostExpiredContracts = [];
+
+		var rightNow = new GlideDateTime();
+		var noticeTime = new GlideDateTime();
+		noticeTime.add(this.expiryNotificationDaysTime);
+
+		var activeAlmostExpiredContractsGR = new GlideRecord(
+			this.contractTableName,
+		);
+		activeAlmostExpiredContractsGR.addQuery("u_active", true);
+		activeAlmostExpiredContractsGR.addQuery("u_automatic_renewal", false); // Da tenere ?
+		activeAlmostExpiredContractsGR.addQuery("u_end_date", ">=", rightNow);
+		activeAlmostExpiredContractsGR.addQuery("u_end_date", "<=", noticeTime);
+		activeAlmostExpiredContractsGR.query();
+
+		while (activeAlmostExpiredContractsGR.next()) {
+			activeAlmostExpiredContracts.push(
+				activeAlmostExpiredContractsGR.sys_id.toString(),
+			);
+		}
+		return activeAlmostExpiredContracts;
+	},
+	/**********
+	 *
+	 * sendContractAlmostExpiredEmailNotification - Queue an event to send a Contract almost expired email notification to the Dependent relative to the Contract with the sys_id equal to the contractSys_id function parameter.
+	 *
+	 * @param - contractSys_id: sys_id of the Contract record to check.
+	 * @return - None.
+	 *
+	 **********/
+	sendContractAlmostExpiredEmailNotification: function (contractSys_id) {
+		var contractAlmostExpired = new GlideRecord(this.contractTableName);
+
+		if (!contractAlmostExpired.get(contractSys_id)) {
+			gs.debug(
+				">>>DEBUG: " +
+					this.className +
+					": sendContractAlmostExpiredEmailNotification(" +
+					contractSys_id +
+					"): FAILED TO RETRIEVE RECORD.",
+			);
+			return;
+		}
+
+		// Send the Contract almost expired email notification
+		gs.eventQueue(
+			this.contractExpiry,
+			contractAlmostExpired,
+			contractAlmostExpired.u_dependent.manager.email,
+			gs.getUserName(),
+		);
+		return;
+	},
+	/**********
+	 *
+	 * getActiveContractsCreatedOnToday - Get a list of Active Contracts that are crated on today.
+	 *
+	 * @param - None.
+	 * @return - Array of sys_ids.
+	 *
+	 **********/
+	getActiveContractsCreatedOnToday: function () {
+		var activeContractsCreatedOnToday = [];
+
+		var rightNow = new GlideDateTime();
+
+		var activeContractsCreatedOnTodayGR = new GlideRecord(
+			this.contractTableName,
+		);
+		activeContractsCreatedOnTodayGR.addEncodedQuery(
+			"sys_created_onONToday@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()",
+		);
+		activeContractsCreatedOnTodayGR.query();
+
+		while (activeContractsCreatedOnTodayGR.next()) {
+			activeAlmostExpiredContracts.push(
+				activeContractsCreatedOnTodayGR.sys_id.toString(),
+			);
+		}
+		return activeContractsCreatedOnToday;
+	},
+	/**********
+	 *
+	 * sendContractConfigutationItemsCredentialsEmailNotification - Queue an event to send a Contract Configuration items Credentials email notification to the Dependent relative to the Contract with the sys_id equal to the contractSys_id function parameter.
+	 *
+	 * @param - contractSys_id: sys_id of the Contract record to check.
+	 * @return - None.
+	 *
+	 **********/
+	sendContractConfigutationItemsCredentialsEmailNotification: function (
+		contractSys_id,
+	) {
+		var contractCreatedOnToday = new GlideRecord(this.contractTableName);
+
+		if (!contractCreatedOnToday.get(contractSys_id)) {
+			gs.debug(
+				">>>DEBUG: " +
+					this.className +
+					": sendContractConfigutationItemsCredentialsEmailNotification(" +
+					contractSys_id +
+					"): FAILED TO RETRIEVE RECORD.",
+			);
+			return;
+		}
+
+		// Send the Contract Configuration items Credentials email notification
+
+		gs.eventQueue(
+			this.contractActivated,
+			contractCreatedOnToday,
+			contractAlmostExpired.u_dependent.manager.email,
+			gs.getUserName(),
+		);
+		return;
+	},
+
+	type: "ContractUtils",
+};
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-05 10:27:17</sys_created_on>
+        <sys_id>3fb18b829ff302107f4489554524ab58</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>ContractUtils</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name>sys_script_include_3fb18b829ff302107f4489554524ab58</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-05 14:21:00</sys_updated_on>
+    </sys_script_include>
+</record_update>
