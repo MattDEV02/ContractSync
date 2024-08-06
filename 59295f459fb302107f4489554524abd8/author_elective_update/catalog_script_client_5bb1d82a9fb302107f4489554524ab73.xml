@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="DELETE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="Contract Request">b7bf37d69f7302107f4489554524ab01</cat_item>
+        <cat_variable/>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Populate Request Number</name>
+        <order/>
+        <published_ref/>
+        <script><![CDATA[function onLoad() {
+   
+	alert("ok");
+//	producer.number = "aaa"; // global.getNextObjNumberPadded()
+	producer.u_automatic_renewal = true;
+   
+}
+alert(2);
+producer.u_automatic_renewal = true;
+
+]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-06 11:41:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5bb1d82a9fb302107f4489554524ab73</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Populate Request Number</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name>catalog_script_client_5bb1d82a9fb302107f4489554524ab73</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-06 11:48:49</sys_updated_on>
+        <table/>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ContractSync">59295f459fb302107f4489554524abd8</application>
+        <file_path/>
+        <instance_id>b38cc51487ef86d0912d0f6d0ebb3570</instance_id>
+        <instance_name>nowlearning-nlinst01898695-0001</instance_name>
+        <name>catalog_script_client_5bb1d82a9fb302107f4489554524ab73</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="Contract Request"&gt;b7bf37d69f7302107f4489554524ab01&lt;/cat_item&gt;&lt;cat_variable/&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Populate Request Number&lt;/name&gt;&lt;order/&gt;&lt;published_ref/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+   
+	alert("ok");
+//	producer.number = "aaa"; // global.getNextObjNumberPadded()
+	producer.u_automatic_renewal = true;
+   
+}
+alert(2);
+producer.u_automatic_renewal = true;
+
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-08-06 11:41:48&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;5bb1d82a9fb302107f4489554524ab73&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name&gt;Populate Request Number&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="ContractSync" source="x_cdltd_contractsy"&gt;59295f459fb302107f4489554524abd8&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ContractSync"&gt;59295f459fb302107f4489554524abd8&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_5bb1d82a9fb302107f4489554524ab73&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-08-06 11:48:49&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1758299185</payload_hash>
+        <record_name>Populate Request Number</record_name>
+        <reverted_from/>
+        <source>a44a9f859fb302107f4489554524abfb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-06 11:48:51</sys_created_on>
+        <sys_id>4669e06a9ff302107f4489554524ab93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1912785450b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-06 11:48:51</sys_updated_on>
+        <type>Catalog Client Scripts</type>
+        <update_guid>0e69e06aa2f30210b4d742eaf2926292</update_guid>
+        <update_guid_history>0e69e06aa2f30210b4d742eaf2926292:1758299185,f549a06ab8f302109f1044a2de064903:-371812185,a188642a19f302108b2330d41213e4c3:188246975,af68642a02f30210455348850971a38c:-1343903768,4848e02a2bf302103c66db7670816c3f:-1088727025,ae18ece680f302107b971b387d86bf13:-1203590855,71086ce614f302108c7a24920dde25dc:2000375960,3be76ce6a4f30210a3c707aace5fd40b:577996390,83c7e8e694f302103e9bd83dc20b574a:-168320175</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Populate Request Number">c289246a9ff302107f4489554524ab4a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-06 11:49:24</sys_created_on>
+        <sys_db_object display_value="" name="catalog_script_client">catalog_script_client</sys_db_object>
+        <sys_id>48311cc599de4feeb1322c0b01c93104</sys_id>
+        <sys_metadata>5bb1d82a9fb302107f4489554524ab73</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Populate Request Number</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_scope_delete display_value="">0f884f882080471e972317895cfe61a4</sys_scope_delete>
+        <sys_update_name>catalog_script_client_5bb1d82a9fb302107f4489554524ab73</sys_update_name>
+        <sys_update_version display_value="catalog_script_client_5bb1d82a9fb302107f4489554524ab73">4669e06a9ff302107f4489554524ab93</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-06 11:49:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

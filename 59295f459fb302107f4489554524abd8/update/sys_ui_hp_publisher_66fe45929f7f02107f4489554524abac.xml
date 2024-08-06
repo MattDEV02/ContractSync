@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_hp_publisher">
+    <sys_ui_hp_publisher action="INSERT_OR_UPDATE">
+        <allow_database_view_filter>false</allow_database_view_filter>
+        <allow_extended_table>false</allow_extended_table>
+        <boolean_field/>
+        <boolean_table/>
+        <date_filter/>
+        <default_boolean_field/>
+        <default_choice/>
+        <default_date_filter/>
+        <default_reference_field_value/>
+        <description>Filter Contract Tasks by Priority.</description>
+        <exclusion_choice_list/>
+        <look_up_name/>
+        <name>Contract Tasks Priority filter</name>
+        <reference_conditions/>
+        <reference_table/>
+        <remove_all_option>false</remove_all_option>
+        <source_field>priority</source_field>
+        <source_table>x_cdltd_contractsy_contract_task</source_table>
+        <sys_class_name>sys_ui_hp_publisher</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-05 19:55:36</sys_created_on>
+        <sys_id>66fe45929f7f02107f4489554524abac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Contract Tasks Priority filter</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name>sys_ui_hp_publisher_66fe45929f7f02107f4489554524abac</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-05 19:55:36</sys_updated_on>
+        <type>1</type>
+        <ui_control_type>2</ui_control_type>
+        <use_starts_with_on_search_keyword>false</use_starts_with_on_search_keyword>
+    </sys_ui_hp_publisher>
+</record_update>

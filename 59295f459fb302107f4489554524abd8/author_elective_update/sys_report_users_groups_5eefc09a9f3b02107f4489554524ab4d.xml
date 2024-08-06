@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="DELETE">
+        <group_id/>
+        <report_id display_value="">d6efc09a9f3b02107f4489554524ab4d</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-05 15:19:00</sys_created_on>
+        <sys_id>5eefc09a9f3b02107f4489554524ab4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>d6efc09a9f3b02107f4489554524ab4d</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name>sys_report_users_groups_5eefc09a9f3b02107f4489554524ab4d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-05 15:19:00</sys_updated_on>
+        <user_id display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user_id>
+    </sys_report_users_groups>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ContractSync">59295f459fb302107f4489554524abd8</application>
+        <file_path/>
+        <instance_id>b38cc51487ef86d0912d0f6d0ebb3570</instance_id>
+        <instance_name>nowlearning-nlinst01898695-0001</instance_name>
+        <name>sys_report_users_groups_5eefc09a9f3b02107f4489554524ab4d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups"><sys_report_users_groups action="INSERT_OR_UPDATE"><group_id/><report_id display_value="">d6efc09a9f3b02107f4489554524ab4d</report_id><sys_class_name>sys_report_users_groups</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-05 15:19:00</sys_created_on><sys_id>5eefc09a9f3b02107f4489554524ab4d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>d6efc09a9f3b02107f4489554524ab4d</sys_name><sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package><sys_policy/><sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope><sys_update_name>sys_report_users_groups_5eefc09a9f3b02107f4489554524ab4d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-05 15:19:00</sys_updated_on><user_id display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user_id></sys_report_users_groups></record_update>]]></payload>
+        <payload_hash>1190832460</payload_hash>
+        <record_name>d6efc09a9f3b02107f4489554524ab4d</record_name>
+        <reverted_from/>
+        <source>a44a9f859fb302107f4489554524abfb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-05 15:19:00</sys_created_on>
+        <sys_id>d2efc09a9f3b02107f4489554524ab50</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191231f4f9a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-05 15:19:00</sys_updated_on>
+        <type>Report Users and Groups</type>
+        <update_guid>1aefc09ab63b0210122c0cad84931a4f</update_guid>
+        <update_guid_history>1aefc09ab63b0210122c0cad84931a4f:1190832460</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-06 07:16:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_report_users_groups">sys_report_users_groups</sys_db_object>
+        <sys_id>154748cd22f3418582a9005ed514e881</sys_id>
+        <sys_metadata>5eefc09a9f3b02107f4489554524ab4d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>d6efc09a9f3b02107f4489554524ab4d</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_scope_delete display_value="">0f884f882080471e972317895cfe61a4</sys_scope_delete>
+        <sys_update_name>sys_report_users_groups_5eefc09a9f3b02107f4489554524ab4d</sys_update_name>
+        <sys_update_version display_value="sys_report_users_groups_5eefc09a9f3b02107f4489554524ab4d">d2efc09a9f3b02107f4489554524ab50</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-06 07:16:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
