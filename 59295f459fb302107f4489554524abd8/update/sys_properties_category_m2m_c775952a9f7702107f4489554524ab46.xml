@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="INSERT_OR_UPDATE">
+        <category display_value="ContractSync">3f44589d9fb702107f4489554524ab8a</category>
+        <order>6</order>
+        <property display_value="x_cdltd_contractsy.table_API_password" name="x_cdltd_contractsy.table_API_password">270a44929f3b02107f4489554524ab0d</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-06 15:01:31</sys_created_on>
+        <sys_id>c775952a9f7702107f4489554524ab46</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cdltd_contractsy.table_API_password.ContractSync</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_c775952a9f7702107f4489554524ab46</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-06 15:01:31</sys_updated_on>
+    </sys_properties_category_m2m>
+</record_update>

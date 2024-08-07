@@ -18,7 +18,7 @@
 	g_form.hideFieldMsg("u_contract_type", true);
 }]]></script_false>
         <script_true><![CDATA[function onCondition() {
-	g_form.showFieldMsg("u_contract_type", "The Freelance contract does not include a configuration item.", "INFO", true);
+	g_form.showFieldMsg("u_contract_type", "The Freelance contract does not include Configuration items.", "INFO", true);
 }]]></script_true>
         <set_values/>
         <short_description>If Contract Type is Freelance then Configuration Item is hidden</short_description>
@@ -28,7 +28,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8813bf459f3702107f4489554524ab96</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>If Contract Type is Freelance then Configuration Item is hidden</sys_name>
         <sys_overrides/>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
@@ -36,7 +36,7 @@
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_update_name>sys_ui_policy_8813bf459f3702107f4489554524ab96</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-02 10:45:24</sys_updated_on>
+        <sys_updated_on>2024-08-06 14:13:38</sys_updated_on>
         <table>x_cdltd_contractsy_contract_request</table>
         <ui_type>0</ui_type>
         <view/>

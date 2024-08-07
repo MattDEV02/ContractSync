@@ -13,7 +13,7 @@
         <mobile_title>Closed incomplete</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_cdltd_contractsy_contract_request</name>
-        <order>10</order>
+        <order>8</order>
         <override_menu_roles>false</override_menu_roles>
         <query>active=false^state=5^EQ</query>
         <report/>
@@ -24,7 +24,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>abe135299f7302107f4489554524ab1c</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Closed incomplete</sys_name>
         <sys_overrides/>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
@@ -32,7 +32,7 @@
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_update_name>sys_app_module_abe135299f7302107f4489554524ab1c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-06 09:06:31</sys_updated_on>
+        <sys_updated_on>2024-08-06 19:54:18</sys_updated_on>
         <timeline_page/>
         <title>Closed incomplete</title>
         <uncancelable>false</uncancelable>

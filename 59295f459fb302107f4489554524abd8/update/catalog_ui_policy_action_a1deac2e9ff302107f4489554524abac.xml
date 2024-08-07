@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Contract Request">b7bf37d69f7302107f4489554524ab01</catalog_item>
+        <catalog_variable>IO:11cfbb5a9f7302107f4489554524ab3f</catalog_variable>
+        <cleared>true</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-06 12:12:58</sys_created_on>
+        <sys_id>a1deac2e9ff302107f4489554524abac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_configuration_items</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_a1deac2e9ff302107f4489554524abac</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-06 12:12:58</sys_updated_on>
+        <table/>
+        <ui_policy display_value="If Contract Type is Freelance then Configuration Item is hidden - SC">1b7e682e9ff302107f4489554524ab98</ui_policy>
+        <variable>u_configuration_items</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+</record_update>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_cdltd_contractsy_contract_request</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Get new Contract Request Number - SC</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+    gs.addErrorMessage("ciao");
+    if (false) { // current.isNewRecord() && !current.number
+        var prefix = "CONR";
+        var numberTable = "sys_number";
+
+        var numbersGR = new GlideRecord(numberTable);
+        numbersGR.addQuery("prefix", prefix);
+        numbersGR.setLimit(1);
+        numbersGR.query();
+
+        var nextNumber = null;
+
+        if (numbersGR.next()) {
+            var currentNumber = numbersGR.number;
+            numbersGR.number = parseInt(currentNumber) + 1;
+            numbersGR.update();
+            nextNumber = prefix + String(currentNumber);
+        }
+        gs.addErrorMessage(nextNumber);
+
+        g_scratchpad.number = nextNumber;
+    }
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-06 16:13:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1aa5a5269fb702107f4489554524ab1e</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Get new Contract Request Number - SC</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name>sys_script_1aa5a5269fb702107f4489554524ab1e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-06 19:39:29</sys_updated_on>
+        <template/>
+        <when>before_display</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=1aa5a5269fb702107f4489554524ab1e"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ContractSync">59295f459fb302107f4489554524abd8</application>
+        <file_path/>
+        <instance_id>b38cc51487ef86d0912d0f6d0ebb3570</instance_id>
+        <instance_name>nowlearning-nlinst01898695-0001</instance_name>
+        <name>sys_script_1aa5a5269fb702107f4489554524ab1e</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_cdltd_contractsy_contract_request&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Get new Contract Request Number - SC&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+    gs.addErrorMessage("ciao");
+    if (false) { // current.isNewRecord() &amp;&amp; !current.number
+        var prefix = "CONR";
+        var numberTable = "sys_number";
+
+        var numbersGR = new GlideRecord(numberTable);
+        numbersGR.addQuery("prefix", prefix);
+        numbersGR.setLimit(1);
+        numbersGR.query();
+
+        var nextNumber = null;
+
+        if (numbersGR.next()) {
+            var currentNumber = numbersGR.number;
+            numbersGR.number = parseInt(currentNumber) + 1;
+            numbersGR.update();
+            nextNumber = prefix + String(currentNumber);
+        }
+        gs.addErrorMessage(nextNumber);
+
+        g_scratchpad.number = nextNumber;
+    }
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-08-06 16:13:29&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;1aa5a5269fb702107f4489554524ab1e&lt;/sys_id&gt;&lt;sys_mod_count&gt;10&lt;/sys_mod_count&gt;&lt;sys_name&gt;Get new Contract Request Number - SC&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="ContractSync" source="x_cdltd_contractsy"&gt;59295f459fb302107f4489554524abd8&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ContractSync"&gt;59295f459fb302107f4489554524abd8&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_1aa5a5269fb702107f4489554524ab1e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-08-06 19:39:29&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before_display&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=1aa5a5269fb702107f4489554524ab1e"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1212334092</payload_hash>
+        <record_name>Get new Contract Request Number - SC</record_name>
+        <reverted_from/>
+        <source>a44a9f859fb302107f4489554524abfb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-06 19:39:30</sys_created_on>
+        <sys_id>9c251aa29f3b02107f4489554524abe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19129342a530000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-06 19:39:30</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>d0251aa2ad3b0210524848b17ad1bde3</update_guid>
+        <update_guid_history>d0251aa2ad3b0210524848b17ad1bde3:1212334092,d4d496a2283b02100e21d7fb8ee959fa:-1816060670,ec245e62d33b02107cfeec0a4ffd9a78:349982761,6bf31e62d13b0210e26d395f7552a7d2:998268537,b8c31a62583b0210fd5e3e0690f8cb5e:-1152200743,ec93d6620a3b0210bcf24c2bdc447fb8:-842278337,a933da22ea3b021014e7a60b758703da:46444289,4ae29e22d83b0210a461c1af1efb9bb9:277037314,83421a22193b0210802c2d477431ad85:-788920710,5e9b86eabaf702109b6df4b2a7a4f0d2:-516153436,a2f5652605b70210c856f76aae5abde1:733740151</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-06 19:40:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>7cf36c889fc945fb830806109ef8e3d1</sys_id>
+        <sys_metadata>1aa5a5269fb702107f4489554524ab1e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get new Contract Request Number - SC</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_parent display_value="Contract Request">93c95b859fb302107f4489554524ab65</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_scope_delete display_value="">0f884f882080471e972317895cfe61a4</sys_scope_delete>
+        <sys_update_name>sys_script_1aa5a5269fb702107f4489554524ab1e</sys_update_name>
+        <sys_update_version display_value="sys_script_1aa5a5269fb702107f4489554524ab1e">9c251aa29f3b02107f4489554524abe3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-06 19:40:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
