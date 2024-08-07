@@ -21,6 +21,14 @@
             <element name="sys_class_name"/>
         </index>
         <index name="index2">
+            <element name="u_contract_type"/>
+            <element name="u_start_date"/>
+            <element name="u_end_date"/>
+            <element name="u_automatic_renewal"/>
+            <element name="sys_created_on"/>
+            <element name="sys_updated_on"/>
+        </index>
+        <index name="index3">
             <element name="u_dependent"/>
         </index>
     </element>

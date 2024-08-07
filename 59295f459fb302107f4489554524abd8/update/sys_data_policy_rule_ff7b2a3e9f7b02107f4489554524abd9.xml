@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_policy_rule">
+    <sys_data_policy_rule action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>state</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_data_policy_rule</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-07 15:55:59</sys_created_on>
+        <sys_data_policy display_value="Mandatory and Read-only Contract Requests Fields">182b623e9f7b02107f4489554524abcc</sys_data_policy>
+        <sys_id>ff7b2a3e9f7b02107f4489554524abd9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>state</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name>sys_data_policy_rule_ff7b2a3e9f7b02107f4489554524abd9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-07 19:30:39</sys_updated_on>
+        <table>x_cdltd_contractsy_contract_request</table>
+    </sys_data_policy_rule>
+</record_update>

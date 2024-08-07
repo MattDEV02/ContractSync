@@ -15,17 +15,17 @@
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>Get CONR Number</name>
+        <name>Get CONR Number - SC</name>
         <order/>
         <published_ref/>
         <script><![CDATA[function onLoad() {
-    var ga = new GlideAjax("NumberGeneratorAjaxProcessor");
-    ga.addParam("sysparm_name", "generateNumber"); 
-    ga.addParam("sysparm_prefix", "CONR"); 
+    var glideAjax = new GlideAjax("NumberGeneratorAjaxProcessor");
+    glideAjax.addParam("sysparm_name", "generateNumber"); 
+    glideAjax.addParam("sysparm_prefix", "CONR"); 
 
-    ga.getXMLAnswer(function(answer) {
+    glideAjax.getXMLAnswer(function(answer) {
 		var number = answer;
-        if (number) { // /^CONR\d{6}$/.test("CONR001010")
+        if (number && /^CONR\d{6}$/.test(number)) { 
             g_form.setValue("number", number, "Contract request Number:");
 			g_form.setReadOnly("number", true);
         } 
@@ -37,15 +37,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>aae2b87a9f3302107f4489554524ab4f</sys_id>
-        <sys_mod_count>14</sys_mod_count>
-        <sys_name>Get CONR Number</sys_name>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>Get CONR Number - SC</sys_name>
         <sys_overrides/>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
         <sys_policy/>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_update_name>catalog_script_client_aae2b87a9f3302107f4489554524ab4f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-07 08:19:24</sys_updated_on>
+        <sys_updated_on>2024-08-07 12:47:03</sys_updated_on>
         <table/>
         <type>onLoad</type>
         <ui_type>10</ui_type>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-02 08:48:42</sys_created_on>
+        <sys_id>bfc99b859fb302107f4489554524abd0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cdltd_contractsy_contract_request.x_cdltd_contractsy.reviewer</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_security_acl display_value="x_cdltd_contractsy_contract_request">77c99b859fb302107f4489554524abce</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_bfc99b859fb302107f4489554524abd0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-02 08:48:42</sys_updated_on>
+        <sys_user_role display_value="x_cdltd_contractsy.reviewer" name="x_cdltd_contractsy.reviewer">585913859fb302107f4489554524abb7</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ContractSync">59295f459fb302107f4489554524abd8</application>
+        <file_path/>
+        <instance_id>b38cc51487ef86d0912d0f6d0ebb3570</instance_id>
+        <instance_name>nowlearning-nlinst01898695-0001</instance_name>
+        <name>sys_security_acl_role_bfc99b859fb302107f4489554524abd0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-02 08:48:42</sys_created_on><sys_id>bfc99b859fb302107f4489554524abd0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_cdltd_contractsy_contract_request.x_cdltd_contractsy.reviewer</sys_name><sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package><sys_policy/><sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope><sys_security_acl display_value="x_cdltd_contractsy_contract_request">77c99b859fb302107f4489554524abce</sys_security_acl><sys_update_name>sys_security_acl_role_bfc99b859fb302107f4489554524abd0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-02 08:48:42</sys_updated_on><sys_user_role display_value="x_cdltd_contractsy.reviewer" name="x_cdltd_contractsy.reviewer">585913859fb302107f4489554524abb7</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>249227395</payload_hash>
+        <record_name>x_cdltd_contractsy_contract_request.x_cdltd_contractsy.reviewer</record_name>
+        <reverted_from/>
+        <source>55295f459fb302107f4489554524abdc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-02 08:48:42</sys_created_on>
+        <sys_id>37c99b859fb302107f4489554524abd3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1911246e71b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-02 08:48:42</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>7bc99b85f9b30210c15c09c328b2b2d2</update_guid>
+        <update_guid_history>7bc99b85f9b30210c15c09c328b2b2d2:249227395</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_cdltd_contractsy_contract_request.x_cdltd_contractsy.reviewer">3909d97a9ff302107f4489554524ab1c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-07 09:55:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>068433a7f994446a9e1f16357912b681</sys_id>
+        <sys_metadata>bfc99b859fb302107f4489554524abd0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cdltd_contractsy_contract_request.x_cdltd_contractsy.reviewer</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_scope_delete display_value="">0f884f882080471e972317895cfe61a4</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_bfc99b859fb302107f4489554524abd0</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_bfc99b859fb302107f4489554524abd0">37c99b859fb302107f4489554524abd3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-07 09:55:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

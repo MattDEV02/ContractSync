@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Set Contract Request Description value on Contract type change.</description>
+        <field>u_contract_type</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Set CONR ds value on conType change</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   //Type appropriate comment here, and begin script below
+	
+	
+	var contractType = g_form.getValue("u_contract_type");
+	var requestedFor = g_form.getDisplayBox("requested_for").value;
+	
+	if(!contractType || !requestedFor) {
+		return;
+	}
+	
+	var newShortDescription = "Please create a new " + contractType + " Contract for " + requestedFor + ".";
+	
+	g_form.setValue("description", newShortDescription, "Description");
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-02 12:52:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c211d0999fb702107f4489554524ab07</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Set CONR ds value on conType change</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name>sys_script_client_c211d0999fb702107f4489554524ab07</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-02 13:56:41</sys_updated_on>
+        <table>x_cdltd_contractsy_contract_request</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ContractSync">59295f459fb302107f4489554524abd8</application>
+        <file_path/>
+        <instance_id>b38cc51487ef86d0912d0f6d0ebb3570</instance_id>
+        <instance_name>nowlearning-nlinst01898695-0001</instance_name>
+        <name>sys_script_client_c211d0999fb702107f4489554524ab07</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Set Contract Request Description value on Contract type change.&lt;/description&gt;&lt;field&gt;u_contract_type&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Set CONR ds value on conType change&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   //Type appropriate comment here, and begin script below
+	
+	
+	var contractType = g_form.getValue("u_contract_type");
+	var requestedFor = g_form.getDisplayBox("requested_for").value;
+	
+	if(!contractType || !requestedFor) {
+		return;
+	}
+	
+	var newShortDescription = "Please create a new " + contractType + " Contract for " + requestedFor + ".";
+	
+	g_form.setValue("description", newShortDescription, "Description");
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-08-02 12:52:01&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;c211d0999fb702107f4489554524ab07&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Set CONR ds value on conType change&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="ContractSync" source="x_cdltd_contractsy"&gt;59295f459fb302107f4489554524abd8&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ContractSync"&gt;59295f459fb302107f4489554524abd8&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_c211d0999fb702107f4489554524ab07&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-08-02 13:56:41&lt;/sys_updated_on&gt;&lt;table&gt;x_cdltd_contractsy_contract_request&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1886700294</payload_hash>
+        <record_name>Set CONR ds value on conType change</record_name>
+        <reverted_from/>
+        <source>a44a9f859fb302107f4489554524abfb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-02 13:56:41</sys_created_on>
+        <sys_id>9740a89d9ff702107f4489554524abe2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1911360de910000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-02 13:56:41</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>9f40a89deaf70210f41d46b276c69de1</update_guid>
+        <update_guid_history>9f40a89deaf70210f41d46b276c69de1:-1886700294,9f8154d94cb70210d200f5010b3c945c:532805913,988150d912b70210ee327f72e33edf61:-1726254398</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-07 12:42:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>47791382b0df46cba68c769e4e1e25d9</sys_id>
+        <sys_metadata>c211d0999fb702107f4489554524ab07</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set CONR ds value on conType change</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_parent display_value="Contract Request">93c95b859fb302107f4489554524ab65</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_scope_delete display_value="">0f884f882080471e972317895cfe61a4</sys_scope_delete>
+        <sys_update_name>sys_script_client_c211d0999fb702107f4489554524ab07</sys_update_name>
+        <sys_update_version display_value="sys_script_client_c211d0999fb702107f4489554524ab07">9740a89d9ff702107f4489554524abe2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-07 12:42:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

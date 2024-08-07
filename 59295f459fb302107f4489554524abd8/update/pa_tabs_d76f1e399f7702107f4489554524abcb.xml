@@ -2,7 +2,7 @@
     <pa_tabs action="INSERT_OR_UPDATE">
         <canvas_page display_value="PA Contract Requests Da - New Tab 3">df6fda399f7702107f4489554524ab53</canvas_page>
         <name>Contracts</name>
-        <page display_value="PA Contracts">976fda399f7702107f4489554524ab53</page>
+        <page/>
         <sys_class_name>pa_tabs</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-04 12:29:03</sys_created_on>

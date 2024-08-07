@@ -4,8 +4,10 @@
         <application display_value="ContractSync">b8f99b859fb302107f4489554524abdb</application>
         <assessment/>
         <device_type/>
-        <filter/>
-        <hint/>
+        <filter table="x_cdltd_contractsy_contract_request">state=5^EQ<item display_value="Closed incomplete" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="5"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint>View all closed incomplete Contract Requests</hint>
         <homepage/>
         <image/>
         <link_type>LIST</link_type>
@@ -15,16 +17,16 @@
         <name>x_cdltd_contractsy_contract_request</name>
         <order>8</order>
         <override_menu_roles>false</override_menu_roles>
-        <query>active=false^state=5^EQ</query>
+        <query>^ORDERBYDESCsys_created_on</query>
         <report/>
-        <roles/>
+        <roles>x_cdltd_contractsy.service_desk</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 14:32:50</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>abe135299f7302107f4489554524ab1c</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Closed incomplete</sys_name>
         <sys_overrides/>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
@@ -32,7 +34,7 @@
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_update_name>sys_app_module_abe135299f7302107f4489554524ab1c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-06 19:54:18</sys_updated_on>
+        <sys_updated_on>2024-08-07 18:50:13</sys_updated_on>
         <timeline_page/>
         <title>Closed incomplete</title>
         <uncancelable>false</uncancelable>

@@ -13,5 +13,18 @@
         </element>
         <element attributes="edge_encryption_enabled=true" label="End Date" mandatory="true" max_length="40" name="u_end_date" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" label="Start Date" mandatory="true" max_length="40" name="u_start_date" type="glide_date_time"/>
+        <index name="index">
+            <element name="u_automatic_renewal"/>
+            <element name="u_configuration_items"/>
+            <element name="u_contract_type"/>
+            <element name="u_end_date"/>
+            <element name="u_start_date"/>
+        </index>
+        <index name="index2">
+            <element name="u_contract_type"/>
+            <element name="u_start_date"/>
+            <element name="u_end_date"/>
+            <element name="u_automatic_renewal"/>
+        </index>
     </element>
 </database>
