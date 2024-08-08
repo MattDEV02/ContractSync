@@ -40,7 +40,7 @@
     var configurationItemsNumber = configurationItems == "" ? 0 : configurationItems.split(",").length;
 	var priorityText = g_form.getOption("priority", priority).text;
 
-    var newDescription = "Please " + recipient + ", create a new " + automaticRenewal + contractType + " Contract for " + requestedFor + " with " + configurationItemsNumber + " Configuration items. \n \n Other informations: \n \n" + "Priority: " + priorityText + ". \n \nStart date: " + startDate + ". \n \nEnd date: " + endDate + ".\n \n";
+    var newDescription = "Please " + recipient + ", create a new " + automaticRenewal + contractType + " Contract for " + requestedFor + " with " + configurationItemsNumber + " Configuration items. \n \nOther informations: \n \n" + "Priority: " + priorityText + ". \n \nStart date: " + startDate + ". \n \nEnd date: " + endDate + ".\n \n";
 
     g_form.setValue("description", newDescription, "Description");
 
@@ -51,7 +51,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>880cb8a69f3702107f4489554524ab77</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Set CONR description onchange - SC</sys_name>
         <sys_overrides/>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
@@ -59,7 +59,7 @@
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_update_name>catalog_script_client_880cb8a69f3702107f4489554524ab77</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-07 15:22:43</sys_updated_on>
+        <sys_updated_on>2024-08-08 09:49:44</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>

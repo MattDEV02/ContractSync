@@ -4,8 +4,8 @@
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <element label="Active" max_length="40" name="u_active" type="boolean"/>
         <element label="Automatic renewal" max_length="40" name="u_automatic_renewal" type="boolean"/>
-        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Configuration items" max_length="1024" name="u_configuration_items" type="glide_list"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" default="part-time" label="Contract type" mandatory="true" max_length="40" name="u_contract_type" type="string">
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Configuration items" max_length="1024" name="u_configuration_items" reference="cmdb_ci" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="part-time" label="Contract type" mandatory="true" max_length="40" name="u_contract_type" type="string">
             <choice>
                 <element inactive_on_update="false" label="Part-time" sequence="0" value="part-time"/>
                 <element inactive_on_update="false" label="Fixed-term" sequence="1" value="fixed-term"/>

@@ -39,11 +39,10 @@
         <message_html><![CDATA[<p>Dear <strong>${u_dependent.first_name}</strong>,&nbsp;</p>
 <p>&nbsp;</p>
 <p>Here is your Contract CIs Credentials:</p>
-<p><strong>${u_configuration_items}</strong></p>
-<p>---</p>
-<p>${mail_script:x_cdltd_contractsy_contract_script_1}</p>
-<p>---</p>
-<p>Best regards, ContractSync Service desk</p>
+<p>------------------------------------------------------------------------------------</p>
+<div>${mail_script:x_cdltd_contractsy_contract_script_8}</div>
+<p>-----------------------------------------------------------------------------------</p>
+<p><em>Best regards, ContractSync Service desk Team</em></p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>]]></message_html>
         <message_list/>
@@ -59,7 +58,7 @@
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>IMPORTANT ! Here is your Contract CIs Credentials</subject>
+        <subject>IMPORTANT ! Here is your ${u_contract_type} Contract CIs Credentials</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -67,7 +66,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6ca3441e9ff702107f4489554524ab82</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name>Contract CIs Credentials Notification</sys_name>
         <sys_overrides/>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
@@ -75,7 +74,7 @@
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_update_name>sysevent_email_action_6ca3441e9ff702107f4489554524ab82</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-06 08:17:51</sys_updated_on>
+        <sys_updated_on>2024-08-08 12:54:20</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Employee notification template">1462e7ca918a3010f877b1d70a4d6a3d</template>
         <type>email</type>

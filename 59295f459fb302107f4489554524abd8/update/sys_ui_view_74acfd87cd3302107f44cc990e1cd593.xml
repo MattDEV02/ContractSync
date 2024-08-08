@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>exp_d4f6bb947cd3302107f44cc990e1cd504</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-08 07:09:28</sys_created_on>
+        <sys_id>74acfd87cd3302107f44cc990e1cd593</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Exp_d4f6bb947cd3302107f44cc990e1cd504</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name>sys_ui_view_74acfd87cd3302107f44cc990e1cd593</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-08 07:09:28</sys_updated_on>
+        <title>Exp_d4f6bb947cd3302107f44cc990e1cd504</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

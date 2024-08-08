@@ -13,7 +13,9 @@
 
 	// ESS Users see only ESS view
 	
-	if(!gs.hasRole("x_cdltd_contractsy.admin")) {
+	var prefix = "x_cdltd_contractsy";
+	
+	if(!gs.hasRole(prefix + ".fulfiller") && !gs.hasRole(prefix + ".reviewer") && !gs.hasRole(prefix + ".service_desk") ) {
 		answer = "ess";
 	}
 	
@@ -25,7 +27,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fff61c519ff702107f4489554524ab34</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>ESS Users see only ESS view</sys_name>
         <sys_overrides/>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
@@ -33,7 +35,7 @@
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_update_name>sysrule_view_fff61c519ff702107f4489554524ab34</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-02 13:18:05</sys_updated_on>
+        <sys_updated_on>2024-08-08 07:34:23</sys_updated_on>
         <table>x_cdltd_contractsy_contract_request</table>
         <view/>
     </sysrule_view>

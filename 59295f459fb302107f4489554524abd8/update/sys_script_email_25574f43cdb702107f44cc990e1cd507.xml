@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>x_cdltd_contractsy_contract_script_5</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[var configurationItems = current.u_configuration_items.split(", ");
+template.print("configurationItems: " + configurationItems);
+for (var i = 0; i < configurationItems.length; i++) {
+    template.print("configurationItems[i]: " + configurationItems[i]);
+   if (configurationItems[i]) {
+    var configurationItemGR = new GlideRecord("cmdb_ci");
+    configurationItemGR.addQuery("sys_class_name", "cmdb_ci_computer");
+    configurationItemGR.addQuery("name", configurationItems[i]);
+    configurationItemGR.addQuery("u_reserved", true);
+    //configurationItemGR.addQuery("u_reserved_to", dependent);
+    configurationItemGR.setLimit(1);
+    configurationItemGR.query();
+    if(configurationItemGR.next()) {
+        var contractUtils = new ContractUtils();
+        var appScopeName = contractUtils.appScopeName;
+        var domain = gs.getProperty(appScopeName + ".table_API_domain");
+        var username = gs.getProperty(appScopeName + ".table_API_username", "admin");
+        var password = gs.getProperty(appScopeName + ".table_API_password");
+        var request = new sn_ws.RESTMessageV2();
+        request.setEndpoint(
+            "https://" +
+            domain +
+            "/api/now/table/u_password_vault?sysparm_query=u_asset%3D" +
+            configurationItemGR.asset_tag +
+            "&sysparm_fields=u_password&sysparm_limit=1"
+        );
+        request.setHttpMethod("GET");
+        request.setBasicAuth(username, password);
+        request.setRequestHeader("Accept", "application/json");
+        var response = request.execute();
+        var body = response.getBody();
+        var parsedBody = JSON.parse(body);
+        var u_password = parsedBody.result[0].u_password;
+        if (u_password) {
+            template.print("Configuration item: " + configurationItems[i] + " | password: " + u_password + "\n");
+        }
+    }
+   }
+}]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-08 12:35:49</sys_created_on>
+        <sys_id>25574f43cdb702107f44cc990e1cd507</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cdltd_contractsy_contract_script_5</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name>sys_script_email_25574f43cdb702107f44cc990e1cd507</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-08 12:35:49</sys_updated_on>
+    </sys_script_email>
+</record_update>

@@ -1,105 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_ui_section caption="Notes" section_id="83956f459ff302107f4489554524ab0a" sys_domain="global" table="x_cdltd_contractsy_contract_request" version="3" view="">
+    <sys_ui_section caption="Log" section_id="83956f459ff302107f4489554524ab0a" sys_domain="global" table="x_cdltd_contractsy_contract_request" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>watch_list</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-06 15:42:20</sys_created_on>
-            <sys_id>8ede99ee9f7702107f4489554524ab62</sys_id>
+            <sys_created_on>2024-08-08 07:39:14</sys_created_on>
+            <sys_id>34738603cd7302107f44cc990e1cd551</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Notes" display_value="Notes" name="x_cdltd_contractsy_contract_request" sys_domain="global" view="Default view">83956f459ff302107f4489554524ab0a</sys_ui_section>
+            <sys_ui_section caption="Log" display_value="Log" name="x_cdltd_contractsy_contract_request" sys_domain="global" view="Default view">83956f459ff302107f4489554524ab0a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-06 15:42:20</sys_updated_on>
+            <sys_updated_on>2024-08-08 07:39:14</sys_updated_on>
             <sys_user/>
             <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-06 15:42:20</sys_created_on>
-            <sys_id>02de99ee9f7702107f4489554524ab63</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Notes" display_value="Notes" name="x_cdltd_contractsy_contract_request" sys_domain="global" view="Default view">83956f459ff302107f4489554524ab0a</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-06 15:42:20</sys_updated_on>
-            <sys_user/>
-            <type>.split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>work_notes_list</element>
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-06 15:42:20</sys_created_on>
-            <sys_id>92de99ee9f7702107f4489554524ab63</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Notes" display_value="Notes" name="x_cdltd_contractsy_contract_request" sys_domain="global" view="Default view">83956f459ff302107f4489554524ab0a</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-06 15:42:20</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.end_split</element>
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-06 15:42:20</sys_created_on>
-            <sys_id>16de99ee9f7702107f4489554524ab63</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Notes" display_value="Notes" name="x_cdltd_contractsy_contract_request" sys_domain="global" view="Default view">83956f459ff302107f4489554524ab0a</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-06 15:42:20</sys_updated_on>
-            <sys_user/>
-            <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>comments</element>
-            <position>4</position>
+            <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-06 15:42:20</sys_created_on>
-            <sys_id>96de99ee9f7702107f4489554524ab63</sys_id>
+            <sys_created_on>2024-08-08 07:39:14</sys_created_on>
+            <sys_id>b4738603cd7302107f44cc990e1cd551</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Notes" display_value="Notes" name="x_cdltd_contractsy_contract_request" sys_domain="global" view="Default view">83956f459ff302107f4489554524ab0a</sys_ui_section>
+            <sys_ui_section caption="Log" display_value="Log" name="x_cdltd_contractsy_contract_request" sys_domain="global" view="Default view">83956f459ff302107f4489554524ab0a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-06 15:42:20</sys_updated_on>
+            <sys_updated_on>2024-08-08 07:39:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>work_notes</element>
-            <position>5</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-06 15:42:20</sys_created_on>
-            <sys_id>1ade99ee9f7702107f4489554524ab63</sys_id>
+            <sys_created_on>2024-08-08 07:39:14</sys_created_on>
+            <sys_id>38738603cd7302107f44cc990e1cd551</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Notes" display_value="Notes" name="x_cdltd_contractsy_contract_request" sys_domain="global" view="Default view">83956f459ff302107f4489554524ab0a</sys_ui_section>
+            <sys_ui_section caption="Log" display_value="Log" name="x_cdltd_contractsy_contract_request" sys_domain="global" view="Default view">83956f459ff302107f4489554524ab0a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-06 15:42:20</sys_updated_on>
+            <sys_updated_on>2024-08-08 07:39:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>activity.xml</element>
-            <position>6</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-06 15:42:20</sys_created_on>
-            <sys_id>9ade99ee9f7702107f4489554524ab63</sys_id>
+            <sys_created_on>2024-08-08 07:39:14</sys_created_on>
+            <sys_id>b8738603cd7302107f44cc990e1cd551</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
-            <sys_ui_section caption="Notes" display_value="Notes" name="x_cdltd_contractsy_contract_request" sys_domain="global" view="Default view">83956f459ff302107f4489554524ab0a</sys_ui_section>
+            <sys_ui_section caption="Log" display_value="Log" name="x_cdltd_contractsy_contract_request" sys_domain="global" view="Default view">83956f459ff302107f4489554524ab0a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-06 15:42:20</sys_updated_on>
+            <sys_updated_on>2024-08-08 07:39:14</sys_updated_on>
             <sys_user/>
             <type>formatter</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
-            <caption>Notes</caption>
+            <caption>Log</caption>
             <header>false</header>
             <name>x_cdltd_contractsy_contract_request</name>
             <roles/>
@@ -109,7 +67,7 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>83956f459ff302107f4489554524ab0a</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_name>x_cdltd_contractsy_contract_request</sys_name>
             <sys_overrides/>
             <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
@@ -117,7 +75,7 @@
             <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
             <sys_update_name>sys_ui_section_83956f459ff302107f4489554524ab0a</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-06 15:26:54</sys_updated_on>
+            <sys_updated_on>2024-08-08 07:37:51</sys_updated_on>
             <sys_user/>
             <title>false</title>
             <view display_value="Default view" name="NULL">Default view</view>

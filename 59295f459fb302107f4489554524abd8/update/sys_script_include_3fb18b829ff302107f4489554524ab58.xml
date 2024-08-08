@@ -60,11 +60,7 @@ ContractUtils.prototype = {
         activeAutomaticRenewalContractsGR.addQuery("u_active", true);
         activeAutomaticRenewalContractsGR.addQuery("u_automatic_renewal", true);
         activeAutomaticRenewalContractsGR.addQuery("u_end_date", ">=", rightNow);
-        activeAutomaticRenewalContractsGR.addQuery(
-            "u_end_date",
-            "<=",
-            noticeTime,
-        );
+        activeAutomaticRenewalContractsGR.addQuery("u_end_date", "<=", noticeTime);
         activeAutomaticRenewalContractsGR.query();
         while (activeAutomaticRenewalContractsGR.next()) {
             activeAutomaticRenewalContracts.push(
@@ -121,7 +117,7 @@ ContractUtils.prototype = {
         var activeExpiredContractsGR = new GlideRecord(this.tableName);
         activeExpiredContractsGR.addQuery("u_active", true);
         activeExpiredContractsGR.addQuery("u_automatic_renewal", false);
-        activeExpiredContractsGR.addQuery("u_end_date", ">=", rightNow);
+        activeExpiredContractsGR.addQuery("u_end_date", "<=", rightNow);
         activeExpiredContractsGR.query();
 
         while (activeExpiredContractsGR.next()) {
@@ -179,7 +175,7 @@ ContractUtils.prototype = {
             this.tableName,
         );
         activeAlmostExpiredContractsGR.addQuery("u_active", true);
-        activeAlmostExpiredContractsGR.addQuery("u_automatic_renewal", false); // Da tenere ?
+        activeAlmostExpiredContractsGR.addQuery("u_automatic_renewal", false); 
         activeAlmostExpiredContractsGR.addQuery("u_end_date", ">=", rightNow);
         activeAlmostExpiredContractsGR.addQuery("u_end_date", "<=", noticeTime);
         activeAlmostExpiredContractsGR.query();
@@ -272,14 +268,14 @@ ContractUtils.prototype = {
                 "): FAILED TO RETRIEVE RECORD.",
             );
             return;
-        }
+        } 
 
         // Send the Contract Configuration item/s Credentials email notification
 
         gs.eventQueue(
             this.contractActivated,
             contractCreatedOnToday,
-            contractAlmostExpired.u_dependent.manager.email,
+            contractCreatedOnToday.u_dependent.manager.email,
             gs.getUserName(),
         );
         return;
@@ -318,13 +314,13 @@ ContractUtils.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-05 10:27:17</sys_created_on>
         <sys_id>3fb18b829ff302107f4489554524ab58</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name>ContractUtils</sys_name>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
-        <sys_policy/>
+        <sys_policy>protected</sys_policy>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_update_name>sys_script_include_3fb18b829ff302107f4489554524ab58</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-07 12:38:22</sys_updated_on>
+        <sys_updated_on>2024-08-08 10:55:34</sys_updated_on>
     </sys_script_include>
 </record_update>
