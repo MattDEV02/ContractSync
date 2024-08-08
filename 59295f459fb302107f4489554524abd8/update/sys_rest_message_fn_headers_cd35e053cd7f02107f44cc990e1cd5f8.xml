@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_headers">
+    <sys_rest_message_fn_headers action="INSERT_OR_UPDATE">
+        <name>X-Api-Key</name>
+        <rest_message_function display_value="Default GET">3be5f34fcd7b02107f44cc990e1cd5e3</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_headers</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-08 19:26:40</sys_created_on>
+        <sys_id>cd35e053cd7f02107f44cc990e1cd5f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>X-Api-Key</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name>sys_rest_message_fn_headers_cd35e053cd7f02107f44cc990e1cd5f8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-08 19:26:40</sys_updated_on>
+        <value>8iPBC/6GOhWzhA1gt53Hyw==kwa5UPJrzE18GhVh</value>
+    </sys_rest_message_fn_headers>
+</record_update>

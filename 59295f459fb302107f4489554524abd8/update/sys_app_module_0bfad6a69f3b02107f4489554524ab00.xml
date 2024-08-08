@@ -4,37 +4,39 @@
         <application display_value="ContractSync">b8f99b859fb302107f4489554524abdb</application>
         <assessment/>
         <device_type/>
-        <filter/>
-        <hint>Open a ContractSync test and click "Run Test" to run it </hint>
+        <filter table="sys_user_group">nameLIKEContractSync^EQ<item endquery="false" field="name" goto="false" newquery="false" operator="LIKE" or="false" value="ContractSync"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint>A list of all ContractSync User Groups. Select one and see all Personas in the Group.</hint>
         <homepage/>
         <image/>
-        <link_type>DIRECT</link_type>
+        <link_type>LIST</link_type>
         <map_page/>
         <mobile_title>Tests</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name/>
+        <name>sys_user_group</name>
         <order>24</order>
         <override_menu_roles>false</override_menu_roles>
-        <query>sys_atf_test_list.do?sysparm_query=nameLIKEContractSync&amp;sysparm_view=</query>
+        <query/>
         <report/>
-        <roles/>
+        <roles>x_cdltd_contractsy.admin</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-06 20:06:31</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0bfad6a69f3b02107f4489554524ab00</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Tests</sys_name>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>ContractSync Groups</sys_name>
         <sys_overrides/>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
         <sys_policy/>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_update_name>sys_app_module_0bfad6a69f3b02107f4489554524ab00</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-07 09:01:36</sys_updated_on>
+        <sys_updated_on>2024-08-08 13:58:02</sys_updated_on>
         <timeline_page/>
-        <title>Tests</title>
+        <title>ContractSync Groups</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

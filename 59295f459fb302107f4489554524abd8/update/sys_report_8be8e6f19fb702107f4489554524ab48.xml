@@ -45,7 +45,7 @@
         <donut_width_percent>30</donut_width_percent>
         <end_time/>
         <exp_report_attrs>true</exp_report_attrs>
-        <field>priority</field>
+        <field>state</field>
         <field_list>number,requested_for,short_description,state,priority,assignment_group,assigned_to,u_contract_type,u_start_date,u_end_date,u_automatic_renewal</field_list>
         <filter/>
         <formatting_configuration>{"table":"incident","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{}}</formatting_configuration>
@@ -106,14 +106,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-04 13:10:32</sys_created_on>
         <sys_id>8be8e6f19fb702107f4489554524ab48</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Contract Requests by State or Contract type</sys_name>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
         <sys_policy/>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_update_name>sys_report_8be8e6f19fb702107f4489554524ab48</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-06 07:21:50</sys_updated_on>
+        <sys_updated_on>2024-08-08 19:59:55</sys_updated_on>
         <table>x_cdltd_contractsy_contract_request</table>
         <title>Contract Requests by State or Contract type</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
