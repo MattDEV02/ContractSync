@@ -35,8 +35,13 @@ ContractUtils.prototype = {
 
         this.appScopeName = gs.getCurrentScopeName();
         this.tableName = this.appScopeName + "_contract";
-        this.contractExpiry = this.appScopeName + ".ContractExpiry"; // ContractExpiry event name
+        
         this.contractActivated = this.appScopeName + ".ContractActivated"; // ContractActivated event name
+        this.contractAlmostExpired = this.appScopeName + ".ContractAlmostExpired"; // contractAlmostExpired event name
+        this.contractRenewed = this.appScopeName + ".ContractRenewed"; // ContractRenewed event name
+        this.contractExpired = this.appScopeName + ".ContractExpired"; // contractExpired event name
+		this.thankYouMessage = this.appScopeName + ".ThankYouMessage"; // ThankYouMessage event name
+		
         this.className = this.type;
     },
     /**********
@@ -61,6 +66,8 @@ ContractUtils.prototype = {
         activeAutomaticRenewalContractsGR.addQuery("u_automatic_renewal", true);
         activeAutomaticRenewalContractsGR.addQuery("u_end_date", ">=", rightNow);
         activeAutomaticRenewalContractsGR.addQuery("u_end_date", "<=", noticeTime);
+        activeAlmostExpiredContractsGR.addQuery("u_contract_renewal_reminder", "<=", rightNow);
+
         activeAutomaticRenewalContractsGR.query();
         while (activeAutomaticRenewalContractsGR.next()) {
             activeAutomaticRenewalContracts.push(
@@ -99,6 +106,18 @@ ContractUtils.prototype = {
         contractToRenew.u_end_date = newContractEndDate;
         contractToRenew.update();
 
+        // Send the Contract automatically renewed email notification
+
+        gs.eventQueue(
+            this.contractRenewed,
+            contractToRenew,
+            contractToRenew.u_dependent.manager.email,
+            gs.getUserName(),
+        );
+
+        contractToRenew.u_contract_renewal_reminder = new GlideDateTime();
+		contractToRenew.update();
+
         return;
     },
     /**********
@@ -110,6 +129,7 @@ ContractUtils.prototype = {
      *
      **********/
     getActiveExpiredContracts: function() {
+        
         var activeExpiredContracts = [];
 
         var rightNow = new GlideDateTime();
@@ -118,12 +138,15 @@ ContractUtils.prototype = {
         activeExpiredContractsGR.addQuery("u_active", true);
         activeExpiredContractsGR.addQuery("u_automatic_renewal", false);
         activeExpiredContractsGR.addQuery("u_end_date", "<=", rightNow);
+        activeAutomaticRenewalContractsGR.addQuery("u_contract_expired_reminder", "<=", rightNow);
         activeExpiredContractsGR.query();
 
         while (activeExpiredContractsGR.next()) {
-            activeExpiredContracts.push(
-                activeExpiredContractsGR.sys_id.toString(),
-            );
+            if(activeExpiredContractsGR.u_contract_expired_reminder <= activeExpiredContractsGR.u_end_date) {
+                activeExpiredContracts.push(
+                    activeExpiredContractsGR.sys_id.toString(),
+                );
+            }
         }
         return activeExpiredContracts;
     },
@@ -154,6 +177,18 @@ ContractUtils.prototype = {
         contractToMakeInactive.u_active = false;
         contractToMakeInactive.update();
 
+         // Send the Contract expired email notification
+
+         gs.eventQueue(
+            this.contractExpired,
+            contractToMakeInactive,
+            contractToMakeInactive.u_dependent.manager.email,
+            gs.getUserName(),
+        );
+
+        contractToMakeInactive.u_contract_expired_reminder = new GlideDateTime();
+		contractToMakeInactive.update();
+
         return;
     },
     /**********
@@ -178,6 +213,7 @@ ContractUtils.prototype = {
         activeAlmostExpiredContractsGR.addQuery("u_automatic_renewal", false); 
         activeAlmostExpiredContractsGR.addQuery("u_end_date", ">=", rightNow);
         activeAlmostExpiredContractsGR.addQuery("u_end_date", "<=", noticeTime);
+        activeAlmostExpiredContractsGR.addQuery("u_contract_almost_expired_reminder", "<=", rightNow);
         activeAlmostExpiredContractsGR.query();
 
         while (activeAlmostExpiredContractsGR.next()) {
@@ -210,12 +246,17 @@ ContractUtils.prototype = {
         }
 
         // Send the Contract almost expired email notification
+
         gs.eventQueue(
-            this.contractExpiry,
+            this.contractExpired,
             contractAlmostExpired,
             contractAlmostExpired.u_dependent.manager.email,
             gs.getUserName(),
         );
+		
+		contractAlmostExpired.u_contract_almost_expired_reminder = new GlideDateTime();
+		contractAlmostExpired.update();
+		
         return;
     },
     /**********
@@ -227,9 +268,8 @@ ContractUtils.prototype = {
      *
      **********/
     getActiveContractsCreatedOnToday: function() {
+        
         var activeContractsCreatedOnToday = [];
-
-        var rightNow = new GlideDateTime();
 
         var activeContractsCreatedOnTodayGR = new GlideRecord(
             this.tableName,
@@ -257,6 +297,7 @@ ContractUtils.prototype = {
     sendContractConfigutationItemsCredentialsEmailNotification: function(
         contractSys_id
     ) {
+        
         var contractCreatedOnToday = new GlideRecord(this.tableName);
 
         if (!contractCreatedOnToday.get(contractSys_id)) {
@@ -306,6 +347,69 @@ ContractUtils.prototype = {
         }
 
         return exists;
+    },	
+	/**********
+     *
+     * getActiveContracts - Get a list of all Active Contracts.
+     *
+     * @param - None.
+     * @return - Array of sys_ids.
+     *
+     **********/
+    getActiveContracts: function() {
+        
+        var activeContracts = [];
+
+        var activeContractsGR = new GlideRecord(this.tableName);
+        activeContractsGR.addQuery("u_active", true);
+        activeContractsGR.query();
+
+        while (activeContractsGR.next()) {
+            activeContracts.push(
+                activeContractsGR.sys_id.toString(),
+            );
+        }
+        return activeContracts;
+    },
+	
+	
+    /**********
+     *
+     * sendThankYouMessage - Queue an event to send a thank you message to the Dependent relative to the Contract with the sys_id equal to the contractSys_id function parameter.
+     *
+     * @param - contractSys_id: sys_id of the Contract record to check.
+     * @return - None.
+     *
+     **********/
+    sendThankYouMessage: function(
+        contractSys_id
+    ) {
+        var contract = new GlideRecord(this.tableName);
+
+        if (!contract.get(contractSys_id)) {
+            gs.debug(
+                ">>>DEBUG: " +
+                this.className +
+                ": sendThankYouMessage(" +
+                contractSys_id +
+                "): FAILED TO RETRIEVE RECORD.",
+            );
+            return;
+        } 
+
+        // Send the Contract thank you message email notification
+
+        gs.eventQueue(
+            this.thankYouMessage,
+            contract,
+            contract.u_dependent.manager.email,
+            gs.getUserName(),
+        );
+		
+		contract.u_thank_you_message_reminder = new GlideDateTime();
+		contract.update();
+		
+        return;
     },
 
     type: "ContractUtils",
@@ -314,13 +418,13 @@ ContractUtils.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-05 10:27:17</sys_created_on>
         <sys_id>3fb18b829ff302107f4489554524ab58</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_name>ContractUtils</sys_name>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
         <sys_policy>protected</sys_policy>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_update_name>sys_script_include_3fb18b829ff302107f4489554524ab58</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-08 10:55:34</sys_updated_on>
+        <sys_updated_on>2024-08-09 14:35:34</sys_updated_on>
     </sys_script_include>
 </record_update>

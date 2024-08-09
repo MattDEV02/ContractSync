@@ -24,7 +24,7 @@
             <sys_mod_count>2</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_cdltd_contractsy_contract_request" name="x_cdltd_contractsy_contract_request" sys_domain="global" view="Default view">cb45a7459ff302107f4489554524ab33</sys_ui_form>
-            <sys_ui_section caption="Notes" display_value="Notes" name="x_cdltd_contractsy_contract_request" sys_domain="global" view="Default view">83956f459ff302107f4489554524ab0a</sys_ui_section>
+            <sys_ui_section caption="Log" display_value="Log" name="x_cdltd_contractsy_contract_request" sys_domain="global" view="Default view">83956f459ff302107f4489554524ab0a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-08-06 15:36:38</sys_updated_on>
         </sys_ui_form_section>
@@ -38,9 +38,23 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_cdltd_contractsy_contract_request" name="x_cdltd_contractsy_contract_request" sys_domain="global" view="Default view">cb45a7459ff302107f4489554524ab33</sys_ui_form>
-            <sys_ui_section caption="Approval" display_value="Approval" name="x_cdltd_contractsy_contract_request" sys_domain="global" view="Default view">b9de59ee9f7702107f4489554524abe2</sys_ui_section>
+            <sys_ui_section caption="Statistics" display_value="Statistics" name="x_cdltd_contractsy_contract_request" sys_domain="global" view="Default view">b9de59ee9f7702107f4489554524abe2</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-08-06 15:42:20</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-09 07:42:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c7dd8f17303302107f443ea7e1781859</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_cdltd_contractsy_contract_request" name="x_cdltd_contractsy_contract_request" sys_domain="global" view="Default view">cb45a7459ff302107f4489554524ab33</sys_ui_form>
+            <sys_ui_section caption="Related records" display_value="Related records" name="x_cdltd_contractsy_contract_request" sys_domain="global" view="Default view">36dd8f17303302107f443ea7e1781856</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-09 07:42:48</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_cdltd_contractsy_contract_request</name>

@@ -5,6 +5,9 @@
         <element label="Active" max_length="40" name="u_active" type="boolean"/>
         <element label="Automatic renewal" max_length="40" name="u_automatic_renewal" type="boolean"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Configuration items" max_length="1024" name="u_configuration_items" reference="cmdb_ci" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Contract almost expired reminder" max_length="40" name="u_contract_almost_expired_reminder" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Contract expired reminder" max_length="40" name="u_contract_expired_reminder" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Contract renewal reminder" max_length="40" name="u_contract_renewal_reminder" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="part-time" label="Contract type" mandatory="true" max_length="40" name="u_contract_type" type="string">
             <choice>
                 <element inactive_on_update="false" label="Part-time" sequence="0" value="part-time"/>
@@ -17,6 +20,7 @@
         <element label="Dependent" mandatory="true" max_length="32" name="u_dependent" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="End date" mandatory="true" max_length="40" name="u_end_date" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" label="Start date" mandatory="true" max_length="40" name="u_start_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Thank you message reminder" max_length="40" name="u_thank_you_message_reminder" type="glide_date_time"/>
         <index name="index">
             <element name="sys_class_name"/>
         </index>

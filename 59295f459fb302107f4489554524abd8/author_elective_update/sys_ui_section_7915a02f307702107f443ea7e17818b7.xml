@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="7915a02f307702107f443ea7e17818b7" sys_domain="global" table="x_cdltd_contractsy_contract" version="3" view="Self_Service">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-09 14:03:55</sys_created_on>
+            <sys_id>f915242f307702107f443ea7e1781824</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_contractsy_contract" sys_domain="global" view="ad15a02f307702107f443ea7e17818b3">7915a02f307702107f443ea7e17818b7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-09 14:03:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_dependent</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-09 14:03:55</sys_created_on>
+            <sys_id>7115242f307702107f443ea7e1781825</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_contractsy_contract" sys_domain="global" view="ad15a02f307702107f443ea7e17818b3">7915a02f307702107f443ea7e17818b7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-09 14:03:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_contract_type</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-09 14:03:55</sys_created_on>
+            <sys_id>f115242f307702107f443ea7e1781825</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_contractsy_contract" sys_domain="global" view="ad15a02f307702107f443ea7e17818b3">7915a02f307702107f443ea7e17818b7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-09 14:03:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_start_date</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-09 14:03:55</sys_created_on>
+            <sys_id>7515242f307702107f443ea7e1781825</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_contractsy_contract" sys_domain="global" view="ad15a02f307702107f443ea7e17818b3">7915a02f307702107f443ea7e17818b7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-09 14:03:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_end_date</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-09 14:03:55</sys_created_on>
+            <sys_id>f515242f307702107f443ea7e1781825</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_contractsy_contract" sys_domain="global" view="ad15a02f307702107f443ea7e17818b3">7915a02f307702107f443ea7e17818b7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-09 14:03:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_automatic_renewal</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-09 14:03:55</sys_created_on>
+            <sys_id>7915242f307702107f443ea7e1781825</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_contractsy_contract" sys_domain="global" view="ad15a02f307702107f443ea7e17818b3">7915a02f307702107f443ea7e17818b7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-09 14:03:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_configuration_items</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-09 14:03:55</sys_created_on>
+            <sys_id>f915242f307702107f443ea7e1781825</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_contractsy_contract" sys_domain="global" view="ad15a02f307702107f443ea7e17818b3">7915a02f307702107f443ea7e17818b7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-09 14:03:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_active</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-09 14:03:55</sys_created_on>
+            <sys_id>7d15242f307702107f443ea7e1781825</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_contractsy_contract" sys_domain="global" view="ad15a02f307702107f443ea7e17818b3">7915a02f307702107f443ea7e17818b7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-09 14:03:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_cdltd_contractsy_contract</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-09 14:03:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7915a02f307702107f443ea7e17818b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_cdltd_contractsy_contract</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+            <sys_update_name>sys_ui_section_7915a02f307702107f443ea7e17818b7</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-09 14:03:55</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Self_service" name="Self_Service">ad15a02f307702107f443ea7e17818b3</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ContractSync">59295f459fb302107f4489554524abd8</application>
+        <file_path/>
+        <instance_id>b38cc51487ef86d0912d0f6d0ebb3570</instance_id>
+        <instance_name>nowlearning-nlinst01898695-0001</instance_name>
+        <name>sys_ui_section_7915a02f307702107f443ea7e17818b7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="7915a02f307702107f443ea7e17818b7" sys_domain="global" table="x_cdltd_contractsy_contract" version="3" view="Self_Service"><sys_ui_element action="INSERT_OR_UPDATE"><element>number</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-09 14:03:55</sys_created_on><sys_id>f915242f307702107f443ea7e1781824</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_cdltd_contractsy_contract" sys_domain="global" view="ad15a02f307702107f443ea7e17818b3">7915a02f307702107f443ea7e17818b7</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-09 14:03:55</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_dependent</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-09 14:03:55</sys_created_on><sys_id>7115242f307702107f443ea7e1781825</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_cdltd_contractsy_contract" sys_domain="global" view="ad15a02f307702107f443ea7e17818b3">7915a02f307702107f443ea7e17818b7</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-09 14:03:55</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_contract_type</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-09 14:03:55</sys_created_on><sys_id>f115242f307702107f443ea7e1781825</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_cdltd_contractsy_contract" sys_domain="global" view="ad15a02f307702107f443ea7e17818b3">7915a02f307702107f443ea7e17818b7</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-09 14:03:55</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_start_date</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-09 14:03:55</sys_created_on><sys_id>7515242f307702107f443ea7e1781825</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_cdltd_contractsy_contract" sys_domain="global" view="ad15a02f307702107f443ea7e17818b3">7915a02f307702107f443ea7e17818b7</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-09 14:03:55</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_end_date</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-09 14:03:55</sys_created_on><sys_id>f515242f307702107f443ea7e1781825</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_cdltd_contractsy_contract" sys_domain="global" view="ad15a02f307702107f443ea7e17818b3">7915a02f307702107f443ea7e17818b7</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-09 14:03:55</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_automatic_renewal</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-09 14:03:55</sys_created_on><sys_id>7915242f307702107f443ea7e1781825</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_cdltd_contractsy_contract" sys_domain="global" view="ad15a02f307702107f443ea7e17818b3">7915a02f307702107f443ea7e17818b7</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-09 14:03:55</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_configuration_items</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-09 14:03:55</sys_created_on><sys_id>f915242f307702107f443ea7e1781825</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_cdltd_contractsy_contract" sys_domain="global" view="ad15a02f307702107f443ea7e17818b3">7915a02f307702107f443ea7e17818b7</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-09 14:03:55</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_active</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-09 14:03:55</sys_created_on><sys_id>7d15242f307702107f443ea7e1781825</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_cdltd_contractsy_contract" sys_domain="global" view="ad15a02f307702107f443ea7e17818b3">7915a02f307702107f443ea7e17818b7</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-09 14:03:55</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_cdltd_contractsy_contract</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-09 14:03:55</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7915a02f307702107f443ea7e17818b7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_cdltd_contractsy_contract</sys_name><sys_overrides/><sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package><sys_policy/><sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope><sys_update_name>sys_ui_section_7915a02f307702107f443ea7e17818b7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-09 14:03:55</sys_updated_on><sys_user/><title>false</title><view display_value="Self_service" name="Self_Service">ad15a02f307702107f443ea7e17818b3</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>837344056</payload_hash>
+        <record_name>Contract</record_name>
+        <reverted_from/>
+        <source>a44a9f859fb302107f4489554524abfb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-09 14:03:55</sys_created_on>
+        <sys_id>3515242f307702107f443ea7e1781828</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191377402db0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-09 14:03:55</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>b915242fc1770210d4391d258f760227</update_guid>
+        <update_guid_history>b915242fc1770210d4391d258f760227:837344056</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-09 14:22:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>8391bcfd19354f00ba18981861421000</sys_id>
+        <sys_metadata>7915a02f307702107f443ea7e17818b7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cdltd_contractsy_contract</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_parent display_value="Contract">723f36bd9ff702107f4489554524ab02</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_scope_delete display_value="">0f884f882080471e972317895cfe61a4</sys_scope_delete>
+        <sys_update_name>sys_ui_section_7915a02f307702107f443ea7e17818b7</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_7915a02f307702107f443ea7e17818b7">3515242f307702107f443ea7e1781828</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-09 14:22:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
