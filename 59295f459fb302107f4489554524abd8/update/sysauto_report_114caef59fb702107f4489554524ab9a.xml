@@ -6,7 +6,7 @@
         <condition/>
         <conditional>false</conditional>
         <entered_time/>
-        <group_list>8b03134d9f7302107f4489554524abdb,8ea3db4d9f7302107f4489554524ab66,2b407d659f7302107f4489554524abbb</group_list>
+        <group_list name="ContractSync Service desk">2b407d659f7302107f4489554524abbb</group_list>
         <include_detail>false</include_detail>
         <include_with/>
         <max_drift/>
@@ -14,12 +14,12 @@
         <offset/>
         <offset_type>0</offset_type>
         <omit_if_no_records>true</omit_if_no_records>
-        <output_type>PDF-landscape</output_type>
+        <output_type>PDF</output_type>
         <page_height_in_pixels>612</page_height_in_pixels>
         <page_size>Letter</page_size>
         <page_width_in_pixels>792</page_width_in_pixels>
         <report display_value="Contract Requests by State or Contract type">8be8e6f19fb702107f4489554524ab48</report>
-        <report_body><![CDATA[<p><span style="text-decoration: underline;"><em><strong>Here is your weekly "Contract Requests by State or Contract type" report&nbsp;</strong></em></span></p>]]></report_body>
+        <report_body><![CDATA[<p><span style="text-decoration: underline;"><strong>Good morning Contractsync Service desk Team, here is your weekly "Contract Requests by State or Contract type" report.</strong></span></p>]]></report_body>
         <report_title>Here is your weekly "Contract Requests by State or Contract type" report </report_title>
         <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
         <run_as_tz/>
@@ -33,14 +33,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-04 13:26:34</sys_created_on>
         <sys_id>114caef59fb702107f4489554524ab9a</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Scheduled execution of Contract Requests by State or Contract type or Automatic renewal</sys_name>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
         <sys_policy/>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_update_name>sysauto_report_114caef59fb702107f4489554524ab9a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-07 18:59:30</sys_updated_on>
+        <sys_updated_on>2024-08-10 22:00:58</sys_updated_on>
         <time_zone/>
         <upgrade_safe>false</upgrade_safe>
         <user_list/>

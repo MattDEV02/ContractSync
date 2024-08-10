@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Set Contract Request Description value on Automatic renewal change.</description>
+        <field>u_automatic_renewal</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Set CONR description on Auto. ren change</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    // Set Contract Request Description value on requested for change with form data.
+
+    var assignmentGroup = g_form.getDisplayBox("assignment_group").value;
+    var assignedtTo = g_form.getDisplayBox("assigned_to").value;
+    var priority = g_form.getValue("priority");
+
+    var requestedFor = g_form.getDisplayBox("requested_for").value;
+    var contractType = g_form.getValue("u_contract_type");
+    var automaticRenewal = g_form.getValue("u_automatic_renewal") == "true" ? "automatic renewal " : "";
+    var configurationItems = g_form.getValue("u_configuration_items");
+    var startDate = g_form.getValue("u_start_date");
+    var endDate = g_form.getValue("u_end_date");
+
+    var recipient = assignedtTo ? assignedtTo : assignmentGroup;
+    var configurationItemsNumber = configurationItems == "" ? 0 : configurationItems.split(",").length;
+	var priorityText = g_form.getOption("priority", priority).text;
+
+    var newDescription = "Please " + recipient + ", create a new " + automaticRenewal + contractType + " Contract for " + requestedFor + " with " + configurationItemsNumber + " Configuration items. \n \nOther informations: \n \n" + "   - Request priority: " + priorityText + ". \n \n   - Start date: " + startDate + ". \n \n   - End date: " + endDate + ".\n \n";
+
+	if(!g_form.getElement("x_cdltd_contractsy_contract_request.description").readonly) {
+		g_form.setValue("description", newDescription, "Description");
+	}
+	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-10 21:36:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0c565bfbb03302107f44ec286d6fc308</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set CONR description on Auto. ren change</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name>sys_script_client_0c565bfbb03302107f44ec286d6fc308</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-10 21:36:42</sys_updated_on>
+        <table>x_cdltd_contractsy_contract_request</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

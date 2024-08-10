@@ -6,7 +6,7 @@
         <sys_class_name>sys_data_policy_rule</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-07 15:57:05</sys_created_on>
-        <sys_data_policy display_value="Mandatory and Read-only Contract Requests Fields">182b623e9f7b02107f4489554524abcc</sys_data_policy>
+        <sys_data_policy display_value="Mandatory Contract Requests Fields">182b623e9f7b02107f4489554524abcc</sys_data_policy>
         <sys_id>71cbee3e9f7b02107f4489554524ab14</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>short_description</sys_name>
