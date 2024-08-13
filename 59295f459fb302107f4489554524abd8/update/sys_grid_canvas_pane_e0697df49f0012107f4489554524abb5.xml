@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
     <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
         <grid_canvas display_value="PA Contract Requests Da - New Tab 2">19f5de3d9f3702107f4489554524ab72</grid_canvas>
-        <height>3</height>
-        <portal_widget display_value="Created 2024-08-05 19:54:25">f0fe45929f7f02107f4489554524ab41</portal_widget>
-        <posx>3</posx>
-        <posy>4</posy>
+        <height>14</height>
+        <portal_widget display_value="Created 2024-08-13 17:24:36">28697df49f0012107f4489554524abb3</portal_widget>
+        <posx>0</posx>
+        <posy>22</posy>
         <sys_class_name>sys_grid_canvas_pane</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-08-05 19:54:25</sys_created_on>
-        <sys_id>30fe45929f7f02107f4489554524ab43</sys_id>
-        <sys_mod_count>57</sys_mod_count>
+        <sys_created_on>2024-08-13 17:24:36</sys_created_on>
+        <sys_id>e0697df49f0012107f4489554524abb5</sys_id>
+        <sys_mod_count>46</sys_mod_count>
         <sys_name>19f5de3d9f3702107f4489554524ab72</sys_name>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
         <sys_policy/>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
-        <sys_update_name>sys_grid_canvas_pane_30fe45929f7f02107f4489554524ab43</sys_update_name>
+        <sys_update_name>sys_grid_canvas_pane_e0697df49f0012107f4489554524abb5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-13 18:04:03</sys_updated_on>
-        <width>3</width>
+        <sys_updated_on>2024-08-13 18:13:33</sys_updated_on>
+        <width>6</width>
     </sys_grid_canvas_pane>
 </record_update>

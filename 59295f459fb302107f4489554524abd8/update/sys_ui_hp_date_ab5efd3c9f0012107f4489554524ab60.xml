@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_hp_date">
+    <sys_ui_hp_date action="INSERT_OR_UPDATE">
+        <date_field>due_date</date_field>
+        <date_table>x_cdltd_contractsy_contract_task</date_table>
+        <publisher_reference display_value="Contract Tasks Due date filter">855e7d3c9f0012107f4489554524ab24</publisher_reference>
+        <sys_class_name>sys_ui_hp_date</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-13 17:46:50</sys_created_on>
+        <sys_id>ab5efd3c9f0012107f4489554524ab60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>855e7d3c9f0012107f4489554524ab24</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name>sys_ui_hp_date_ab5efd3c9f0012107f4489554524ab60</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-13 17:46:50</sys_updated_on>
+    </sys_ui_hp_date>
+</record_update>

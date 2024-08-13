@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="DELETE">
+        <grid_canvas display_value="PA Contract Requests Da - New Tab 2">19f5de3d9f3702107f4489554524ab72</grid_canvas>
+        <height>19</height>
+        <portal_widget display_value="Created 2024-08-13 17:22:22">ffd839f49f0012107f4489554524ab6f</portal_widget>
+        <posx>0</posx>
+        <posy>69</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-13 17:22:23</sys_created_on>
+        <sys_id>80e83df49f0012107f4489554524abd2</sys_id>
+        <sys_mod_count>48</sys_mod_count>
+        <sys_name>19f5de3d9f3702107f4489554524ab72</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_80e83df49f0012107f4489554524abd2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-13 17:34:13</sys_updated_on>
+        <width>12</width>
+    </sys_grid_canvas_pane>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ContractSync">59295f459fb302107f4489554524abd8</application>
+        <file_path/>
+        <instance_id>b38cc51487ef86d0912d0f6d0ebb3570</instance_id>
+        <instance_name>nowlearning-nlinst01898695-0001</instance_name>
+        <name>sys_grid_canvas_pane_80e83df49f0012107f4489554524abd2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane"><sys_grid_canvas_pane action="INSERT_OR_UPDATE"><grid_canvas display_value="PA Contract Requests Da - New Tab 2">19f5de3d9f3702107f4489554524ab72</grid_canvas><height>19</height><portal_widget display_value="Created 2024-08-13 17:22:22">ffd839f49f0012107f4489554524ab6f</portal_widget><posx>0</posx><posy>69</posy><sys_class_name>sys_grid_canvas_pane</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-13 17:22:23</sys_created_on><sys_id>80e83df49f0012107f4489554524abd2</sys_id><sys_mod_count>48</sys_mod_count><sys_name>19f5de3d9f3702107f4489554524ab72</sys_name><sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package><sys_policy/><sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope><sys_update_name>sys_grid_canvas_pane_80e83df49f0012107f4489554524abd2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-13 17:34:13</sys_updated_on><width>12</width></sys_grid_canvas_pane></record_update>]]></payload>
+        <payload_hash>-821699391</payload_hash>
+        <record_name>19f5de3d9f3702107f4489554524ab72</record_name>
+        <reverted_from/>
+        <source>52cf31af307b02107f443ea7e1781820</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-13 17:34:13</sys_created_on>
+        <sys_id>999b79b89f0012107f4489554524ab5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1914ccdfbdc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-13 17:34:13</sys_updated_on>
+        <type>Grid Canvas Pane</type>
+        <update_guid>519b79b8f90012100dc9ec3caa53685e</update_guid>
+        <update_guid_history>519b79b8f90012100dc9ec3caa53685e:-821699391,338b75b80900121066adf76214186269:-491251904,5b8b39b877001210b064da2b3b14f3fc:500090557,e68b39b89a001210f14c78046b586dc9:1491433018,f98b39b8760012104387b1ecb167443a:-2142639304,1d8b39b832001210c5b81d07c4fd4235:-1967624796,bc8b39b877001210317a3f8c2ab85302:-976282335,048bb5b8d10012108ced0cb16ed88953:666352055,077bb5b85e0012101a9414862b0e4ca1:45741983,e67b35b8040012101f55d7eedea41698:-672140200,957bf5b86f0012109528cd03008c9855:240286205,907bf1b865001210f03b087935b1edb6:751298364,f16bf1b8f40012105e7bca35cedb4d77:240286205,a46b35b80c00121027d19c093ec9d8b0:641700451,275bbd7849001210ca2438db8cb441c2:-1098206050,9a5bf9788d001210852462336beefb11:1152712610,9d5b71b8aa001210d73d7a9548d94ec6:-1098206050,424bb1b84c001210fade5999504d5fff:-76181732,894b75784e0012106e738333a74473d0:836244673,f63b71b8eb001210af2570cbef41ed56:-903661828,ca1b39789400121058d5a53e7afdc600:-392649669,641b31b81c0012106c3cc43c492f3cf6:-1524271900,730bbd7826001210625c062da1541182:-502247582,dadab978d200121022f53da44d476f4b:-1731141924,94bab978ba0012101e394e48e3a7bf5c:-1400694437,86aa79787b001210b151f3a1b8b696df:1361236382,007ab5785900121022328fbb975c1dee:-1704836572,6c6a357880001210a820143931e28107:-1084226500,454a35780f00121078c13db7dcc79f10:1677704319,504af178a30012104d5807d6e987dfe2:254265755,db3af1786200121096f913c878599180:972147938,ce3ab178e0001210671b29682b60bea2:-451290626,293ab1780c001210a8d444ce2edeb978:-1874729190,143a7178970012100362d7808e9625b7:376189470,64a97938ae00121023067f925f7c73b4:-536236935,2f9979382000121038097f4755516c1b:-1874729190,c1993938f3001210d93642960337c667:1081745851,a389f5384f001210a63b219c62fd8a94:-256746404,af79b538df001210e8b10c769d77f807:-1595238659,b46935386b0012100594f273f2fff5b3:1361236382,0339b138e80012106c06acbd6fea5269:22744127,5639b138f800121092ebcfbafc505f00:-1400694437,9839bdf4e00012103fb67158254d8ee4:-682812254,922971380f001210de17e117ca7de82a:-2021304509,fd09bdf418001210e08b16992194b8c8:-293536160,4909b9f4a0001210c88b3d8f93fac086:-996932417,6c09f9f44000121016fa5dcf3a2689ba:536104060,9ff8b9f43b0012100b493a941c8ec1bc:-194257019,40e83df4e1001210fee2dfaef38d5cd4:1849791617</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-13 17:40:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_grid_canvas_pane">sys_grid_canvas_pane</sys_db_object>
+        <sys_id>037c926f28be40ec8299ee4fbc14a199</sys_id>
+        <sys_metadata>80e83df49f0012107f4489554524abd2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>19f5de3d9f3702107f4489554524ab72</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_scope_delete display_value="">0f884f882080471e972317895cfe61a4</sys_scope_delete>
+        <sys_update_name>sys_grid_canvas_pane_80e83df49f0012107f4489554524abd2</sys_update_name>
+        <sys_update_version display_value="sys_grid_canvas_pane_80e83df49f0012107f4489554524abd2">999b79b89f0012107f4489554524ab5e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-13 17:40:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

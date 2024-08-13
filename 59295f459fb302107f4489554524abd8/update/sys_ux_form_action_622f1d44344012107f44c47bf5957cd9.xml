@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action">
+    <sys_ux_form_action action="INSERT_OR_UPDATE">
+        <action_type>ui_action</action_type>
+        <active>true</active>
+        <declarative_action/>
+        <description/>
+        <name>Make in progress</name>
+        <specificity>30</specificity>
+        <sys_class_name>sys_ux_form_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-11 07:34:37</sys_created_on>
+        <sys_id>622f1d44344012107f44c47bf5957cd9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Make in progress</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name>sys_ux_form_action_622f1d44344012107f44c47bf5957cd9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-11 07:34:37</sys_updated_on>
+        <table>x_cdltd_contractsy_contract_request</table>
+        <ui_action display_value="Make in progress">749e5144344012107f44c47bf5957cac</ui_action>
+    </sys_ux_form_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=622f1d44344012107f44c47bf5957cd9"/>
+</record_update>
