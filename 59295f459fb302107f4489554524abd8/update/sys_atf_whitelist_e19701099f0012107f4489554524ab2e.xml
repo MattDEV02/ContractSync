@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_whitelist">
+    <sys_atf_whitelist action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <error_location>server_error</error_location>
+        <error_message>com.glide.ui.concourse.ConcoursePickerGenerator$ConcoursePickerException: com.glide.rest.domain.Serv</error_message>
+        <report_level>ignored</report_level>
+        <sys_class_name>sys_atf_whitelist</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-14 08:25:32</sys_created_on>
+        <sys_id>e19701099f0012107f4489554524ab2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>com.glide.ui.concourse.ConcoursePickerGenerator$ConcoursePickerException: com.glide.rest.domain.Serv</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name>sys_atf_whitelist_e19701099f0012107f4489554524ab2e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-14 08:25:32</sys_updated_on>
+        <test display_value="Submit ContractSync Contract Request form test">15ca4d229f7702107f4489554524abe8</test>
+    </sys_atf_whitelist>
+</record_update>

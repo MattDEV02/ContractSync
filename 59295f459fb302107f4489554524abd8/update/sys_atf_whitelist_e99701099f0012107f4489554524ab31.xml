@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_whitelist">
+    <sys_atf_whitelist action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>This client error occurred on the page in Chrome 127.0.0.0</description>
+        <error_location>client_error</error_location>
+        <error_message>onChange script error: TypeError: Cannot read properties of null (reading 'text')
+function () { [nat</error_message>
+        <report_level>ignored</report_level>
+        <sys_class_name>sys_atf_whitelist</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-14 08:25:32</sys_created_on>
+        <sys_id>e99701099f0012107f4489554524ab31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>onChange script error: TypeError: Cannot read properties of null (reading 'text')
+function () { [nat</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name>sys_atf_whitelist_e99701099f0012107f4489554524ab31</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-14 08:25:32</sys_updated_on>
+        <test display_value="Submit ContractSync Contract Request form test">15ca4d229f7702107f4489554524abe8</test>
+    </sys_atf_whitelist>
+</record_update>

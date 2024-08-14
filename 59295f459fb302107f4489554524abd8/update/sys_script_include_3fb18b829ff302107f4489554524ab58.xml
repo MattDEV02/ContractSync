@@ -53,7 +53,8 @@ ContractUtils.prototype = {
      *
      **********/
     getActiveAutomaticRenewalContracts: function() {
-        var activeAutomaticRenewalContracts = [];
+        
+		var activeAutomaticRenewalContracts = [];
 
         var noticeTime = new GlideDateTime();
         noticeTime.add(this.expiryNotificationDaysTime);
@@ -66,9 +67,10 @@ ContractUtils.prototype = {
         activeAutomaticRenewalContractsGR.addQuery("u_automatic_renewal", true);
         activeAutomaticRenewalContractsGR.addQuery("u_end_date", ">=", rightNow);
         activeAutomaticRenewalContractsGR.addQuery("u_end_date", "<=", noticeTime);
-        activeAlmostExpiredContractsGR.addQuery("u_contract_renewal_reminder", "<=", rightNow);
+        activeAutomaticRenewalContractsGR.addQuery("u_contract_renewal_reminder", "");
 
         activeAutomaticRenewalContractsGR.query();
+		
         while (activeAutomaticRenewalContractsGR.next()) {
             activeAutomaticRenewalContracts.push(
                 activeAutomaticRenewalContractsGR.sys_id.toString(),
@@ -138,15 +140,13 @@ ContractUtils.prototype = {
         activeExpiredContractsGR.addQuery("u_active", true);
         activeExpiredContractsGR.addQuery("u_automatic_renewal", false);
         activeExpiredContractsGR.addQuery("u_end_date", "<=", rightNow);
-        activeAutomaticRenewalContractsGR.addQuery("u_contract_expired_reminder", "<=", rightNow);
+        activeExpiredContractsGR.addQuery("u_contract_expired_reminder", rightNow);
         activeExpiredContractsGR.query();
 
         while (activeExpiredContractsGR.next()) {
-            if(activeExpiredContractsGR.u_contract_expired_reminder <= activeExpiredContractsGR.u_end_date) {
-                activeExpiredContracts.push(
-                    activeExpiredContractsGR.sys_id.toString(),
-                );
-            }
+           activeExpiredContracts.push(
+              activeExpiredContractsGR.sys_id.toString(),
+           );
         }
         return activeExpiredContracts;
     },
@@ -213,7 +213,7 @@ ContractUtils.prototype = {
         activeAlmostExpiredContractsGR.addQuery("u_automatic_renewal", false); 
         activeAlmostExpiredContractsGR.addQuery("u_end_date", ">=", rightNow);
         activeAlmostExpiredContractsGR.addQuery("u_end_date", "<=", noticeTime);
-        activeAlmostExpiredContractsGR.addQuery("u_contract_almost_expired_reminder", "<=", rightNow);
+        activeAlmostExpiredContractsGR.addQuery("u_contract_almost_expired_reminder", rightNow);
         activeAlmostExpiredContractsGR.query();
 
         while (activeAlmostExpiredContractsGR.next()) {
@@ -312,7 +312,7 @@ ContractUtils.prototype = {
         } 
 
         // Send the Contract Configuration item/s Credentials email notification
-
+		
         gs.eventQueue(
             this.contractActivated,
             contractCreatedOnToday,
@@ -418,13 +418,13 @@ ContractUtils.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-05 10:27:17</sys_created_on>
         <sys_id>3fb18b829ff302107f4489554524ab58</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_name>ContractUtils</sys_name>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
         <sys_policy>protected</sys_policy>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_update_name>sys_script_include_3fb18b829ff302107f4489554524ab58</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-09 14:35:34</sys_updated_on>
+        <sys_updated_on>2024-08-14 10:26:18</sys_updated_on>
     </sys_script_include>
 </record_update>
