@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
     <sys_report_users_groups action="INSERT_OR_UPDATE">
         <group_id/>
-        <report_id display_value="Contracts by Automatic renewal">431d4337b03302107f44ec286d6fc3b0</report_id>
+        <report_id display_value="Contracts by Automatic renewal or Active">431d4337b03302107f44ec286d6fc3b0</report_id>
         <sys_class_name>sys_report_users_groups</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-10 20:56:30</sys_created_on>

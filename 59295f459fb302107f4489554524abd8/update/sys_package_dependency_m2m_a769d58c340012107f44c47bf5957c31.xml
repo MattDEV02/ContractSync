@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Approval Engine" source="com.snc.approvals">395019d770a231107f44a29f360a7896</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-11 07:09:34</sys_created_on>
+        <sys_id>a769d58c340012107f44c47bf5957c31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-11 07:09:34</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

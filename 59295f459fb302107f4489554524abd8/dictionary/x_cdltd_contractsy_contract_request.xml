@@ -3,7 +3,7 @@
         <element label="Automatic renewal" max_length="40" name="u_automatic_renewal" type="boolean"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Configuration items" max_length="1024" name="u_configuration_items" reference="cmdb_ci" type="glide_list"/>
         <element attributes="encode_utf8=false" label="Contract" max_length="32" name="u_contract" reference="x_cdltd_contractsy_contract" type="reference"/>
-        <element attributes="encode_utf8=false" label="Contract approval" max_length="32" name="u_contract_approval" reference="sysapproval_approver" reference_qual="sysapprovalLIKECONR^EQ" reference_qual_condition="sysapprovalLIKECONR^EQ" type="reference" use_dependent_field="true"/>
+        <element attributes="encode_utf8=false" label="Manager approval" max_length="32" name="u_contract_approval" reference="sysapproval_approver" reference_qual="sysapprovalLIKECONR^EQ" reference_qual_condition="sysapprovalLIKECONR^EQ" type="reference" use_dependent_field="true"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="part-time" label="Contract Type" mandatory="true" max_length="40" name="u_contract_type" type="string">
             <choice>
                 <element inactive_on_update="false" label="Part-time" sequence="0" value="part-time"/>

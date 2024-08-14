@@ -13,7 +13,7 @@
         <mobile_title>2</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name/>
-        <order>24</order>
+        <order>25</order>
         <override_menu_roles>false</override_menu_roles>
         <query>/kb_view.do?sys_kb_id=e9350e6330bb02107f443ea7e17818ee&amp;preview_article=true</query>
         <report/>
@@ -24,7 +24,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>cfe5c2a330bb02107f443ea7e1781847</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>How can I send Contract Requests?</sys_name>
         <sys_overrides/>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
@@ -32,7 +32,7 @@
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_update_name>sys_app_module_cfe5c2a330bb02107f443ea7e1781847</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-10 14:11:30</sys_updated_on>
+        <sys_updated_on>2024-08-14 19:07:23</sys_updated_on>
         <timeline_page/>
         <title>How can I send Contract Requests?</title>
         <uncancelable>false</uncancelable>

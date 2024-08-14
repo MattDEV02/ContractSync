@@ -13,7 +13,7 @@
         <mobile_title>How can I see my Contracts?</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name/>
-        <order>23</order>
+        <order>24</order>
         <override_menu_roles>false</override_menu_roles>
         <query>/kb_view.do?sys_kb_id=c914c26330bb02107f443ea7e1781833&amp;preview_article=true</query>
         <report/>
@@ -24,7 +24,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8aa50e6330bb02107f443ea7e1781855</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>How can I see my Contracts?</sys_name>
         <sys_overrides/>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
@@ -32,7 +32,7 @@
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_update_name>sys_app_module_8aa50e6330bb02107f443ea7e1781855</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-10 06:42:51</sys_updated_on>
+        <sys_updated_on>2024-08-14 19:07:21</sys_updated_on>
         <timeline_page/>
         <title>How can I see my Contracts?</title>
         <uncancelable>false</uncancelable>
