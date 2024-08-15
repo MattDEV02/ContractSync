@@ -38,10 +38,10 @@
     }
 
     function reverseDatesSubmit() {
-		current.setAbortAction(true);
+        current.setAbortAction(true);
         current.u_start_date = null;
         current.u_end_date = null;
-		current.update();
+        current.update();
     }
 
     // Validate Contract Start and end Date
@@ -58,20 +58,20 @@
 
     var startTodayDatesDifferenceInMs = datesDifferenceInMs(gdToday, gdStartDate);
     var startTodayDatesDifferenceInDays = numericDateMsToDays(startTodayDatesDifferenceInMs);
-   
+
     var minEndStartDatesDifferenceInDays = gs.getProperty("x_cdltd_contractsy.contract.minDatesDifferenceInDays", 60);
-	
-	    var overdueDaysBeforeStartDate = gs.getProperty("x_cdltd_contractsy.contract.overdue.daysBeforeStartDate", 14);
+
+    var overdueDaysBeforeStartDate = gs.getProperty("x_cdltd_contractsy.contract.overdue.daysBeforeStartDate", 14);
 
     if (startTodayDatesDifferenceInDays <= overdueDaysBeforeStartDate) {
-        gs.addErrorMessage("Error: Start date must be after today.");
-		reverseDatesSubmit();
-		
-    } 
-	
-	if (endStartDatesDifferenceInDays < minEndStartDatesDifferenceInDays) {
-        gs.addErrorMessage("Error: The minimum distance between the start and end date of the contract is 2 months, i.e. " + minEndStartDatesDifferenceInDays + " days.");
-		reverseDatesSubmit();
+         gs.addErrorMessage("Error: The minimum distance between the today and start date of the Contract is " + overdueDaysBeforeStartDate + " days.");
+        reverseDatesSubmit();
+
+    }
+
+    if (endStartDatesDifferenceInDays < minEndStartDatesDifferenceInDays) {
+        gs.addErrorMessage("Error: The minimum distance between the start and end date of the Contract is 2 months, i.e. " + minEndStartDatesDifferenceInDays + " days.");
+        reverseDatesSubmit();
     }
 
 })(current, previous);]]></script>
@@ -81,7 +81,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>30a6085d9f7702107f4489554524abe6</sys_id>
-        <sys_mod_count>31</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_name>Validate Contract Start and end Date</sys_name>
         <sys_overrides/>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
@@ -89,7 +89,7 @@
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_update_name>sys_script_30a6085d9f7702107f4489554524abe6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-15 10:35:16</sys_updated_on>
+        <sys_updated_on>2024-08-15 13:45:35</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>
