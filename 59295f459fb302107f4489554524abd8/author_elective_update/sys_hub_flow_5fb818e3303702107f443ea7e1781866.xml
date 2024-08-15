@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>package_private</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>labelCacheCleanUpExecuted=true</attributes>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Subflow to create a Contract Request in a remote ServiceNow instance.</description>
+        <internal_name>create_remote_contract_request_subflow</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Create remote Contract Request Subflow</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-09 13:09:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5fb818e3303702107f443ea7e1781866</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create remote Contract Request Subflow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name>sys_hub_flow_5fb818e3303702107f443ea7e1781866</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-09 13:09:57</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=5fb818e3303702107f443ea7e1781866"/>
+    <sys_variable_value action="DELETE" query="document_key=5fb818e3303702107f443ea7e1781866"/>
+    <sys_hub_trigger_instance action="DELETE" query="flow=5fb818e3303702107f443ea7e1781866"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=5fb818e3303702107f443ea7e1781866"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=5fb818e3303702107f443ea7e1781866^sys_idNOT IN5bb818e3303702107f443ea7e1781867"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>5fb818e3303702107f443ea7e1781866</id>
+        <name>Create remote Contract Request Subflow</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-09 13:09:57</sys_created_on>
+        <sys_id>5bb818e3303702107f443ea7e1781867</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-09 13:09:57</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=5bb818e3303702107f443ea7e1781867"/>
+    <sys_hub_flow_input action="DELETE" query="model=5fb818e3303702107f443ea7e1781866"/>
+    <sys_hub_flow_output action="DELETE" query="model=5fb818e3303702107f443ea7e1781866"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=5fb818e3303702107f443ea7e1781866"/>
+    <sys_hub_action_instance action="DELETE" query="flow=5fb818e3303702107f443ea7e1781866"/>
+    <sys_hub_sub_flow_instance action="DELETE" query="flow=5fb818e3303702107f443ea7e1781866"/>
+    <sys_hub_flow_logic action="DELETE" query="flow=5fb818e3303702107f443ea7e1781866"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=5fb818e3303702107f443ea7e1781866"/>
+    <sys_hub_flow_variable action="DELETE" query="model=5fb818e3303702107f443ea7e1781866"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_5fb818e3303702107f443ea7e1781866"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_5fb818e3303702107f443ea7e1781866"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_output_5fb818e3303702107f443ea7e1781866"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_5fb818e3303702107f443ea7e1781866"/>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=5fb818e3303702107f443ea7e1781866"/>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=5fb818e3303702107f443ea7e1781866"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ContractSync">59295f459fb302107f4489554524abd8</application>
+        <file_path/>
+        <instance_id>b38cc51487ef86d0912d0f6d0ebb3570</instance_id>
+        <instance_name>nowlearning-nlinst01898695-0001</instance_name>
+        <name>sys_hub_flow_5fb818e3303702107f443ea7e1781866</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow"><sys_hub_flow action="INSERT_OR_UPDATE"><access>package_private</access><acls/><active>false</active><annotation/><attributes>labelCacheCleanUpExecuted=true</attributes><callable_by_client_api>false</callable_by_client_api><category/><compiler_build/><copied_from/><copied_from_name/><description>Subflow to create a Contract Request in a remote ServiceNow instance.</description><internal_name>create_remote_contract_request_subflow</internal_name><label_cache>[]</label_cache><latest_snapshot/><master_snapshot/><name>Create remote Contract Request Subflow</name><natlang/><outputs/><pre_compiled>false</pre_compiled><remote_trigger_id/><run_as>user</run_as><run_with_roles/><sc_callable>false</sc_callable><show_draft_actions>false</show_draft_actions><show_triggered_flows>false</show_triggered_flows><status>draft</status><sys_class_name>sys_hub_flow</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-09 13:09:57</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5fb818e3303702107f443ea7e1781866</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Create remote Contract Request Subflow</sys_name><sys_overrides/><sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package><sys_policy/><sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope><sys_update_name>sys_hub_flow_5fb818e3303702107f443ea7e1781866</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-09 13:09:57</sys_updated_on><type>subflow</type></sys_hub_flow><sys_translated_text action="delete_multiple" query="documentkey=5fb818e3303702107f443ea7e1781866"/><sys_variable_value action="delete_multiple" query="document_key=5fb818e3303702107f443ea7e1781866"/><sys_hub_trigger_instance action="delete_multiple" query="flow=5fb818e3303702107f443ea7e1781866"/><sys_hub_flow_stage action="delete_multiple" query="flow=5fb818e3303702107f443ea7e1781866"/><sys_flow_cat_variable_model action="delete_multiple" query="id=5fb818e3303702107f443ea7e1781866^sys_idNOT IN5bb818e3303702107f443ea7e1781867"/><sys_flow_cat_variable_model action="INSERT_OR_UPDATE"><id>5fb818e3303702107f443ea7e1781866</id><name>Create remote Contract Request Subflow</name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-09 13:09:57</sys_created_on><sys_id>5bb818e3303702107f443ea7e1781867</sys_id><sys_mod_count>0</sys_mod_count><sys_scope/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-09 13:09:57</sys_updated_on></sys_flow_cat_variable_model><sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=5bb818e3303702107f443ea7e1781867"/><sys_hub_flow_input action="delete_multiple" query="model=5fb818e3303702107f443ea7e1781866"/><sys_hub_flow_output action="delete_multiple" query="model=5fb818e3303702107f443ea7e1781866"/><sys_hub_alias_mapping action="delete_multiple" query="source_id=5fb818e3303702107f443ea7e1781866"/><sys_hub_action_instance action="delete_multiple" query="flow=5fb818e3303702107f443ea7e1781866"/><sys_hub_sub_flow_instance action="delete_multiple" query="flow=5fb818e3303702107f443ea7e1781866"/><sys_hub_flow_logic action="delete_multiple" query="flow=5fb818e3303702107f443ea7e1781866"/><sys_hub_pill_compound action="delete_multiple" query="attached_to=5fb818e3303702107f443ea7e1781866"/><sys_hub_flow_variable action="delete_multiple" query="model=5fb818e3303702107f443ea7e1781866"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_5fb818e3303702107f443ea7e1781866"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_5fb818e3303702107f443ea7e1781866"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_5fb818e3303702107f443ea7e1781866"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_5fb818e3303702107f443ea7e1781866"/><sys_flow_trigger_plan action="delete_multiple" query="plan_id=5fb818e3303702107f443ea7e1781866"/><sys_flow_subflow_plan action="delete_multiple" query="plan_id=5fb818e3303702107f443ea7e1781866"/></record_update>]]></payload>
+        <payload_hash>-499490978</payload_hash>
+        <record_name>Create remote Contract Request Subflow</record_name>
+        <reverted_from/>
+        <source>a44a9f859fb302107f4489554524abfb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-09 13:09:58</sys_created_on>
+        <sys_id>1bb81c27303702107f443ea7e17818ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19137429d9b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-09 13:09:58</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>5fb81c27e0370210784ff7273f6dc5ed</update_guid>
+        <update_guid_history>5fb81c27e0370210784ff7273f6dc5ed:-499490978</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-15 10:37:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>737eeb83be7848a398df24d5c920fe31</sys_id>
+        <sys_metadata>5fb818e3303702107f443ea7e1781866</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create remote Contract Request Subflow</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_scope_delete display_value="">0f884f882080471e972317895cfe61a4</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_5fb818e3303702107f443ea7e1781866</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_5fb818e3303702107f443ea7e1781866">1bb81c27303702107f443ea7e17818ee</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-15 10:37:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
