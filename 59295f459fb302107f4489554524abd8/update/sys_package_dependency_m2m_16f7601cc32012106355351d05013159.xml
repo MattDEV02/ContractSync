@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
     <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
-        <dependency display_value="Service Catalog Platform" source="com.glideapp.servicecatalog.platform">1c31591f70a231107f44a29f360a789a</dependency>
+        <dependency display_value="Service Catalog Platform" source="com.glideapp.servicecatalog.platform">ff74493f8d820210d0ad51af41866301</dependency>
         <min_version>1.0.0</min_version>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-02 08:48:40</sys_created_on>
-        <sys_id>9fc95b859fb302107f4489554524abfe</sys_id>
+        <sys_id>16f7601cc32012106355351d05013159</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
         <sys_updated_by>admin</sys_updated_by>

@@ -41,7 +41,7 @@
         <update_guid_history>e1a89015e7f70210955c7d06f05f2f0c:1440702745</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Can We Help You?.Contract Request">5c2998559ff702107f4489554524ab3c</sys_audit_delete>
+        <sys_audit_delete display_value="">5c2998559ff702107f4489554524ab3c</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-02 13:25:20</sys_created_on>

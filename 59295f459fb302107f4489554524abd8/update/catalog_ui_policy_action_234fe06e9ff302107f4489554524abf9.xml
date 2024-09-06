@@ -5,6 +5,8 @@
         <cleared>false</cleared>
         <disabled>true</disabled>
         <field/>
+        <field_message/>
+        <field_message_type/>
         <mandatory>ignore</mandatory>
         <order>100</order>
         <sys_class_name>catalog_ui_policy_action</sys_class_name>
@@ -21,6 +23,8 @@
         <sys_updated_on>2024-08-06 12:14:51</sys_updated_on>
         <table/>
         <ui_policy display_value="Make State Read-only - SC">381f606e9ff302107f4489554524ab6a</ui_policy>
+        <value/>
+        <value_action/>
         <variable>state</variable>
         <variable_set/>
         <visible>ignore</visible>

@@ -41,7 +41,7 @@
         <update_guid_history>8e5b993e4af30210a0b73ada4ce0608d:101013644</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_cdltd_contractsy_contract_task.x_cdltd_contractsy.service_desk">de6b9d3e9ff302107f4489554524abef</sys_audit_delete>
+        <sys_audit_delete display_value="">de6b9d3e9ff302107f4489554524abef</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-07 10:05:49</sys_created_on>

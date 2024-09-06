@@ -65,6 +65,7 @@
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>
+        <va_supported>false</va_supported>
         <variable_set/>
         <view/>
     </catalog_script_client>

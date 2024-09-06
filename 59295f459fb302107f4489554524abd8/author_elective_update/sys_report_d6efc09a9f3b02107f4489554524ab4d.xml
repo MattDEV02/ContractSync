@@ -182,7 +182,7 @@
         <update_guid_history>82daef5a14330210718d1fecdc6d0687:2002185367,82daef5a14330210718d1fecdc6d0687:2002185367,f1f7abd6c0330210841f45ef3759e315:1102076646,d6b0dc9a703b02100e1a4da5f4ed3096:-1501346806,4ba090da333b02104fff7ffddec8b79e:-846082482,62efc09a0a3b02108d645a5de9e8a16c:-223364061,eaefc09a993b0210dab098576e6af252:1879838176</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Map Contract Requests by Assigned to Location">d60b279a9f3302107f4489554524abc7</sys_audit_delete>
+        <sys_audit_delete display_value="">d60b279a9f3302107f4489554524abc7</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-06 07:16:21</sys_created_on>

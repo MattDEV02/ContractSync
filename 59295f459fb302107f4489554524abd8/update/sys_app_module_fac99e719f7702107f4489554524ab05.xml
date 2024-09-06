@@ -17,6 +17,7 @@
         <override_menu_roles>false</override_menu_roles>
         <query>$pa_dashboard.do?sysparm_dashboard=2b25523d9f3702107f4489554524ab50&amp;sysparm_tab=56d5923d9f3702107f4489554524ab24&amp;sysparm_cancelable=true&amp;sysparm_editable=undefined&amp;sysparm_active_panel=false</query>
         <report/>
+        <require_confirmation>false</require_confirmation>
         <roles>x_cdltd_contractsy.fulfiller,x_cdltd_contractsy.reviewer,x_cdltd_contractsy.service_desk</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>

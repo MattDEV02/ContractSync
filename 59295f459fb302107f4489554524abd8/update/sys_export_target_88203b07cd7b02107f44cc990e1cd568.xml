@@ -3,7 +3,7 @@
         <description>Contract Export Target for Contract Export Set CSV.</description>
         <file_path>/servicenow/midserver/ContractSync/Contracts/export/csv/{file_path}</file_path>
         <method>File on MID Server</method>
-        <mid_server display_value="localhost">8eae2b07cd7b02107f44cc990e1cd532</mid_server>
+        <mid_server display_value="">8eae2b07cd7b02107f44cc990e1cd532</mid_server>
         <name>Active Contracts Export Target</name>
         <sys_class_name>sys_export_target</sys_class_name>
         <sys_created_by>admin</sys_created_by>

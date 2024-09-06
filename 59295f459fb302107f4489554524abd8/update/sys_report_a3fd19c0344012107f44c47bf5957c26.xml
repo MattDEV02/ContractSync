@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report">
     <sys_report action="INSERT_OR_UPDATE">
+        <active>false</active>
         <additional_groupby/>
         <aggregate>COUNT</aggregate>
         <aggregation_source>no_override</aggregation_source>
@@ -70,7 +71,8 @@
         <location_field/>
         <lower_limit/>
         <map display_value="World">93b8a3a2d7101200bd4a4ebfae61033a</map>
-        <map_source display_value="Contract Tasks by Assigned to Location">ac5731b49f0012107f4489554524ab4d</map_source>
+        <map_source display_value="">ac5731b49f0012107f4489554524ab4d</map_source>
+        <no_bulk_migration>false</no_bulk_migration>
         <orderby_list/>
         <other_threshold>-2</other_threshold>
         <others>true</others>

@@ -10,6 +10,7 @@
         <managed_breakdown/>
         <managed_publisher/>
         <name>ContractSync Dashboard</name>
+        <no_bulk_migration>false</no_bulk_migration>
         <no_tabs>false</no_tabs>
         <notification_link_label/>
         <notification_link_url/>

@@ -6,6 +6,7 @@
         <caller_access/>
         <client_callable>true</client_callable>
         <description>AJAX script include that generates a new unique number by Table prefix parameter.</description>
+        <mobile_callable>false</mobile_callable>
         <name>NumberGeneratorAjaxProcessor</name>
         <script><![CDATA[var NumberGeneratorAjaxProcessor = Class.create();
 NumberGeneratorAjaxProcessor.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {

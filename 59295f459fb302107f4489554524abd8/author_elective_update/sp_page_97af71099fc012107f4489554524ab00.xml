@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="DELETE">
+        <category>custom</category>
+        <css/>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <human_readable_url_structure/>
+        <id>my_contract_requests</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>false</public>
+        <roles/>
+        <seo_script/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-14 12:30:35</sys_created_on>
+        <sys_id>97af71099fc012107f4489554524ab00</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>my_contract_requests</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name>sp_page_97af71099fc012107f4489554524ab00</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-14 12:30:35</sys_updated_on>
+        <title>My Contract Requests - Test Page</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="DELETE" query="documentkey=97af71099fc012107f4489554524ab00"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ContractSync">59295f459fb302107f4489554524abd8</application>
+        <file_path/>
+        <instance_id>384aedd4db393dd0199b17291396199b</instance_id>
+        <instance_name>dev182233</instance_name>
+        <name>sp_page_97af71099fc012107f4489554524ab00</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <css/>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <human_readable_url_structure/>
+        <id>my_contract_requests</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>false</public>
+        <roles/>
+        <seo_script/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-14 12:30:35</sys_created_on>
+        <sys_id>97af71099fc012107f4489554524ab00</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>my_contract_requests</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name>sp_page_97af71099fc012107f4489554524ab00</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-14 12:30:35</sys_updated_on>
+        <title>My Contract Requests - Test Page</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=97af71099fc012107f4489554524ab00"/>
+</record_update>]]></payload>
+        <payload_hash>-354570054</payload_hash>
+        <record_name>my_contract_requests</record_name>
+        <reverted_from/>
+        <source>d9f7201cc32012106355351d05013151</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-05 18:45:10</sys_created_on>
+        <sys_id>f468e010c36012106355351d05013143</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191c38133450000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-05 18:45:10</sys_updated_on>
+        <type>Page</type>
+        <update_guid>b468e01014601210132b29c8780bcb43</update_guid>
+        <update_guid_history>b468e01014601210132b29c8780bcb43:-354570054</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="my_contract_requests">8fe7341cc3a012106355351d0501313a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-05 19:53:03</sys_created_on>
+        <sys_db_object display_value="" name="sp_page">sp_page</sys_db_object>
+        <sys_id>32c7c7bdceee46ccad14deef86cc3fe4</sys_id>
+        <sys_metadata>97af71099fc012107f4489554524ab00</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>my_contract_requests</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_scope_delete display_value="">0f884f882080471e972317895cfe61a4</sys_scope_delete>
+        <sys_update_name>sp_page_97af71099fc012107f4489554524ab00</sys_update_name>
+        <sys_update_version display_value="sp_page_97af71099fc012107f4489554524ab00">f468e010c36012106355351d05013143</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-05 19:53:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -16,6 +16,7 @@
         <logo>65d58cae9f7302107f4489554524aba1</logo>
         <menu display_value="ContractSync">b8f99b859fb302107f4489554524abdb</menu>
         <name>ContractSync</name>
+        <package_json/>
         <private>false</private>
         <restrict_table_access>false</restrict_table_access>
         <runtime_access_tracking>permissive</runtime_access_tracking>

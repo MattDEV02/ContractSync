@@ -5,6 +5,8 @@
         <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field/>
+        <field_message/>
+        <field_message_type/>
         <mandatory>true</mandatory>
         <order>100</order>
         <sys_class_name>catalog_ui_policy_action</sys_class_name>
@@ -21,6 +23,8 @@
         <sys_updated_on>2024-08-06 12:09:43</sys_updated_on>
         <table/>
         <ui_policy display_value="If Assignment group is empty then Assigned to is mandatory - SC">dacda02e9ff302107f4489554524ab94</ui_policy>
+        <value/>
+        <value_action/>
         <variable>assigned_to</variable>
         <variable_set/>
         <visible>ignore</visible>

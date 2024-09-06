@@ -3,6 +3,8 @@
         <cleared>false</cleared>
         <disabled>true</disabled>
         <field>u_contract_approval</field>
+        <field_message/>
+        <field_message_type/>
         <mandatory>ignore</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -18,6 +20,8 @@
         <sys_updated_on>2024-08-10 21:47:35</sys_updated_on>
         <table>x_cdltd_contractsy_contract_request</table>
         <ui_policy display_value="Make Related records Read-only">4da85f3fb03302107f44ec286d6fc342</ui_policy>
+        <value/>
+        <value_action/>
         <visible>ignore</visible>
     </sys_ui_policy_action>
 </record_update>

@@ -67,7 +67,7 @@
         <update_guid_history>8b4db1f2f1b702102638d28073bacd22:1427058779</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Ready for approval">c14102ef307b02107f443ea7e1781890</sys_audit_delete>
+        <sys_audit_delete display_value="">c14102ef307b02107f443ea7e1781890</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-09 20:46:38</sys_created_on>

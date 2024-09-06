@@ -12,13 +12,13 @@
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 07:10:26</sys_created_on>
-        <sys_id>12ec0c659f3302107f4489554524ab6f</sys_id>
+        <sys_id>a6f7601cc32012106355351d05013188</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_cdltd_contractsy_contract_task</sys_name>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
         <sys_policy/>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
-        <sys_update_name>ua_table_licensing_config_12ec0c659f3302107f4489554524ab6f</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_a6f7601cc32012106355351d05013188</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-08-03 07:10:26</sys_updated_on>
     </ua_table_licensing_config>

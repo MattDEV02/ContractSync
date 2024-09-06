@@ -13,6 +13,7 @@
         <exclusion_choice_list/>
         <look_up_name/>
         <name>Contract Created on filter</name>
+        <no_bulk_migration>false</no_bulk_migration>
         <reference_conditions/>
         <reference_table/>
         <remove_all_option>false</remove_all_option>

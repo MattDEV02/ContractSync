@@ -9,10 +9,24 @@
             <sys_id>c825a3459ff302107f4489554524abb0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
-            <sys_ui_form display_value="x_cdltd_contractsy_contract_request" name="x_cdltd_contractsy_contract_request" sys_domain="global" view="01cbc153702231107f44a29f360a7896">3715a3459ff302107f4489554524abad</sys_ui_form>
-            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_contractsy_contract_request" sys_domain="global" view="01cbc153702231107f44a29f360a7896">f270e3cd9fb302107f4489554524abab</sys_ui_section>
+            <sys_ui_form display_value="x_cdltd_contractsy_contract_request" name="x_cdltd_contractsy_contract_request" sys_domain="global" view="28c0c1738d020210d0ad51af4186635b">3715a3459ff302107f4489554524abad</sys_ui_form>
+            <sys_ui_section display_value="">f270e3cd9fb302107f4489554524abab</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-08-02 09:38:08</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-05 18:45:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ea78e810c36012106355351d050131db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_cdltd_contractsy_contract_request" name="x_cdltd_contractsy_contract_request" sys_domain="global" view="28c0c1738d020210d0ad51af4186635b">3715a3459ff302107f4489554524abad</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_contractsy_contract_request" sys_domain="global" view="28c0c1738d020210d0ad51af4186635b">7e7027cd9fb302107f4489554524ab10</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-05 18:45:33</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_cdltd_contractsy_contract_request</name>
@@ -33,7 +47,7 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-08-02 09:38:07</sys_updated_on>
             <sys_user/>
-            <view display_value="Self Service" name="ess">01cbc153702231107f44a29f360a7896</view>
+            <view display_value="Self Service" name="ess">28c0c1738d020210d0ad51af4186635b</view>
             <view_name/>
         </sys_ui_form>
     </sys_ui_form_sections>

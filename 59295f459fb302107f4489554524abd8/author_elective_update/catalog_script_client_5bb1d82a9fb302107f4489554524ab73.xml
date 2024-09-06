@@ -86,7 +86,7 @@ producer.u_automatic_renewal = true;
         <update_guid_history>0e69e06aa2f30210b4d742eaf2926292:1758299185,f549a06ab8f302109f1044a2de064903:-371812185,a188642a19f302108b2330d41213e4c3:188246975,af68642a02f30210455348850971a38c:-1343903768,4848e02a2bf302103c66db7670816c3f:-1088727025,ae18ece680f302107b971b387d86bf13:-1203590855,71086ce614f302108c7a24920dde25dc:2000375960,3be76ce6a4f30210a3c707aace5fd40b:577996390,83c7e8e694f302103e9bd83dc20b574a:-168320175</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Populate Request Number">c289246a9ff302107f4489554524ab4a</sys_audit_delete>
+        <sys_audit_delete display_value="">c289246a9ff302107f4489554524ab4a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-06 11:49:24</sys_created_on>

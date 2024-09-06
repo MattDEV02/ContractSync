@@ -182,7 +182,7 @@
         <update_guid_history>93082ab100b70210c6fcf6175796d243:-365708574</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Open Contract Requests count">d4bb62f59fb702107f4489554524ab02</sys_audit_delete>
+        <sys_audit_delete display_value="">d4bb62f59fb702107f4489554524ab02</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-04 13:22:38</sys_created_on>

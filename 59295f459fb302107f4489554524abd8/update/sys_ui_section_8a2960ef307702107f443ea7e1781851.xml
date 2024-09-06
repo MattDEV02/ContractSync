@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-09 14:21:42</sys_created_on>
-            <sys_id>c22960ef307702107f443ea7e1781856</sys_id>
+            <sys_created_on>2024-09-05 19:23:59</sys_created_on>
+            <sys_id>6541b010c3a012106355351d0501310f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_contractsy_contract" sys_domain="global" view="01cbc153702231107f44a29f360a7896">8a2960ef307702107f443ea7e1781851</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_contractsy_contract" sys_domain="global" view="28c0c1738d020210d0ad51af4186635b">8a2960ef307702107f443ea7e1781851</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-09 14:21:42</sys_updated_on>
+            <sys_updated_on>2024-09-05 19:23:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>u_dependent</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-09 14:21:42</sys_created_on>
-            <sys_id>4a2960ef307702107f443ea7e1781856</sys_id>
+            <sys_created_on>2024-09-05 19:23:59</sys_created_on>
+            <sys_id>e941b010c3a012106355351d0501310f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_contractsy_contract" sys_domain="global" view="01cbc153702231107f44a29f360a7896">8a2960ef307702107f443ea7e1781851</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_contractsy_contract" sys_domain="global" view="28c0c1738d020210d0ad51af4186635b">8a2960ef307702107f443ea7e1781851</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-09 14:21:42</sys_updated_on>
+            <sys_updated_on>2024-09-05 19:23:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>u_contract_type</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-09 14:21:42</sys_created_on>
-            <sys_id>ca2960ef307702107f443ea7e1781856</sys_id>
+            <sys_created_on>2024-09-05 19:23:59</sys_created_on>
+            <sys_id>6141b010c3a012106355351d05013110</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_contractsy_contract" sys_domain="global" view="01cbc153702231107f44a29f360a7896">8a2960ef307702107f443ea7e1781851</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_contractsy_contract" sys_domain="global" view="28c0c1738d020210d0ad51af4186635b">8a2960ef307702107f443ea7e1781851</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-09 14:21:42</sys_updated_on>
+            <sys_updated_on>2024-09-05 19:23:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>u_start_date</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-09 14:21:42</sys_created_on>
-            <sys_id>4e2960ef307702107f443ea7e1781856</sys_id>
+            <sys_created_on>2024-09-05 19:23:59</sys_created_on>
+            <sys_id>e541b010c3a012106355351d05013110</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_contractsy_contract" sys_domain="global" view="01cbc153702231107f44a29f360a7896">8a2960ef307702107f443ea7e1781851</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_contractsy_contract" sys_domain="global" view="28c0c1738d020210d0ad51af4186635b">8a2960ef307702107f443ea7e1781851</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-09 14:21:42</sys_updated_on>
+            <sys_updated_on>2024-09-05 19:23:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>u_end_date</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-09 14:21:42</sys_created_on>
-            <sys_id>ce2960ef307702107f443ea7e1781856</sys_id>
+            <sys_created_on>2024-09-05 19:23:59</sys_created_on>
+            <sys_id>6d41b010c3a012106355351d05013110</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_contractsy_contract" sys_domain="global" view="01cbc153702231107f44a29f360a7896">8a2960ef307702107f443ea7e1781851</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_contractsy_contract" sys_domain="global" view="28c0c1738d020210d0ad51af4186635b">8a2960ef307702107f443ea7e1781851</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-09 14:21:42</sys_updated_on>
+            <sys_updated_on>2024-09-05 19:23:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>u_automatic_renewal</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-09 14:21:42</sys_created_on>
-            <sys_id>422960ef307702107f443ea7e1781857</sys_id>
+            <sys_created_on>2024-09-05 19:23:59</sys_created_on>
+            <sys_id>a941b010c3a012106355351d0501311d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_contractsy_contract" sys_domain="global" view="01cbc153702231107f44a29f360a7896">8a2960ef307702107f443ea7e1781851</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_contractsy_contract" sys_domain="global" view="28c0c1738d020210d0ad51af4186635b">8a2960ef307702107f443ea7e1781851</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-09 14:21:42</sys_updated_on>
+            <sys_updated_on>2024-09-05 19:23:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,13 +88,13 @@
             <element>u_configuration_items</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-09 14:21:42</sys_created_on>
-            <sys_id>c22960ef307702107f443ea7e1781857</sys_id>
+            <sys_created_on>2024-09-05 19:23:59</sys_created_on>
+            <sys_id>2141b010c3a012106355351d0501311e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_contractsy_contract" sys_domain="global" view="01cbc153702231107f44a29f360a7896">8a2960ef307702107f443ea7e1781851</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_contractsy_contract" sys_domain="global" view="28c0c1738d020210d0ad51af4186635b">8a2960ef307702107f443ea7e1781851</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-09 14:21:42</sys_updated_on>
+            <sys_updated_on>2024-09-05 19:23:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -102,13 +102,27 @@
             <element>u_active</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-08-09 14:21:42</sys_created_on>
-            <sys_id>462960ef307702107f443ea7e1781857</sys_id>
+            <sys_created_on>2024-09-05 19:23:59</sys_created_on>
+            <sys_id>a541b010c3a012106355351d0501311e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_contractsy_contract" sys_domain="global" view="01cbc153702231107f44a29f360a7896">8a2960ef307702107f443ea7e1781851</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_contractsy_contract" sys_domain="global" view="28c0c1738d020210d0ad51af4186635b">8a2960ef307702107f443ea7e1781851</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-08-09 14:21:42</sys_updated_on>
+            <sys_updated_on>2024-09-05 19:23:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_contract_request</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-09-05 19:23:59</sys_created_on>
+            <sys_id>2d41b010c3a012106355351d0501311e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_contractsy_contract" sys_domain="global" view="28c0c1738d020210d0ad51af4186635b">8a2960ef307702107f443ea7e1781851</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-09-05 19:23:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -134,7 +148,7 @@
             <sys_updated_on>2024-08-09 14:21:42</sys_updated_on>
             <sys_user/>
             <title>false</title>
-            <view display_value="Self Service" name="ess">01cbc153702231107f44a29f360a7896</view>
+            <view display_value="Self Service" name="ess">28c0c1738d020210d0ad51af4186635b</view>
             <view_name/>
         </sys_ui_section>
     </sys_ui_section>

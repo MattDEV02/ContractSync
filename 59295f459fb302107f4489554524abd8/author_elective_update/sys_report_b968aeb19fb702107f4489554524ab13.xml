@@ -182,7 +182,7 @@
         <update_guid_history>b968aeb1fcb70210c98787189aba52f7:-2034872798</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Closed Contract Requests count">24db26f59fb702107f4489554524ab0b</sys_audit_delete>
+        <sys_audit_delete display_value="">24db26f59fb702107f4489554524ab0b</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-04 13:23:12</sys_created_on>

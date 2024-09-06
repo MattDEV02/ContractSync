@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_cdltd_contractsy_contract" element="NULL" name="x_cdltd_contractsy_contract" parent="NULL" relationship="NULL" sys_domain="global" view="85cbc153702231107f44a29f360a7881">eb3d15fe9ff302107f4489554524ab34</list_id>
+            <list_id display_value="x_cdltd_contractsy_contract" element="NULL" name="x_cdltd_contractsy_contract" parent="NULL" relationship="NULL" sys_domain="global" view="28c0c1738d020210d0ad51af41866353">eb3d15fe9ff302107f4489554524ab34</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -40,7 +40,7 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-08-07 10:13:49</sys_updated_on>
             <sys_user/>
-            <view display_value="Reference List" name="sys_ref_list">85cbc153702231107f44a29f360a7881</view>
+            <view display_value="Reference List" name="sys_ref_list">28c0c1738d020210d0ad51af41866353</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

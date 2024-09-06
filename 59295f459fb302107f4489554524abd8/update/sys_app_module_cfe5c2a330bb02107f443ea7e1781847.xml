@@ -17,6 +17,7 @@
         <override_menu_roles>false</override_menu_roles>
         <query>/kb_view.do?sys_kb_id=e9350e6330bb02107f443ea7e17818ee&amp;preview_article=true</query>
         <report/>
+        <require_confirmation>false</require_confirmation>
         <roles>x_cdltd_contractsy.service_desk</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>

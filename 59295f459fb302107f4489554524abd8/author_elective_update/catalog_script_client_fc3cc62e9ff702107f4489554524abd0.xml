@@ -74,7 +74,7 @@
         <update_guid_history>d3c496a2533b021012fc5b4e4620c1b0:-1167746642,30f31e62203b0210fd9db17e76e8c957:1918169198,c7535262a43b0210edba3f8d46af1623:-1167746642,c7921e22cf3b021032e42ff444d9bbb3:908866261,71729622cb3b02105606c2f0c2bf37a7:-1432854040,b1525a22963b02103774dfd4f064ed4e:-1167746642,90ac8a2eecf702103a54254e76501c77:-757464795,1b8cc62e02f7021027a39aa48f365b19:-571285316,e87c8a2e79f70210c02da1e7f36ec1ba:-674178271,435c022ec9f70210e0cac33dda24bfbf:-634537345</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Set empty Contract request Number - SC">216f39b69fb702107f4489554524ab57</sys_audit_delete>
+        <sys_audit_delete display_value="">216f39b69fb702107f4489554524ab57</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-07 12:43:03</sys_created_on>

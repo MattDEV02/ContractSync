@@ -98,7 +98,7 @@
         <update_guid_history>7debf8a63f370210e8cef54a2597dbb8:143173335,22ab38a6e1370210391e65fe5e02e804:-1458019817</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Set CONR ds value on conType change - SC">205f39b69fb702107f4489554524ab1b</sys_audit_delete>
+        <sys_audit_delete display_value="">205f39b69fb702107f4489554524ab1b</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-07 12:42:42</sys_created_on>

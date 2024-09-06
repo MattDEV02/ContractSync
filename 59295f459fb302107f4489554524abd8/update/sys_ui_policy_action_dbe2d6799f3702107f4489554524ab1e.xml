@@ -3,6 +3,8 @@
         <cleared>false</cleared>
         <disabled>true</disabled>
         <field>state</field>
+        <field_message/>
+        <field_message_type/>
         <mandatory>ignore</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -18,6 +20,8 @@
         <sys_updated_on>2024-08-04 11:34:37</sys_updated_on>
         <table>x_cdltd_contractsy_contract_request</table>
         <ui_policy display_value="Make State Read-only">37b2d2799f3702107f4489554524ab8b</ui_policy>
+        <value/>
+        <value_action/>
         <visible>ignore</visible>
     </sys_ui_policy_action>
 </record_update>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="4bdd499f702231107f44a29f360a789c" defaultsort="-1" dynamic_creation_script="// default on the table level is to create a server&#13;&#10;&#13;&#10;var gr = new GlideRecord(&quot;cmdb_ci_server&quot;);&#13;&#10;gr.initialize();&#13;&#10;gr.name=value;&#13;&#10;gr.insert();" extends="cmdb" label="Configuration Item" max_length="40" name="cmdb_ci" type="collection">
+    <element db_object_id="d42289bf8d020210d0ad51af41866316" defaultsort="-1" dynamic_creation_script="// default on the table level is to create a server&#13;&#10;&#13;&#10;var gr = new GlideRecord(&quot;cmdb_ci_server&quot;);&#13;&#10;gr.initialize();&#13;&#10;gr.name=value;&#13;&#10;gr.insert();" extends="cmdb" label="Configuration Item" max_length="40" name="cmdb_ci" type="collection">
         <element label="Reserved" max_length="40" name="u_reserved" type="boolean"/>
     </element>
 </database>

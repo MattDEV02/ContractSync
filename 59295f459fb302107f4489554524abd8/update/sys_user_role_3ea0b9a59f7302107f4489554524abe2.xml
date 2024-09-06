@@ -7,7 +7,6 @@
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_cdltd_contractsy.service_desk</name>
-        <requires_subscription>-1</requires_subscription>
         <scoped_admin>false</scoped_admin>
         <suffix>service_desk</suffix>
         <sys_class_name>sys_user_role</sys_class_name>

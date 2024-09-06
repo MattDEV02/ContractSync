@@ -8,6 +8,7 @@
         <element attributes="edge_encryption_enabled=true" label="Contract almost expired reminder" max_length="40" name="u_contract_almost_expired_reminder" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" label="Contract expired reminder" max_length="40" name="u_contract_expired_reminder" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" label="Contract renewal reminder" max_length="40" name="u_contract_renewal_reminder" type="glide_date_time"/>
+        <element attributes="encode_utf8=false" label="Contract Request" max_length="32" name="u_contract_request" reference="x_cdltd_contractsy_contract_request" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="part-time" label="Contract type" mandatory="true" max_length="40" name="u_contract_type" type="string">
             <choice>
                 <element inactive_on_update="false" label="Part-time" sequence="0" value="part-time"/>
@@ -25,6 +26,9 @@
             <element name="sys_class_name"/>
         </index>
         <index name="index2">
+            <element name="u_contract_request"/>
+        </index>
+        <index name="index3">
             <element name="u_contract_type"/>
             <element name="u_start_date"/>
             <element name="u_end_date"/>
@@ -32,7 +36,7 @@
             <element name="sys_created_on"/>
             <element name="sys_updated_on"/>
         </index>
-        <index name="index3">
+        <index name="index4">
             <element name="u_dependent"/>
         </index>
     </element>

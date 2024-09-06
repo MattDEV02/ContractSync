@@ -78,7 +78,7 @@
         <update_guid_history>dddb822e17f70210d212d818d7d06e77:929755098,532669267cb7021066b7128e46e03b54:1803462167,29a56526dfb7021033337c31decdd06f:-1254174421</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Populate Number field">592c0eea9ff702107f4489554524ab67</sys_audit_delete>
+        <sys_audit_delete display_value="">592c0eea9ff702107f4489554524ab67</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-06 19:00:15</sys_created_on>
