@@ -15,7 +15,7 @@
         <mobile_title>Tests</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>sys_user_group</name>
-        <order>28</order>
+        <order>40</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -27,7 +27,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0bfad6a69f3b02107f4489554524ab00</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>ContractSync Groups</sys_name>
         <sys_overrides/>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
@@ -35,7 +35,7 @@
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_update_name>sys_app_module_0bfad6a69f3b02107f4489554524ab00</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-14 19:07:33</sys_updated_on>
+        <sys_updated_on>2024-09-07 10:18:06</sys_updated_on>
         <timeline_page/>
         <title>ContractSync Groups</title>
         <uncancelable>false</uncancelable>

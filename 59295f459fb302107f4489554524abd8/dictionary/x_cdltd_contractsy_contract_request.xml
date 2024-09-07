@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" db_object_id="93c95b859fb302107f4489554524ab65" extends="sc_request" label="Contract Request" max_length="40" name="x_cdltd_contractsy_contract_request" type="collection">
+        <element choice="3" default="not requested" label="Approval status" max_length="40" name="u_approval_status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Not Yet Requested" sequence="0" value="not requested"/>
+                <element inactive_on_update="false" label="Requested" sequence="1" value="requested"/>
+                <element inactive_on_update="false" label="Approved" sequence="2" value="approved"/>
+                <element inactive_on_update="false" label="Rejected" sequence="3" value="rejected"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="4" value="cancelled"/>
+                <element inactive_on_update="false" label="No Longer Required" sequence="5" value="not_required"/>
+            </choice>
+        </element>
         <element label="Automatic renewal" max_length="40" name="u_automatic_renewal" type="boolean"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Configuration items" max_length="1024" name="u_configuration_items" reference="cmdb_ci" type="glide_list"/>
         <element attributes="encode_utf8=false" label="Contract" max_length="32" name="u_contract" reference="x_cdltd_contractsy_contract" type="reference"/>
