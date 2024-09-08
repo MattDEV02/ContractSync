@@ -32,10 +32,10 @@
     var configurationItemsNumber = configurationItems == "" ? 0 : configurationItems.split(",").length;
 	var priorityText = g_form.getOption("priority", priority).text;
 
-    var newDescription = "Please " + recipient + ", create a new " + automaticRenewal + contractType + " Contract for " + requestedFor + " with " + configurationItemsNumber + " Configuration items. \n \nOther informations: \n \n" + "   - Request priority: " + priorityText + ". \n \n   - Start date: " + startDate + ". \n \n   - End date: " + endDate + ".\n \n";
+    var newDescription = "Please " + recipient + ", prepare a New " + automaticRenewal + contractType + " Contract for " + requestedFor + " with " + configurationItemsNumber + " Configuration items. \n \nOther Contract Request informations: \n \n" + "   - Request priority: " + priorityText + ". \n \n   - Start date: " + startDate + ". \n \n   - End date: " + endDate + ".\n \n";
 
 	if(!g_form.getElement("x_cdltd_contractsy_contract_request.description").readonly) {
-		g_form.setValue("description", newDescription, "Description");
+		g_form.setValue("description", newDescription);
 	}
 	
 }]]></script>
@@ -45,7 +45,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0c565bfbb03302107f44ec286d6fc308</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Set CONR description on Auto. ren change</sys_name>
         <sys_overrides/>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
@@ -53,7 +53,7 @@
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_update_name>sys_script_client_0c565bfbb03302107f44ec286d6fc308</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-10 21:36:42</sys_updated_on>
+        <sys_updated_on>2024-09-08 10:00:07</sys_updated_on>
         <table>x_cdltd_contractsy_contract_request</table>
         <type>onChange</type>
         <ui_type>10</ui_type>
