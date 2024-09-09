@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>false</active>
+        <copied_from/>
+        <description>Submit the current form and confirm form submitted to server</description>
+        <display_name>Submit a Form</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>2</order>
+        <step_config display_value="Submit a Form">be8e0a935332120028bc29cac2dc34e4</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 13:52:33</sys_created_on>
+        <sys_id>d2bb4065c328d2106355351d0501312c</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Submit a Form</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name>sys_atf_step_d2bb4065c328d2106355351d0501312c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-09 14:00:49</sys_updated_on>
+        <table/>
+        <test display_value="Complete a ContractSync Task Test">0935c8e9c3e4d2106355351d050131a9</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=d2bb4065c328d2106355351d0501312c"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>d2bb4065c328d2106355351d0501312c</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 13:52:33</sys_created_on>
+        <sys_id>99cb8465c328d2106355351d0501319e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-09 13:52:33</sys_updated_on>
+        <value>standard_ui</value>
+        <variable display_value="Form UI">ae8b91c9ffa333008d3f5d9ad53bf1ba</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>d2bb4065c328d2106355351d0501312c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 13:52:33</sys_created_on>
+        <sys_id>d5cb8465c328d2106355351d0501319e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-09 13:52:33</sys_updated_on>
+        <value>form_submitted_to_server</value>
+        <variable display_value="Assert type">c796d40497302200abe4bb7503ac4ad8</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ContractSync">59295f459fb302107f4489554524abd8</application>
+        <file_path/>
+        <instance_id>384aedd4db393dd0199b17291396199b</instance_id>
+        <instance_name>dev182233</instance_name>
+        <name>sys_atf_step_d2bb4065c328d2106355351d0501312c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>false</active><copied_from/><description>Submit the current form and confirm form submitted to server</description><display_name>Submit a Form</display_name><inputs/><mugshots_cache_json/><notes/><order>2</order><step_config display_value="Submit a Form">be8e0a935332120028bc29cac2dc34e4</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-09 13:52:33</sys_created_on><sys_id>d2bb4065c328d2106355351d0501312c</sys_id><sys_mod_count>9</sys_mod_count><sys_name>Submit a Form</sys_name><sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package><sys_policy/><sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope><sys_update_name>sys_atf_step_d2bb4065c328d2106355351d0501312c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-09 14:00:49</sys_updated_on><table/><test display_value="Complete a ContractSync Task Test">0935c8e9c3e4d2106355351d050131a9</test><timeout>1970-01-01 00:00:05</timeout><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=d2bb4065c328d2106355351d0501312c"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>d2bb4065c328d2106355351d0501312c</document_key><order>50</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-09 13:52:33</sys_created_on><sys_id>99cb8465c328d2106355351d0501319e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-09 13:52:33</sys_updated_on><value>standard_ui</value><variable display_value="Form UI">ae8b91c9ffa333008d3f5d9ad53bf1ba</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>d2bb4065c328d2106355351d0501312c</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-09 13:52:33</sys_created_on><sys_id>d5cb8465c328d2106355351d0501319e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-09 13:52:33</sys_updated_on><value>form_submitted_to_server</value><variable display_value="Assert type">c796d40497302200abe4bb7503ac4ad8</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>-759816415</payload_hash>
+        <record_name>Submit a Form</record_name>
+        <reverted_from/>
+        <source>29596490c36012106355351d05013167</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 14:00:49</sys_created_on>
+        <sys_id>e6ad0829c328d2106355351d0501312c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191d71650130000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-09 14:00:49</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>6ead08293e28d2108d133649c50aa12b</update_guid>
+        <update_guid_history>6ead08293e28d2108d133649c50aa12b:-759816415,1aad08291b28d21071528914a785190a:1393770048,3bdc88a5d728d21009cfc350ba49428a:-747610785,ed7c0ca5ee28d2104ba42fec7aaf8fb6:1919598648,3ecb0c655b28d2108747875200b0162e:-233987815,5dcb8465c028d210642a558702900aa0:1919598648</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 14:00:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>063d43354c42470483233e4880c9e284</sys_id>
+        <sys_metadata>d2bb4065c328d2106355351d0501312c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Submit a Form</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_scope_delete display_value="">0f884f882080471e972317895cfe61a4</sys_scope_delete>
+        <sys_update_name>sys_atf_step_d2bb4065c328d2106355351d0501312c</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_d2bb4065c328d2106355351d0501312c">e6ad0829c328d2106355351d0501312c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-09 14:00:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

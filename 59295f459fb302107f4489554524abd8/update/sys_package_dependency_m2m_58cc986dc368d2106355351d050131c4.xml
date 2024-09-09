@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Service Management Basics" source="com.snc.service">68d389b78d820210d0ad51af418663d7</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 15:06:45</sys_created_on>
+        <sys_id>58cc986dc368d2106355351d050131c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-09 15:06:45</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

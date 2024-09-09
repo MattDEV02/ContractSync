@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description>Open the record 'Contract Task: CONT001013' in the 'Contract Task' list</description>
+        <display_name>Open a Record in List</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>3</order>
+        <step_config display_value="Open a Record in List">0200ac2fe72003005c85cd19d2f6a942</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 14:00:32</sys_created_on>
+        <sys_id>6a7dc4e5c328d2106355351d05013192</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Open a Record in List</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name>sys_atf_step_6a7dc4e5c328d2106355351d05013192</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-09 14:02:28</sys_updated_on>
+        <table>x_cdltd_contractsy_contract_task</table>
+        <test display_value="Complete a ContractSync Task Test">0935c8e9c3e4d2106355351d050131a9</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=6a7dc4e5c328d2106355351d05013192"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>6a7dc4e5c328d2106355351d05013192</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 14:00:32</sys_created_on>
+        <sys_id>1e9d08e5c328d2106355351d050131ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-09 14:00:32</sys_updated_on>
+        <value>list</value>
+        <variable display_value="List type">b8c89a36538333009e02ddeeff7b12f6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>6a7dc4e5c328d2106355351d05013192</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 14:00:32</sys_created_on>
+        <sys_id>569d08e5c328d2106355351d050131bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-09 14:00:32</sys_updated_on>
+        <value>x_cdltd_contractsy_contract_task</value>
+        <variable display_value="Related list table">c181286fe72003005c85cd19d2f6a93b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>6a7dc4e5c328d2106355351d05013192</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 14:00:32</sys_created_on>
+        <sys_id>5a9d08e5c328d2106355351d050131ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-09 14:00:32</sys_updated_on>
+        <value>060abce4c32852106355351d05013116</value>
+        <variable display_value="Record">b076e295531233009e02ddeeff7b12d9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>6a7dc4e5c328d2106355351d05013192</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 14:00:32</sys_created_on>
+        <sys_id>929d08e5c328d2106355351d050131bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-09 14:00:32</sys_updated_on>
+        <value>x_cdltd_contractsy_contract_task</value>
+        <variable display_value="Table">6fb0a06fe72003005c85cd19d2f6a9da</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>6a7dc4e5c328d2106355351d05013192</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 14:00:32</sys_created_on>
+        <sys_id>de9d08e5c328d2106355351d050131ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-09 14:00:32</sys_updated_on>
+        <value>task_ci.task</value>
+        <variable display_value="Related list">5121646fe72003005c85cd19d2f6a99a</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_atf_input_variable_0200ac2fe72003005c85cd19d2f6a942^id=6a7dc4e5c328d2106355351d05013192"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ContractSync">59295f459fb302107f4489554524abd8</application>
+        <file_path/>
+        <instance_id>384aedd4db393dd0199b17291396199b</instance_id>
+        <instance_name>dev182233</instance_name>
+        <name>sys_atf_step_6a7dc4e5c328d2106355351d05013192</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Open the record 'Contract Task: CONT001013' in the 'Contract Task' list</description><display_name>Open a Record in List</display_name><inputs/><mugshots_cache_json/><notes/><order>3</order><step_config display_value="Open a Record in List">0200ac2fe72003005c85cd19d2f6a942</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-09 14:00:32</sys_created_on><sys_id>6a7dc4e5c328d2106355351d05013192</sys_id><sys_mod_count>10</sys_mod_count><sys_name>Open a Record in List</sys_name><sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package><sys_policy/><sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope><sys_update_name>sys_atf_step_6a7dc4e5c328d2106355351d05013192</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-09 14:02:28</sys_updated_on><table>x_cdltd_contractsy_contract_task</table><test display_value="Complete a ContractSync Task Test">0935c8e9c3e4d2106355351d050131a9</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=6a7dc4e5c328d2106355351d05013192"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>6a7dc4e5c328d2106355351d05013192</document_key><order>50</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-09 14:00:32</sys_created_on><sys_id>1e9d08e5c328d2106355351d050131ba</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-09 14:00:32</sys_updated_on><value>list</value><variable display_value="List type">b8c89a36538333009e02ddeeff7b12f6</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>6a7dc4e5c328d2106355351d05013192</document_key><order>300</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-09 14:00:32</sys_created_on><sys_id>569d08e5c328d2106355351d050131bb</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-09 14:00:32</sys_updated_on><value>x_cdltd_contractsy_contract_task</value><variable display_value="Related list table">c181286fe72003005c85cd19d2f6a93b</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>6a7dc4e5c328d2106355351d05013192</document_key><order>400</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-09 14:00:32</sys_created_on><sys_id>5a9d08e5c328d2106355351d050131ba</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-09 14:00:32</sys_updated_on><value>060abce4c32852106355351d05013116</value><variable display_value="Record">b076e295531233009e02ddeeff7b12d9</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>6a7dc4e5c328d2106355351d05013192</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-09 14:00:32</sys_created_on><sys_id>929d08e5c328d2106355351d050131bb</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-09 14:00:32</sys_updated_on><value>x_cdltd_contractsy_contract_task</value><variable display_value="Table">6fb0a06fe72003005c85cd19d2f6a9da</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>6a7dc4e5c328d2106355351d05013192</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-09 14:00:32</sys_created_on><sys_id>de9d08e5c328d2106355351d050131ba</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-09 14:00:32</sys_updated_on><value>task_ci.task</value><variable display_value="Related list">5121646fe72003005c85cd19d2f6a99a</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_0200ac2fe72003005c85cd19d2f6a942^id=6a7dc4e5c328d2106355351d05013192"/></record_update>]]></payload>
+        <payload_hash>1071133720</payload_hash>
+        <record_name>Open a Record in List</record_name>
+        <reverted_from/>
+        <source>29596490c36012106355351d05013167</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 14:02:28</sys_created_on>
+        <sys_id>e60e4069c328d2106355351d050131bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191d717d1860000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-09 14:02:28</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>6e0e4069aa28d210f574be9d2c7cbcbc</update_guid>
+        <update_guid_history>6e0e4069aa28d210f574be9d2c7cbcbc:1071133720,2cbd00292528d210acdf8e8afbd36344:-1912920489,a2ad0829d728d210caa56b0871cbee45:1071133720,6ead08293a28d2108a43057ee07a0e34:-239779367,5aad0829e528d210dc64ee93ac8f1a13:-1550692454,9a9d08e57328d210913e6f46964650bd:1433361755</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 14:04:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>6bcb8b65752a4d92bc208f093272d4a4</sys_id>
+        <sys_metadata>6a7dc4e5c328d2106355351d05013192</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open a Record in List</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_scope_delete display_value="">0f884f882080471e972317895cfe61a4</sys_scope_delete>
+        <sys_update_name>sys_atf_step_6a7dc4e5c328d2106355351d05013192</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_6a7dc4e5c328d2106355351d05013192">e60e4069c328d2106355351d050131bd</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-09 14:04:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_in_email_action">
+    <sysevent_in_email_action action="INSERT_OR_UPDATE">
+        <action>record_action</action>
+        <active>true</active>
+        <assignment_operator/>
+        <condition_script/>
+        <description>Renew Contract from Inbound Email Action.</description>
+        <event_name>email.read</event_name>
+        <filter_condition table="sys_email">reply_toLIKEservicedesk@contractsync.com^bodyLIKEexpire^EQ<item endquery="false" field="reply_to" goto="false" newquery="false" operator="LIKE" or="false" value="servicedesk@contractsync.com"/>
+            <item endquery="false" field="body" goto="false" newquery="false" operator="LIKE" or="false" value="expire"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <from/>
+        <name>Renew Contract from mail</name>
+        <order>100</order>
+        <reply_email/>
+        <required_roles>x_cdltd_contractsy.user</required_roles>
+        <script><![CDATA[(function runAction(/*GlideRecord*/ current, /*GlideRecord*/ event, /*EmailWrapper*/ email, /*ScopedEmailLogger*/ logger, /*EmailClassifier*/ classifier) {
+
+	var contractUtils = new contractUtils();
+
+	var contractSys_id = current.sys_id;
+
+	contractUtils.renewContract(contractSys_id);
+
+})(current, event, email, logger, classifier);]]></script>
+        <stop_processing>false</stop_processing>
+        <sys_class_name>sysevent_in_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 12:59:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>31fe7f51c3e4d2106355351d05013189</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Renew Contract from mail</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name>sysevent_in_email_action_31fe7f51c3e4d2106355351d05013189</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-09 13:10:35</sys_updated_on>
+        <table>x_cdltd_contractsy_contract</table>
+        <template/>
+        <type>reply</type>
+    </sysevent_in_email_action>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>31fe7f51c3e4d2106355351d05013189</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 12:59:38</sys_created_on>
+        <sys_id>12afbbd1c3e4d2106355351d0501312c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-09 12:59:38</sys_updated_on>
+        <table>sysevent_in_email_action</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

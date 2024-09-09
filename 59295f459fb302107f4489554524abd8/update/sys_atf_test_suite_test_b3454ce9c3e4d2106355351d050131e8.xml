@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite_test">
+    <sys_atf_test_suite_test action="INSERT_OR_UPDATE">
+        <abort_on_failure>false</abort_on_failure>
+        <order>3</order>
+        <sys_class_name>sys_atf_test_suite_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-09 13:24:19</sys_created_on>
+        <sys_id>b3454ce9c3e4d2106355351d050131e8</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>0935c8e9c3e4d2106355351d050131a9</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name>sys_atf_test_suite_test_b3454ce9c3e4d2106355351d050131e8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-09 13:49:45</sys_updated_on>
+        <test display_value="Complete a ContractSync Task Test">0935c8e9c3e4d2106355351d050131a9</test>
+        <test_suite display_value="ContractSync Test Suite">d4e95e67834012107f4449e25cda1ee2</test_suite>
+    </sys_atf_test_suite_test>
+</record_update>
