@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
     <sys_report_users_groups action="INSERT_OR_UPDATE">
         <group_id/>
-        <report_id display_value="Contract Tasks created trend stacked by Priority">c3dd5dc0344012107f44c47bf5957ccb</report_id>
+        <report_id display_value="Contract Tasks created trend Group by Priority or State or Active">c3dd5dc0344012107f44c47bf5957ccb</report_id>
         <sys_class_name>sys_report_users_groups</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-11 07:28:55</sys_created_on>
@@ -14,6 +14,6 @@
         <sys_update_name>sys_report_users_groups_4bdd5dc0344012107f44c47bf5957ccb</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-08-11 07:28:55</sys_updated_on>
-        <user_id display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user_id>
+        <user_id display_value="Matteo Lambertucci">6816f79cc0a8016401c5a33be04be441</user_id>
     </sys_report_users_groups>
 </record_update>

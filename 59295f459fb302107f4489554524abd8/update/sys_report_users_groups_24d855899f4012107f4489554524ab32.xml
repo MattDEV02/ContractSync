@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
     <sys_report_users_groups action="INSERT_OR_UPDATE">
         <group_id display_value="ContractSync Reviewers" name="ContractSync Reviewers">8ea3db4d9f7302107f4489554524ab66</group_id>
-        <report_id display_value="Contract Requests by State or Approval status or ContractType">8be8e6f19fb702107f4489554524ab48</report_id>
+        <report_id display_value="Contract Requests by State or Approval status or ContractType or Active">8be8e6f19fb702107f4489554524ab48</report_id>
         <sys_class_name>sys_report_users_groups</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-14 09:40:49</sys_created_on>

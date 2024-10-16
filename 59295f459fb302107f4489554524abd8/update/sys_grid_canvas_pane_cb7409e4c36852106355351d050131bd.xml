@@ -2,7 +2,7 @@
     <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
         <grid_canvas display_value="PA Contract Requests Da - New Tab 3">df6fda399f7702107f4489554524ab53</grid_canvas>
         <height>3</height>
-        <portal_widget display_value="Created 2024-09-06 17:26:24">8f7409e4c36852106355351d050131bb</portal_widget>
+        <portal_widget display_value="">8f7409e4c36852106355351d050131bb</portal_widget>
         <posx>4</posx>
         <posy>4</posy>
         <sys_class_name>sys_grid_canvas_pane</sys_class_name>

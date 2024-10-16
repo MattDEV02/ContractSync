@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="723f36bd9ff702107f4489554524ab02" label="Contract" max_length="40" name="x_cdltd_contractsy_contract" type="collection">
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
-        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
-        <element label="Active" max_length="40" name="u_active" type="boolean"/>
         <element label="Automatic renewal" max_length="40" name="u_automatic_renewal" type="boolean"/>
-        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Configuration items" max_length="1024" name="u_configuration_items" reference="cmdb_ci" type="glide_list"/>
-        <element attributes="edge_encryption_enabled=true" label="Contract almost expired reminder" max_length="40" name="u_contract_almost_expired_reminder" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" label="Contract expired reminder" max_length="40" name="u_contract_expired_reminder" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="End date" mandatory="true" max_length="40" name="u_end_date" type="glide_date_time"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Configuration items" max_length="1024" name="u_configuration_items" reference="cmdb_ci" type="glide_list"/>
         <element attributes="edge_encryption_enabled=true" label="Contract renewal reminder" max_length="40" name="u_contract_renewal_reminder" type="glide_date_time"/>
-        <element attributes="encode_utf8=false" label="Contract Request" max_length="32" name="u_contract_request" reference="x_cdltd_contractsy_contract_request" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Start date" mandatory="true" max_length="40" name="u_start_date" type="glide_date_time"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="part-time" label="Contract type" mandatory="true" max_length="40" name="u_contract_type" type="string">
             <choice>
-                <element inactive_on_update="false" label="Part-time" sequence="0" value="part-time"/>
-                <element inactive_on_update="false" label="Fixed-term" sequence="1" value="fixed-term"/>
                 <element inactive_on_update="false" label="Freelance" sequence="2" value="freelance"/>
-                <element inactive_on_update="false" label="Apprenticeship" sequence="3" value="apprenticeship"/>
+                <element inactive_on_update="false" label="Part-time" sequence="0" value="part-time"/>
                 <element inactive_on_update="false" label="Internship" sequence="4" value="internship"/>
+                <element inactive_on_update="false" label="Fixed-term" sequence="1" value="fixed-term"/>
+                <element inactive_on_update="false" label="Apprenticeship" sequence="3" value="apprenticeship"/>
             </choice>
         </element>
-        <element label="Dependent" mandatory="true" max_length="32" name="u_dependent" reference="sys_user" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" label="End date" mandatory="true" max_length="40" name="u_end_date" type="glide_date_time"/>
-        <element attributes="edge_encryption_enabled=true" label="Start date" mandatory="true" max_length="40" name="u_start_date" type="glide_date_time"/>
+        <element attributes="encode_utf8=false" label="Contract Request" max_length="32" name="u_contract_request" reference="x_cdltd_contractsy_contract_request" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Thank you message reminder" max_length="40" name="u_thank_you_message_reminder" type="glide_date_time"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Active" max_length="40" name="u_active" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Contract almost expired reminder" max_length="40" name="u_contract_almost_expired_reminder" type="glide_date_time"/>
+        <element label="Dependent" mandatory="true" max_length="32" name="u_dependent" reference="sys_user" type="reference"/>
         <index name="index">
             <element name="sys_class_name"/>
         </index>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
     <sys_report_users_groups action="INSERT_OR_UPDATE">
         <group_id/>
-        <report_id display_value="Contracts created trend stacked by Type">a07e0377b03302107f44ec286d6fc3d8</report_id>
+        <report_id display_value="Contracts created trend Group by Contract type or Active or Automatic renewal">a07e0377b03302107f44ec286d6fc3d8</report_id>
         <sys_class_name>sys_report_users_groups</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-10 21:02:20</sys_created_on>
@@ -14,6 +14,6 @@
         <sys_update_name>sys_report_users_groups_287e0377b03302107f44ec286d6fc3d8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-08-10 21:02:20</sys_updated_on>
-        <user_id display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user_id>
+        <user_id display_value="Matteo Lambertucci">6816f79cc0a8016401c5a33be04be441</user_id>
     </sys_report_users_groups>
 </record_update>

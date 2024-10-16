@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="DELETE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="">{}</category>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Reserve Configuration item to Contract Dependent.</description>
+        <flow_priority/>
+        <ih_action>false</ih_action>
+        <internal_name>reserve_configuration_item_to_contract_dependent</internal_name>
+        <label_cache/>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name>Reserve Configuration item to Contract Dependent</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-10-14 20:04:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8370f9f453d19210041791e0a0490ee5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reserve Configuration item to Contract Dependent</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_8370f9f453d19210041791e0a0490ee5</sys_update_name>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-10-14 20:04:12</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="DELETE" query="documentkey=8370f9f453d19210041791e0a0490ee5"/>
+    <sys_variable_value action="DELETE" query="document_key=8370f9f453d19210041791e0a0490ee5"/>
+    <sys_hub_step_instance action="DELETE" query="action=8370f9f453d19210041791e0a0490ee5"/>
+    <sys_hub_action_input action="DELETE" query="model=8370f9f453d19210041791e0a0490ee5"/>
+    <sys_hub_action_output action="DELETE" query="model=8370f9f453d19210041791e0a0490ee5"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=8370f9f453d19210041791e0a0490ee5"/>
+    <sys_hub_action_status_metadata action="DELETE" query="action_type_id=8370f9f453d19210041791e0a0490ee5"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_action_input_8370f9f453d19210041791e0a0490ee5"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_action_input_8370f9f453d19210041791e0a0490ee5"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_action_output_8370f9f453d19210041791e0a0490ee5"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_action_output_8370f9f453d19210041791e0a0490ee5"/>
+    <sys_hub_action_plan action="DELETE" query="action_id=8370f9f453d19210041791e0a0490ee5"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ContractSync">59295f459fb302107f4489554524abd8</application>
+        <file_path/>
+        <instance_id>420da9611b41c21419254089bd4bcb6f</instance_id>
+        <instance_name>dev245608</instance_name>
+        <name>sys_hub_action_type_definition_8370f9f453d19210041791e0a0490ee5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition"><sys_hub_action_type_definition action="INSERT_OR_UPDATE"><access>public</access><acls/><action_status/><action_template/><active>true</active><annotation/><attributes>{labelCacheCleanUpExecuted=true}</attributes><authored_on_release_version>26000</authored_on_release_version><callable_by_client_api>false</callable_by_client_api><category display_value="">{}</category><compiler_build/><copied_from/><copied_from_name/><description>Reserve Configuration item to Contract Dependent.</description><flow_priority/><ih_action>false</ih_action><internal_name>reserve_configuration_item_to_contract_dependent</internal_name><label_cache/><latest_snapshot/><master_snapshot/><master_snapshot_digest/><name>Reserve Configuration item to Contract Dependent</name><natlang/><outputs/><pre_compiled>false</pre_compiled><state>draft</state><sys_class_name>sys_hub_action_type_definition</sys_class_name><sys_created_by>admin.lambertucci</sys_created_by><sys_created_on>2024-10-14 20:04:12</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>8370f9f453d19210041791e0a0490ee5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Reserve Configuration item to Contract Dependent</sys_name><sys_overrides/><sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package><sys_policy/><sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope><sys_update_name>sys_hub_action_type_definition_8370f9f453d19210041791e0a0490ee5</sys_update_name><sys_updated_by>admin.lambertucci</sys_updated_by><sys_updated_on>2024-10-14 20:04:12</sys_updated_on><system_level>false</system_level><type/></sys_hub_action_type_definition><sys_translated_text action="delete_multiple" query="documentkey=8370f9f453d19210041791e0a0490ee5"/><sys_variable_value action="delete_multiple" query="document_key=8370f9f453d19210041791e0a0490ee5"/><sys_hub_step_instance action="delete_multiple" query="action=8370f9f453d19210041791e0a0490ee5"/><sys_hub_action_input action="delete_multiple" query="model=8370f9f453d19210041791e0a0490ee5"/><sys_hub_action_output action="delete_multiple" query="model=8370f9f453d19210041791e0a0490ee5"/><sys_hub_pill_compound action="delete_multiple" query="attached_to=8370f9f453d19210041791e0a0490ee5"/><sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=8370f9f453d19210041791e0a0490ee5"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_8370f9f453d19210041791e0a0490ee5"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_8370f9f453d19210041791e0a0490ee5"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_8370f9f453d19210041791e0a0490ee5"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_8370f9f453d19210041791e0a0490ee5"/><sys_hub_action_plan action="delete_multiple" query="action_id=8370f9f453d19210041791e0a0490ee5"/></record_update>]]></payload>
+        <payload_hash>311083532</payload_hash>
+        <record_name>Reserve Configuration item to Contract Dependent</record_name>
+        <reverted_from/>
+        <source>3004345c53491210041791e0a0490ecd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-10-14 20:04:12</sys_created_on>
+        <sys_id>4b70f9f453d19210041791e0a0490eeb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1928ca1961b0000001</sys_recorded_at>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-10-14 20:04:12</sys_updated_on>
+        <type>Action Type</type>
+        <update_guid>0f70f9f497d19210d99ee80f23851cea</update_guid>
+        <update_guid_history>0f70f9f497d19210d99ee80f23851cea:311083532</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-10-14 20:09:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_action_type_definition">sys_hub_action_type_definition</sys_db_object>
+        <sys_id>24d224e6817f42a898e7917d6170ddd1</sys_id>
+        <sys_metadata>8370f9f453d19210041791e0a0490ee5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reserve Configuration item to Contract Dependent</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_scope_delete display_value="">0f884f882080471e972317895cfe61a4</sys_scope_delete>
+        <sys_update_name>sys_hub_action_type_definition_8370f9f453d19210041791e0a0490ee5</sys_update_name>
+        <sys_update_version display_value="sys_hub_action_type_definition_8370f9f453d19210041791e0a0490ee5">4b70f9f453d19210041791e0a0490eeb</sys_update_version>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-10-14 20:09:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

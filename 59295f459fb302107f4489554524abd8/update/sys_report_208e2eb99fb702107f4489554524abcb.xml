@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report">
     <sys_report action="INSERT_OR_UPDATE">
         <active>false</active>
-        <additional_groupby>sys_updated_on</additional_groupby>
+        <additional_groupby>state,u_approval_status,active</additional_groupby>
         <aggregate>COUNT</aggregate>
         <aggregation_source>no_override</aggregation_source>
         <allow_data_label_overlap>false</allow_data_label_overlap>
@@ -33,7 +33,7 @@
         <column/>
         <compute_percent>aggregate</compute_percent>
         <content/>
-        <created_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</created_by_user>
+        <created_by_user display_value="Matteo Lambertucci">6816f79cc0a8016401c5a33be04be441</created_by_user>
         <custom_chart_size>false</custom_chart_size>
         <custom_chart_title_position>false</custom_chart_title_position>
         <custom_config>{"transforms":[{"transform":{"transform":"Reference","name":"chart-subjects"}}]}</custom_config>
@@ -41,12 +41,12 @@
         <description/>
         <direction>minimize</direction>
         <display_column_lines>false</display_column_lines>
-        <display_grid>false</display_grid>
+        <display_grid>true</display_grid>
         <display_row_lines>false</display_row_lines>
         <donut_width_percent>30</donut_width_percent>
         <end_time/>
         <exp_report_attrs>true</exp_report_attrs>
-        <field>sys_created_on</field>
+        <field>priority</field>
         <field_list>number,requested_for,short_description,state,priority,assignment_group,assigned_to,u_contract_type,u_start_date,u_end_date,u_automatic_renewal</field_list>
         <filter/>
         <formatting_configuration>{"table":"incident","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{}}</formatting_configuration>
@@ -55,7 +55,7 @@
         <gauge_autoscale>true</gauge_autoscale>
         <group/>
         <import_table/>
-        <interval>year</interval>
+        <interval>date</interval>
         <is_published>false</is_published>
         <is_real_time>false</is_real_time>
         <is_scheduled>false</is_scheduled>
@@ -108,21 +108,21 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-04 13:34:56</sys_created_on>
         <sys_id>208e2eb99fb702107f4489554524abcb</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>Contract Requests created trend stacked by Priority</sys_name>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Contract Requests created trend Group by Priority or State or Approval status or Active</sys_name>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
         <sys_policy/>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_update_name>sys_report_208e2eb99fb702107f4489554524abcb</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-14 10:29:58</sys_updated_on>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-10-16 09:48:43</sys_updated_on>
         <table>x_cdltd_contractsy_contract_request</table>
-        <title>Contract Requests created trend stacked by Priority</title>
+        <title>Contract Requests created trend Group by Priority or State or Approval status or Active</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>
-        <trend_field>priority</trend_field>
-        <type>bar</type>
+        <trend_field>sys_created_on</trend_field>
+        <type>line_bar</type>
         <upper_limit/>
         <use_color_heatmap>false</use_color_heatmap>
         <use_null_in_trend>false</use_null_in_trend>

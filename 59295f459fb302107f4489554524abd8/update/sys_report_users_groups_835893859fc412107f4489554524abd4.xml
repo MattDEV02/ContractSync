@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
     <sys_report_users_groups action="INSERT_OR_UPDATE">
         <group_id display_value="ContractSync Service desk" name="ContractSync Service desk">2b407d659f7302107f4489554524abbb</group_id>
-        <report_id display_value="Contract Tasks created trend stacked by Priority">c3dd5dc0344012107f44c47bf5957ccb</report_id>
+        <report_id display_value="Contract Tasks created trend Group by Priority or State or Active">c3dd5dc0344012107f44c47bf5957ccb</report_id>
         <sys_class_name>sys_report_users_groups</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-14 18:58:03</sys_created_on>

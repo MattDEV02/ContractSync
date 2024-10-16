@@ -21,7 +21,7 @@
         <report display_value="Contract Tasks count">129d95c0344012107f44c47bf5957c4b</report>
         <report_body><![CDATA[<p><span style="text-decoration: underline;"><strong>Good morning Contractsync Fulfillers Team, here is your weekly "Contract Tasks count" report.</strong></span></p>]]></report_body>
         <report_title>Here is your weekly "Contract Tasks count" report</report_title>
-        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as display_value="Matteo Lambertucci">6816f79cc0a8016401c5a33be04be441</run_as>
         <run_as_tz/>
         <run_dayofmonth>1</run_dayofmonth>
         <run_dayofweek>1</run_dayofweek>

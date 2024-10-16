@@ -5,9 +5,10 @@
         <api_name>x_cdltd_contractsy.ContractUtils</api_name>
         <caller_access/>
         <client_callable>false</client_callable>
-        <description/>
+        <description>Utility Class for managing ContractSync Contract Table.</description>
         <mobile_callable>false</mobile_callable>
         <name>ContractUtils</name>
+        <sandbox_callable>false</sandbox_callable>
         <script><![CDATA[var ContractUtils = Class.create();
 ContractUtils.prototype = {
     initialize: function() {
@@ -419,13 +420,24 @@ ContractUtils.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-05 10:27:17</sys_created_on>
         <sys_id>3fb18b829ff302107f4489554524ab58</sys_id>
-        <sys_mod_count>36</sys_mod_count>
+        <sys_mod_count>37</sys_mod_count>
         <sys_name>ContractUtils</sys_name>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
         <sys_policy>protected</sys_policy>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_update_name>sys_script_include_3fb18b829ff302107f4489554524ab58</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-14 10:26:18</sys_updated_on>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-10-09 08:36:36</sys_updated_on>
     </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>3fb18b829ff302107f4489554524ab58</id>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-10-09 08:36:35</sys_created_on>
+        <sys_id>3d23290b53011210041791e0a0490eed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-10-09 08:36:35</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
 </record_update>

@@ -8,6 +8,7 @@
         <description>AJAX script include that generates a new unique number by Table prefix parameter.</description>
         <mobile_callable>false</mobile_callable>
         <name>NumberGeneratorAjaxProcessor</name>
+        <sandbox_callable>true</sandbox_callable>
         <script><![CDATA[var NumberGeneratorAjaxProcessor = Class.create();
 NumberGeneratorAjaxProcessor.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 

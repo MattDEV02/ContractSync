@@ -16,7 +16,7 @@
         <notification_link_url/>
         <notification_text/>
         <order/>
-        <owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner>
+        <owner display_value="Matteo Lambertucci">6816f79cc0a8016401c5a33be04be441</owner>
         <restrict_to_roles>x_cdltd_contractsy.service_desk,x_cdltd_contractsy.reviewer,x_cdltd_contractsy.fulfiller</restrict_to_roles>
         <role_override>true</role_override>
         <roles/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
     <sys_report_users_groups action="INSERT_OR_UPDATE">
         <group_id display_value="ContractSync Fulfillers" name="ContractSync Fulfillers">8b03134d9f7302107f4489554524abdb</group_id>
-        <report_id display_value="Contract Tasks by State or Assignment Group">fa6ad5cc340012107f44c47bf5957cf1</report_id>
+        <report_id display_value="Contract Tasks by State or Assignment Group or Active">fa6ad5cc340012107f44c47bf5957cf1</report_id>
         <sys_class_name>sys_report_users_groups</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-14 18:56:35</sys_created_on>

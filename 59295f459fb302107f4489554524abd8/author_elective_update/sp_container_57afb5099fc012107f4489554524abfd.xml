@@ -80,7 +80,7 @@
         <update_guid_history>b868e0100960121083041b0dbcf4c724:-1323629298</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="My Contract Requests - Test Page - Container 1">13e7f41cc3a012106355351d050131a2</sys_audit_delete>
+        <sys_audit_delete display_value="">13e7f41cc3a012106355351d050131a2</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-05 19:53:03</sys_created_on>

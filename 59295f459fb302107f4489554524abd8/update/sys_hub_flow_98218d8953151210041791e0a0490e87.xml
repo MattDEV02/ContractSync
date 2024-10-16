@@ -1,0 +1,928 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=169000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="">{}</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Convert cmdb_ci GlideList to a formatted String.</description>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>convert_ci_glidelist_to_string</internal_name>
+        <label_cache>[{"name":"subflow.glide_list","label":"Input➛Glide List","reference":"cmdb_ci","reference_display":"Configuration Item","type":"glide_list","base_type":"glide_list","usedInstances":{"4ea89755-2db7-49ca-9f6b-701b3f1872c7":["items"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"056dd5d7-f86c-4f41-960b-58b95c8bb014","uiTypeLabel":"List"}},{"name":"flow_variable.string_list","label":"Flow Variables➛String List","type":"string","base_type":"string","usedInstances":{"d6cb4c98-050c-41cc-95bb-b91e8f625732":["string_list-0"],"53f60fae-a43a-4a40-9166-4aaf117907c0":["string_list-0"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"c5a8dcec-3055-4ede-b1b8-07e27ec85975"}},{"name":"4ea89755-2db7-49ca-9f6b-701b3f1872c7.item.name","label":"1 - For Each➛Configuration Item Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"cmdb_ci","column_name":"name","usedInstances":{"d6cb4c98-050c-41cc-95bb-b91e8f625732":["string_list-0"]}}]</label_cache>
+        <master_snapshot>fdc1010d53151210041791e0a0490e8e</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Convert CI GlideList to String</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-10-15 11:15:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>98218d8953151210041791e0a0490e87</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Convert CI GlideList to String</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name>sys_hub_flow_98218d8953151210041791e0a0490e87</sys_update_name>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-10-15 11:18:39</sys_updated_on>
+        <type>subflow</type>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=98218d8953151210041791e0a0490e87"/>
+    <sys_variable_value action="delete_multiple" query="document_key=98218d8953151210041791e0a0490e87"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_98218d8953151210041791e0a0490e87^id=98218d8953151210041791e0a0490e87"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=98218d8953151210041791e0a0490e87"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=98218d8953151210041791e0a0490e87^sys_idNOT INd8218d8953151210041791e0a0490e88"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>98218d8953151210041791e0a0490e87</id>
+        <name>Convert CI GlideList to String</name>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-10-15 11:15:48</sys_created_on>
+        <sys_id>d8218d8953151210041791e0a0490e88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-10-15 11:15:48</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=d8218d8953151210041791e0a0490e88"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=98218d8953151210041791e0a0490e87^sys_idNOT IN69c18d8953151210041791e0a0490ea9"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=glide_list,uiTypeLabel=List,uiUniqueId=056dd5d7-f86c-4f41-960b-58b95c8bb014</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>cmdb_ci</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>glide_list</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">glide_list</internal_type>
+        <label>Glide List</label>
+        <mandatory>true</mandatory>
+        <max_length>1024</max_length>
+        <model display_value="Convert CI GlideList to String">98218d8953151210041791e0a0490e87</model>
+        <model_id>98218d8953151210041791e0a0490e87</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_98218d8953151210041791e0a0490e87</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="cmdb_ci">cmdb_ci</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-10-15 11:18:36</sys_created_on>
+        <sys_id>69c18d8953151210041791e0a0490ea9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-10-15 11:18:37</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=69c18d8953151210041791e0a0490ea9"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=98218d8953151210041791e0a0490e87^sys_idNOT IN79c1010d53151210041791e0a0490e3c"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=c586ea8f-db82-4762-ba22-622bf3393553</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>string_list</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>String List</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Convert CI GlideList to String">98218d8953151210041791e0a0490e87</model>
+        <model_id>98218d8953151210041791e0a0490e87</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_output_98218d8953151210041791e0a0490e87</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-10-15 11:18:37</sys_created_on>
+        <sys_id>79c1010d53151210041791e0a0490e3c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-10-15 11:18:37</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=79c1010d53151210041791e0a0490e3c"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=98218d8953151210041791e0a0490e87"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=98218d8953151210041791e0a0490e87"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=98218d8953151210041791e0a0490e87"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=98218d8953151210041791e0a0490e87"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=98218d8953151210041791e0a0490e87^sys_idNOT IN35c1010d53151210041791e0a0490e4a,71c1010d53151210041791e0a0490e4b,fdc1010d53151210041791e0a0490e48"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">3dc1010d53151210041791e0a0490e49</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Convert CI GlideList to String">98218d8953151210041791e0a0490e87</flow>
+        <flow_variables_assigned>string_list</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id>4ea89755-2db7-49ca-9f6b-701b3f1872c7</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-10-15 11:18:37</sys_created_on>
+        <sys_id>35c1010d53151210041791e0a0490e4a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-10-15 11:18:37</sys_updated_on>
+        <ui_id>d6cb4c98-050c-41cc-95bb-b91e8f625732</ui_id>
+        <values>H4sIAAAAAAAA/82RPQsCMQyG/4p0toff9dwc3cVFRXptT4O1PZreiZT+d1tUdHQR3MKTkPchCcS2vmk9ru0SEY6GLLb7PgGTWaoDAUkWhPSJ4ReVKvQOzPGgAX2CHddtpiHU2l4PHXfAK62Kj6kYd4b2QpgoPi/ZdEpHsmJ0UgpOy3pWUTYYVuN6OGcjwQrw6lLkpBjTdgnYaH7bPEMSESfQ0qmnJQoHjV8KD13q11yjivss9bD4N//fhHx1EqkEIFizzsGr13Nz45YWgfhEV+vOWfTN4h13c0HsJgIAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">79c1010d53151210041791e0a0490e4a</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Convert CI GlideList to String">98218d8953151210041791e0a0490e87</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>3</order>
+        <outputs_assigned>string_list</outputs_assigned>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-10-15 11:18:37</sys_created_on>
+        <sys_id>71c1010d53151210041791e0a0490e4b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-10-15 11:18:37</sys_updated_on>
+        <ui_id>53f60fae-a43a-4a40-9166-4aaf117907c0</ui_id>
+        <values>H4sIAAAAAAAA/42PMQ7DIAxF7+I56gGyZeweZamqiAJJrbqAMCSKEHcvqK3K2NFP79vfCWwMLgYe7cCMq4H+ksCIp4YeOHg060zIATrYBMVKU1rI7vMmPIob6VNj5Vw8hexIHNOfurwjKa/r4WsHLD26MMiAWwkvgljngtHUjm/lu+kzKi2R0ZqxsnPjqaO8gbJFu/WP2ubH8gtZ7mkFAQEAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">b1c1010d53151210041791e0a0490e48</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Convert CI GlideList to String">98218d8953151210041791e0a0490e87</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-10-15 11:18:37</sys_created_on>
+        <sys_id>fdc1010d53151210041791e0a0490e48</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-10-15 11:18:37</sys_updated_on>
+        <ui_id>4ea89755-2db7-49ca-9f6b-701b3f1872c7</ui_id>
+        <values>H4sIAAAAAAAA/41STW/bMAz9LzoHhu0MwZJbgaFAD1uBruhlKAxZohNisqTpI6ln+L+PjO1s6KU72Xwk33ukOAqXk88pPru7GPFoxeHH60agZYz+R4FaHES1192+KvdqW++2dVnWnz9V7W7bVrXeStA7sRFW9kCVmKCPFJ6lyRyPY8xtZ9ylOBrU0BiMaZqoQGP0Rg4vH9WpExodYDHmZSCdBEEcxnepNHhqky0YonsC5YJmI//rf+18WAZ4Nw+zUxhuvPRhF3W5EfCWwGogoU6aCBvRS6tlcmEQhxQyAQGkfrRmuFWc0CaiE1z7FvE3cVdlyYUd0EQK5qQ6OVTw6BM6OyNJtmZNOpN7+232yRuFTmaT1o0SkiM0GjybY7lFu/t+cpenVege7XWQJWmckuYWyZQCtjlB5H2DgZ6Iml56j/bY+ODOeG0mL/38cAW/IYnyLRVSsfGCdiGLe8K/XOEXGZCn+Eo01Dxdp25+Zdad51gcN/PQVBBVQJ/uiO4Mi7nplY9sZorzBWhQGEnwmbGH9YQ5MdBrovoXurjwk63+xaY/rI+umgwDAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=98218d8953151210041791e0a0490e87"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=98218d8953151210041791e0a0490e87^sys_idNOT IN31c1010d53151210041791e0a0490e43"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=c5a8dcec-3055-4ede-b1b8-07e27ec85975</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>string_list</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>String List</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Convert CI GlideList to String">98218d8953151210041791e0a0490e87</model>
+        <model_id>98218d8953151210041791e0a0490e87</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_98218d8953151210041791e0a0490e87</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-10-15 11:18:37</sys_created_on>
+        <sys_id>31c1010d53151210041791e0a0490e43</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-10-15 11:18:37</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_98218d8953151210041791e0a0490e87^sys_idNOT IN21c1010d53151210041791e0a0490e3a"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>glide_list</element>
+        <help/>
+        <hint/>
+        <label>Glide List</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_98218d8953151210041791e0a0490e87</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-10-15 11:18:37</sys_created_on>
+        <sys_id>21c1010d53151210041791e0a0490e3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-10-15 11:18:37</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_98218d8953151210041791e0a0490e87"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_98218d8953151210041791e0a0490e87^sys_idNOT INbdc1010d53151210041791e0a0490e3f"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>string_list</element>
+        <help/>
+        <hint/>
+        <label>String List</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_98218d8953151210041791e0a0490e87</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-10-15 11:18:37</sys_created_on>
+        <sys_id>bdc1010d53151210041791e0a0490e3f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-10-15 11:18:37</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_98218d8953151210041791e0a0490e87"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="">{}</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Convert cmdb_ci GlideList to a formatted String.</description>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>convert_ci_glidelist_to_string</internal_name>
+        <label_cache>[{"name":"subflow.glide_list","label":"Input➛Glide List","reference":"cmdb_ci","reference_display":"Configuration Item","type":"glide_list","base_type":"glide_list","usedInstances":{"4ea89755-2db7-49ca-9f6b-701b3f1872c7":["items"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"056dd5d7-f86c-4f41-960b-58b95c8bb014","uiTypeLabel":"List"}},{"name":"flow_variable.string_list","label":"Flow Variables➛String List","type":"string","base_type":"string","usedInstances":{"d6cb4c98-050c-41cc-95bb-b91e8f625732":["string_list-0"],"53f60fae-a43a-4a40-9166-4aaf117907c0":["string_list-0"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"c5a8dcec-3055-4ede-b1b8-07e27ec85975"}},{"name":"4ea89755-2db7-49ca-9f6b-701b3f1872c7.item.name","label":"1 - For Each➛Configuration Item Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"cmdb_ci","column_name":"name","usedInstances":{"d6cb4c98-050c-41cc-95bb-b91e8f625732":["string_list-0"]}}]</label_cache>
+        <master>true</master>
+        <name>Convert CI GlideList to String</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Convert CI GlideList to String">98218d8953151210041791e0a0490e87</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-10-15 11:18:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fdc1010d53151210041791e0a0490e8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-10-15 11:18:38</sys_updated_on>
+        <type>subflow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=fdc1010d53151210041791e0a0490e8e"/>
+    <sys_variable_value action="delete_multiple" query="document_key=fdc1010d53151210041791e0a0490e8e"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_fdc1010d53151210041791e0a0490e8e^id=fdc1010d53151210041791e0a0490e8e"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=fdc1010d53151210041791e0a0490e8e"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=fdc1010d53151210041791e0a0490e8e^sys_idNOT INfdc1010d53151210041791e0a0490e8f"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>fdc1010d53151210041791e0a0490e8e</id>
+        <name>Convert CI GlideList to String</name>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-10-15 11:18:38</sys_created_on>
+        <sys_id>fdc1010d53151210041791e0a0490e8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-10-15 11:18:38</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=fdc1010d53151210041791e0a0490e8f"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=fdc1010d53151210041791e0a0490e8e^sys_idNOT IN71c1010d53151210041791e0a0490e91"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=glide_list,uiTypeLabel=List,uiUniqueId=056dd5d7-f86c-4f41-960b-58b95c8bb014</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>cmdb_ci</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>glide_list</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">glide_list</internal_type>
+        <label>Glide List</label>
+        <mandatory>true</mandatory>
+        <max_length>1024</max_length>
+        <model display_value="Convert CI GlideList to String">fdc1010d53151210041791e0a0490e8e</model>
+        <model_id>fdc1010d53151210041791e0a0490e8e</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_fdc1010d53151210041791e0a0490e8e</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="cmdb_ci">cmdb_ci</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-10-15 11:18:38</sys_created_on>
+        <sys_id>71c1010d53151210041791e0a0490e91</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-10-15 11:18:38</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=71c1010d53151210041791e0a0490e91"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=fdc1010d53151210041791e0a0490e8e^sys_idNOT IN02c1010d53151210041791e0a0490eb0"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=c586ea8f-db82-4762-ba22-622bf3393553</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>string_list</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>String List</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Convert CI GlideList to String">fdc1010d53151210041791e0a0490e8e</model>
+        <model_id>fdc1010d53151210041791e0a0490e8e</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_output_fdc1010d53151210041791e0a0490e8e</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-10-15 11:18:38</sys_created_on>
+        <sys_id>02c1010d53151210041791e0a0490eb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-10-15 11:18:38</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=02c1010d53151210041791e0a0490eb0"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=fdc1010d53151210041791e0a0490e8e"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=fdc1010d53151210041791e0a0490e8e"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=fdc1010d53151210041791e0a0490e8e"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=fdc1010d53151210041791e0a0490e8e"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=fdc1010d53151210041791e0a0490e8e^sys_idNOT IN0ac1010d53151210041791e0a0490ec1,4ac1010d53151210041791e0a0490ec2,c2c1010d53151210041791e0a0490ec0"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">3dc1010d53151210041791e0a0490e49</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Convert CI GlideList to String">fdc1010d53151210041791e0a0490e8e</flow>
+        <flow_variables_assigned>string_list</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id>4ea89755-2db7-49ca-9f6b-701b3f1872c7</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-10-15 11:18:39</sys_created_on>
+        <sys_id>0ac1010d53151210041791e0a0490ec1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-10-15 11:18:39</sys_updated_on>
+        <ui_id>d6cb4c98-050c-41cc-95bb-b91e8f625732</ui_id>
+        <values>H4sIAAAAAAAA/+1VS0/cMBD+K8jnTeTso8nuDYGQkGiRCuVS0GpiT1irjhNiZ2Eb5b93HGcfpb32UnGLv3l9882M0rGqdXXr7H11bq16Nmz1/WnClPEYfXdMSbZibMIMlEhf1jXKPK+1so7ALejWo11X6Op1vYVGQa4xPvHq+0cTnXXdHCFbpotFNJV5Gs2XAqJl8SmPUp7ksyLJ0qlIY+WwjH2lvqfsUtlaw+7hnxYRG6Vlg2PjNTRkcNiwVffONAgxS0TCEy4Xs2SRTBPO50m6TJADny85zmeUUEOOmlzvBnpnN0Gpv8rndvURHN83v4UTWDXS0+EThm8OjUTiUYC2OGElGAmuanYHpEGQt0YfgY0yLgywhDerflK9jHPuPQuk3gQG6+F577W9DMoHU3EJDohOK1zbjO5iUymBNigjsYBWu4tTLDjc1k5VJoQ4n3iMrnRbmi9BEnZIsB80Ia3FtcTat+v5j80Ud5vq9eue6ZUygzKjUVcC9OEFjvTLW+f5dKxV9++kDsgfYqPGkiquS6hrP6i6qbZqqEKky/hZ0yMe1lCiP5cYhO8wpjFAfEX45QA/jDv6mdJQsC/3zaiXFq/9EokFZFKgiGacVnWOEqM8ybOIpzhNUWQLWmHWT5jd2QsN1h6FoimtX1rfZpBtFGgdNPYholG1OydSWxy16J/8nQY+Hyf9cdIfJ/1fnLREoSzxHIZ7vf9fe8OOFlOJU+i1an74Do9Y/wtRyNtg+QcAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">79c1010d53151210041791e0a0490e4a</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Convert CI GlideList to String">fdc1010d53151210041791e0a0490e8e</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>3</order>
+        <outputs_assigned>string_list</outputs_assigned>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-10-15 11:18:39</sys_created_on>
+        <sys_id>4ac1010d53151210041791e0a0490ec2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-10-15 11:18:39</sys_updated_on>
+        <ui_id>53f60fae-a43a-4a40-9166-4aaf117907c0</ui_id>
+        <values>H4sIAAAAAAAA/41Ty27bMBD8lYJnW5Dkt29BjAAB3AZo3FyKQFiRK5sIRSkkZccV/O9divKjTQ+9aYf7mJldtaxqXN04u6nurJVbzZY/W6ahRLZk1hmpt5mS1rEB24NqPNq2haoO2R6MhFxhdJN1OlGekLZWcHz5z3S+k0oY9INfB6wGQ7MdGrZsmdT0oUGtpX6jTp+SpSB0tuBJnMRiMkomSZrE8TiZLRKMIR4vYhxxqlKQo6LU5270l3XQ80+R7lhfwT5e/1FOYGWEJ5gMGH441AKJRwHK4oCVoAW4yhwviEEQT1pdgR3JCmpK+LDyF82bx3HsMwskbRzD6yXceN9WwdXwVKzAAdFpuGsMnq2pJEcbnBFYQKPc/S0WEp5qJysdSpxv3FdXqin1t2AJuzQ4L5GQxmImsPZyPf9eTPG8qw7fz0wfpO6c6R9VxUFdInDkX944z6dljdz8ZXVAPpmNCkuamJVQ135Rtan2sptCpMtoqyiIuhMT6A84Au4VRrQGiB4IX3XwS39/X6kNFftxP7R8b/DRHxGfzKcI82Io8nk6HM+m6TCHNB1O0zQvRqPFaDIZsdOA2aO9V2Dt1SjaUvbeeJnBtt6gLHjsS7iRtbsjUnvsvTj529X+rwubOf8bl+VxaUlCt/fHmzxxpJuV/BY6VObNi79ip99JCowT0wMAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">b1c1010d53151210041791e0a0490e48</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Convert CI GlideList to String">fdc1010d53151210041791e0a0490e8e</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-10-15 11:18:39</sys_created_on>
+        <sys_id>c2c1010d53151210041791e0a0490ec0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-10-15 11:18:39</sys_updated_on>
+        <ui_id>4ea89755-2db7-49ca-9f6b-701b3f1872c7</ui_id>
+        <values>H4sIAAAAAAAA/41TTW/bMAz9Lzobge0MwZJb0aBAgW0F2qKXoTBoiU6EyZKmj6Se4f8+KnLcopftZPPxkXx8pkdmYrAx+Gdz4708aLb7+VowqRNG7yOTgu1YtRXdtiq3fF1v1nVZ1l+/VO1m3Va1WAOKDSuYhh6JKQP2nsITqJjicfSx7ZQ5rw5KCmyU9GGaiCCktwqGl3/x+FEq4XAWZsHRnICO7cZPqf8VqqBFRdT7Wekn4WGwKXTIjRNX4Ntc87ig9Egi6rJg+BZQC6TxHSiPBetBCwjGDWwXXCTAIYgHrYaFcZQ6UDuWuG9e/qGJVVkmYoe0EMecXMJnaBXus2M51e0hwBO15yG6mc6PRnL02Q6BHUQVbj9imfBggzQ6l4TUeK42Kvb6R3aDLQ2uH4iQ6LERaNOySf68S/d0NOfHq9I7qS/GzEllOKglghCcbGNIekaGCntq1PRgrdSHxjpzkpdi0tLnO1ilk6Ch6TRXwJPwFXkLqzvC9xf4BZxMW3ynNlQ8FcwP/laB9++7kJHN75iU5M3mHZpsQyrhTtpwQwNOOMudXtMV596Lp1x6knD5HPfXfyQlBroiyT9CZ+N+JfHv2PQXsI0LfW0DAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=fdc1010d53151210041791e0a0490e8e"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=fdc1010d53151210041791e0a0490e8e^sys_idNOT IN0ec1010d53151210041791e0a0490eba"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=c5a8dcec-3055-4ede-b1b8-07e27ec85975</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>string_list</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>String List</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Convert CI GlideList to String">fdc1010d53151210041791e0a0490e8e</model>
+        <model_id>fdc1010d53151210041791e0a0490e8e</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_fdc1010d53151210041791e0a0490e8e</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-10-15 11:18:38</sys_created_on>
+        <sys_id>0ec1010d53151210041791e0a0490eba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-10-15 11:18:38</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_fdc1010d53151210041791e0a0490e8e^sys_idNOT IN46c1010d53151210041791e0a0490eac"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>glide_list</element>
+        <help/>
+        <hint/>
+        <label>Glide List</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_fdc1010d53151210041791e0a0490e8e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-10-15 11:18:38</sys_created_on>
+        <sys_id>46c1010d53151210041791e0a0490eac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-10-15 11:18:38</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_fdc1010d53151210041791e0a0490e8e"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_fdc1010d53151210041791e0a0490e8e^sys_idNOT INcac1010d53151210041791e0a0490eb4"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>string_list</element>
+        <help/>
+        <hint/>
+        <label>String List</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_fdc1010d53151210041791e0a0490e8e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-10-15 11:18:38</sys_created_on>
+        <sys_id>cac1010d53151210041791e0a0490eb4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-10-15 11:18:38</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_fdc1010d53151210041791e0a0490e8e"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>98218d8953151210041791e0a0490e87</sys_id>
+        <latest_snapshot>fdc1010d53151210041791e0a0490e8e</latest_snapshot>
+        <compiler_build/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=98218d8953151210041791e0a0490e87"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=98218d8953151210041791e0a0490e87^sys_idNOT IN4ec1010d53151210041791e0a0490ec7"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>com.snc.process_flow.engine.ProcessPlan@d08d5c1</plan>
+        <plan_id display_value="Convert CI GlideList to String">98218d8953151210041791e0a0490e87</plan_id>
+        <snapshot>fdc1010d53151210041791e0a0490e8e</snapshot>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-10-15 11:18:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4ec1010d53151210041791e0a0490ec7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-10-15 11:18:39</sys_updated_on>
+    </sys_flow_subflow_plan>
+</record_update>

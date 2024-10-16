@@ -21,5 +21,4 @@
         <table>x_cdltd_contractsy_contract_request</table>
         <ui_action display_value="Make in progress">749e5144344012107f44c47bf5957cac</ui_action>
     </sys_ux_form_action>
-    <sys_translated_text action="delete_multiple" query="documentkey=622f1d44344012107f44c47bf5957cd9"/>
 </record_update>

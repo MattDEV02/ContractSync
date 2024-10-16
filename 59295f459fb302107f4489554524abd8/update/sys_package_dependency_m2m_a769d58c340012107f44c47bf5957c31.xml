@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
     <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
-        <dependency display_value="Approval Engine" source="com.snc.approvals">49e309f78d820210d0ad51af41866346</dependency>
+        <dependency display_value="Approval Engine" source="com.snc.approvals">3db734b57db1311076daf29f52070d38</dependency>
         <min_version>1.0.0</min_version>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-11 07:09:34</sys_created_on>

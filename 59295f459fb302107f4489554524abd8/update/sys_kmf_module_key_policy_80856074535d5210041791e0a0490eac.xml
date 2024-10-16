@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_kmf_module_key_policy">
+    <sys_kmf_module_key_policy action="INSERT_OR_UPDATE">
+        <crypto_module display_value="global.com_glide_hub_flow_engine_glideencrypter">6293d8a2b71130108321e916de11a959</crypto_module>
+        <key_type display_value="Symmetric Key Encryption Key">ca005cf7c7103300af4d43c6f0976328</key_type>
+        <last_enforced>2024-10-14 14:36:36</last_enforced>
+        <result>reject</result>
+        <sys_class_name>sys_kmf_module_key_policy</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-10-14 14:36:36</sys_created_on>
+        <sys_id>80856074535d5210041791e0a0490eac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name>sys_kmf_module_key_policy_80856074535d5210041791e0a0490eac</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-10-14 14:36:36</sys_updated_on>
+    </sys_kmf_module_key_policy>
+</record_update>

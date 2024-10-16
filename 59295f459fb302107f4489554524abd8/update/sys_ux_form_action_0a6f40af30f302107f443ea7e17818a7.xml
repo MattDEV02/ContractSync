@@ -21,5 +21,4 @@
         <table>x_cdltd_contractsy_contract_task</table>
         <ui_action display_value="Complete task">a49e086f30f302107f443ea7e17818a1</ui_action>
     </sys_ux_form_action>
-    <sys_translated_text action="delete_multiple" query="documentkey=0a6f40af30f302107f443ea7e17818a7"/>
 </record_update>

@@ -18,10 +18,10 @@
         <page_height_in_pixels>612</page_height_in_pixels>
         <page_size>Letter</page_size>
         <page_width_in_pixels>792</page_width_in_pixels>
-        <report display_value="Contract Requests by State or Approval status or ContractType">8be8e6f19fb702107f4489554524ab48</report>
+        <report display_value="Contract Requests by State or Approval status or ContractType or Active">8be8e6f19fb702107f4489554524ab48</report>
         <report_body><![CDATA[<p><span style="text-decoration: underline;"><strong>Good morning Contractsync Service desk Team, here is your weekly "Contract Requests by State or Contract type" report.</strong></span></p>]]></report_body>
         <report_title>Here is your weekly "Contract Requests by State or Contract type" report </report_title>
-        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as display_value="Matteo Lambertucci">6816f79cc0a8016401c5a33be04be441</run_as>
         <run_as_tz/>
         <run_dayofmonth>1</run_dayofmonth>
         <run_dayofweek>1</run_dayofweek>
