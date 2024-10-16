@@ -4,19 +4,19 @@
         <height>3</height>
         <portal_widget display_value="Created 2024-09-26 21:01:00">d565f04b53301210041791e0a0490ed9</portal_widget>
         <posx>3</posx>
-        <posy>14</posy>
+        <posy>4</posy>
         <sys_class_name>sys_grid_canvas_pane</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-26 19:01:00</sys_created_on>
         <sys_id>1565f04b53301210041791e0a0490edb</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name>9ad5923d9f3702107f4489554524ab21</sys_name>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
         <sys_policy/>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_update_name>sys_grid_canvas_pane_1565f04b53301210041791e0a0490edb</sys_update_name>
         <sys_updated_by>admin.lambertucci</sys_updated_by>
-        <sys_updated_on>2024-10-16 09:00:32</sys_updated_on>
+        <sys_updated_on>2024-10-16 19:23:59</sys_updated_on>
         <width>3</width>
     </sys_grid_canvas_pane>
 </record_update>
