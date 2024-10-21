@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_style">
+    <sys_ui_style action="INSERT_OR_UPDATE">
+        <alt/>
+        <element>number</element>
+        <name>x_cdltd_contractsy_contract_request</name>
+        <style>font-weight: bold;&#13;
+&#13;
+ border: 1.5px solid #007BFF;&#13;
+</style>
+        <sys_class_name>sys_ui_style</sys_class_name>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-10-20 13:20:39</sys_created_on>
+        <sys_id>2f8dcbe253151210041791e0a0490ee5</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>x_cdltd_contractsy_contract_request</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name>sys_ui_style_2f8dcbe253151210041791e0a0490ee5</sys_update_name>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-10-21 07:42:16</sys_updated_on>
+        <themed_style/>
+        <value/>
+    </sys_ui_style>
+    <sys_translated_text action="delete_multiple" query="documentkey=2f8dcbe253151210041791e0a0490ee5"/>
+</record_update>

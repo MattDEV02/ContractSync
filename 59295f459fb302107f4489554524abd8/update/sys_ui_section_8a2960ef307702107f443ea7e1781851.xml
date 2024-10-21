@@ -3,126 +3,112 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>number</element>
             <position>0</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-09-05 19:23:59</sys_created_on>
-            <sys_id>6541b010c3a012106355351d0501310f</sys_id>
+            <sys_created_by>admin.lambertucci</sys_created_by>
+            <sys_created_on>2024-10-21 08:17:57</sys_created_on>
+            <sys_id>a9f197be53195210041791e0a0490ec9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cdltd_contractsy_contract" sys_domain="global" view="e384f0717d31311076daf29f52070d85">8a2960ef307702107f443ea7e1781851</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-09-05 19:23:59</sys_updated_on>
+            <sys_updated_by>admin.lambertucci</sys_updated_by>
+            <sys_updated_on>2024-10-21 08:17:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_dependent</element>
             <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-09-05 19:23:59</sys_created_on>
-            <sys_id>e941b010c3a012106355351d0501310f</sys_id>
+            <sys_created_by>admin.lambertucci</sys_created_by>
+            <sys_created_on>2024-10-21 08:17:57</sys_created_on>
+            <sys_id>a1f197be53195210041791e0a0490eca</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cdltd_contractsy_contract" sys_domain="global" view="e384f0717d31311076daf29f52070d85">8a2960ef307702107f443ea7e1781851</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-09-05 19:23:59</sys_updated_on>
+            <sys_updated_by>admin.lambertucci</sys_updated_by>
+            <sys_updated_on>2024-10-21 08:17:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_contract_type</element>
             <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-09-05 19:23:59</sys_created_on>
-            <sys_id>6141b010c3a012106355351d05013110</sys_id>
+            <sys_created_by>admin.lambertucci</sys_created_by>
+            <sys_created_on>2024-10-21 08:17:57</sys_created_on>
+            <sys_id>a9f197be53195210041791e0a0490eca</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cdltd_contractsy_contract" sys_domain="global" view="e384f0717d31311076daf29f52070d85">8a2960ef307702107f443ea7e1781851</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-09-05 19:23:59</sys_updated_on>
+            <sys_updated_by>admin.lambertucci</sys_updated_by>
+            <sys_updated_on>2024-10-21 08:17:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_start_date</element>
             <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-09-05 19:23:59</sys_created_on>
-            <sys_id>e541b010c3a012106355351d05013110</sys_id>
+            <sys_created_by>admin.lambertucci</sys_created_by>
+            <sys_created_on>2024-10-21 08:17:57</sys_created_on>
+            <sys_id>a1f197be53195210041791e0a0490ecb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cdltd_contractsy_contract" sys_domain="global" view="e384f0717d31311076daf29f52070d85">8a2960ef307702107f443ea7e1781851</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-09-05 19:23:59</sys_updated_on>
+            <sys_updated_by>admin.lambertucci</sys_updated_by>
+            <sys_updated_on>2024-10-21 08:17:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_end_date</element>
             <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-09-05 19:23:59</sys_created_on>
-            <sys_id>6d41b010c3a012106355351d05013110</sys_id>
+            <sys_created_by>admin.lambertucci</sys_created_by>
+            <sys_created_on>2024-10-21 08:17:57</sys_created_on>
+            <sys_id>a9f197be53195210041791e0a0490ecb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cdltd_contractsy_contract" sys_domain="global" view="e384f0717d31311076daf29f52070d85">8a2960ef307702107f443ea7e1781851</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-09-05 19:23:59</sys_updated_on>
+            <sys_updated_by>admin.lambertucci</sys_updated_by>
+            <sys_updated_on>2024-10-21 08:17:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_automatic_renewal</element>
             <position>5</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-09-05 19:23:59</sys_created_on>
-            <sys_id>a941b010c3a012106355351d0501311d</sys_id>
+            <sys_created_by>admin.lambertucci</sys_created_by>
+            <sys_created_on>2024-10-21 08:17:57</sys_created_on>
+            <sys_id>a1f197be53195210041791e0a0490ecc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cdltd_contractsy_contract" sys_domain="global" view="e384f0717d31311076daf29f52070d85">8a2960ef307702107f443ea7e1781851</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-09-05 19:23:59</sys_updated_on>
+            <sys_updated_by>admin.lambertucci</sys_updated_by>
+            <sys_updated_on>2024-10-21 08:17:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_configuration_items</element>
             <position>6</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-09-05 19:23:59</sys_created_on>
-            <sys_id>2141b010c3a012106355351d0501311e</sys_id>
+            <sys_created_by>admin.lambertucci</sys_created_by>
+            <sys_created_on>2024-10-21 08:17:57</sys_created_on>
+            <sys_id>a9f197be53195210041791e0a0490ecc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cdltd_contractsy_contract" sys_domain="global" view="e384f0717d31311076daf29f52070d85">8a2960ef307702107f443ea7e1781851</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-09-05 19:23:59</sys_updated_on>
+            <sys_updated_by>admin.lambertucci</sys_updated_by>
+            <sys_updated_on>2024-10-21 08:17:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_active</element>
             <position>7</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-09-05 19:23:59</sys_created_on>
-            <sys_id>a541b010c3a012106355351d0501311e</sys_id>
+            <sys_created_by>admin.lambertucci</sys_created_by>
+            <sys_created_on>2024-10-21 08:17:57</sys_created_on>
+            <sys_id>a1f197be53195210041791e0a0490ecd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_cdltd_contractsy_contract" sys_domain="global" view="e384f0717d31311076daf29f52070d85">8a2960ef307702107f443ea7e1781851</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-09-05 19:23:59</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_contract_request</element>
-            <position>8</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-09-05 19:23:59</sys_created_on>
-            <sys_id>2d41b010c3a012106355351d0501311e</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_contractsy_contract" sys_domain="global" view="e384f0717d31311076daf29f52070d85">8a2960ef307702107f443ea7e1781851</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-09-05 19:23:59</sys_updated_on>
+            <sys_updated_by>admin.lambertucci</sys_updated_by>
+            <sys_updated_on>2024-10-21 08:17:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

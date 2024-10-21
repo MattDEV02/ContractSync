@@ -3,17 +3,16 @@
         <name>x_cdltd_contractsy_contract_script_8</name>
         <new_lines_to_html>true</new_lines_to_html>
         <script><![CDATA[var configurationItems = current.u_configuration_items.split(",");
+// var dependent = current.dependent;
 for (var i = 0; i < configurationItems.length; i++) {
    
    if (configurationItems[i]) {
       var configurationItemGR = new GlideRecord("cmdb_ci");
       configurationItemGR.get(configurationItems[i]);
    
-      //configurationItemGR.addQuery("u_reserved_to", dependent);
-
 		if(configurationItemGR) {
 
-			if(configurationItemGR.sys_class_name == "cmdb_ci_computer" && configurationItemGR.u_reserved) {
+			if(configurationItemGR.sys_class_name == "cmdb_ci_computer" && configurationItemGR.u_reserved) { // configurationItemGR.assigned_to == dependent
 			
 				var contractUtils = new ContractUtils();
 				var appScopeName = contractUtils.appScopeName;
@@ -48,13 +47,24 @@ for (var i = 0; i < configurationItems.length; i++) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-08 12:54:19</sys_created_on>
         <sys_id>509b070bcdb702107f44cc990e1cd585</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>x_cdltd_contractsy_contract_script_8</sys_name>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
         <sys_policy/>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_update_name>sys_script_email_509b070bcdb702107f44cc990e1cd585</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-14 20:16:13</sys_updated_on>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-10-21 07:31:51</sys_updated_on>
     </sys_script_email>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>509b070bcdb702107f44cc990e1cd585</id>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-10-21 07:31:50</sys_created_on>
+        <sys_id>8e67477e53d55210041791e0a0490e6a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-10-21 07:31:50</sys_updated_on>
+        <table>sys_script_email</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
 </record_update>

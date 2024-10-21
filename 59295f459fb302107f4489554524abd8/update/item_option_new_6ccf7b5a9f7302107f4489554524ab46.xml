@@ -18,7 +18,7 @@
         <dynamic_default_value/>
         <dynamic_ref_qual/>
         <dynamic_value_dot_walk_path/>
-        <dynamic_value_field/>
+        <dynamic_value_field display_value="Which assignment group will process this Contract request?">accf7b5a9f7302107f4489554524ab37</dynamic_value_field>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
         <field>assigned_to</field>
@@ -56,8 +56,11 @@
         <record/>
         <record_producer_table>x_cdltd_contractsy_contract_request</record_producer_table>
         <reference>sys_user</reference>
-        <reference_qual/>
-        <reference_qual_condition/>
+        <reference_qual>roles=x_cdltd_contractsy.service_desk^roles!=x_cdltd_contractsy.admin^EQ</reference_qual>
+        <reference_qual_condition table="sys_user">roles=x_cdltd_contractsy.service_desk^roles!=x_cdltd_contractsy.admin^EQ<item endquery="false" field="roles" goto="false" newquery="false" operator="=" or="false" value="x_cdltd_contractsy.service_desk"/>
+            <item endquery="false" field="roles" goto="false" newquery="false" operator="!=" or="false" value="x_cdltd_contractsy.admin"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </reference_qual_condition>
         <rich_text/>
         <roles_to_use_also_request_for/>
         <save_script><![CDATA[/** This script is executed before the Record is generated
@@ -77,14 +80,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-06 08:46:53</sys_created_on>
         <sys_id>6ccf7b5a9f7302107f4489554524ab46</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Who will process this Contract request?</sys_name>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
         <sys_policy/>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_update_name>item_option_new_6ccf7b5a9f7302107f4489554524ab46</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-06 13:12:53</sys_updated_on>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-10-20 13:19:10</sys_updated_on>
         <table/>
         <tooltip/>
         <type>8</type>

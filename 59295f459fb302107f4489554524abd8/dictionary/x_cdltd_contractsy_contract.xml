@@ -9,11 +9,11 @@
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="part-time" label="Contract type" mandatory="true" max_length="40" name="u_contract_type" type="string">
             <choice>
-                <element inactive_on_update="false" label="Freelance" sequence="2" value="freelance"/>
-                <element inactive_on_update="false" label="Part-time" sequence="0" value="part-time"/>
-                <element inactive_on_update="false" label="Internship" sequence="4" value="internship"/>
                 <element inactive_on_update="false" label="Fixed-term" sequence="1" value="fixed-term"/>
                 <element inactive_on_update="false" label="Apprenticeship" sequence="3" value="apprenticeship"/>
+                <element inactive_on_update="false" label="Part-time" sequence="0" value="part-time"/>
+                <element inactive_on_update="false" label="Freelance" sequence="2" value="freelance"/>
+                <element inactive_on_update="false" label="Internship" sequence="4" value="internship"/>
             </choice>
         </element>
         <element attributes="encode_utf8=false" label="Contract Request" max_length="32" name="u_contract_request" reference="x_cdltd_contractsy_contract_request" type="reference"/>

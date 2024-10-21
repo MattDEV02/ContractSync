@@ -2,45 +2,59 @@
     <sys_ui_related sys_domain="global" table="x_cdltd_contractsy_contract_request" version="2" view="">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Contract Request - Default view" name="x_cdltd_contractsy_contract_request" related_list="NULL" sys_domain="global" view="Default view">f0e6412cc36852106355351d05013157</list_id>
+            <list_id display_value="Contract Request - Default view" name="x_cdltd_contractsy_contract_request" related_list="NULL" sys_domain="global" view="Default view">fd711f3e53195210041791e0a0490e12</list_id>
             <order_by/>
             <position>0</position>
             <related_list>sysapproval_approver.sysapproval</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-09-06 15:36:54</sys_created_on>
-            <sys_id>30e6412cc36852106355351d05013158</sys_id>
+            <sys_created_by>admin.lambertucci</sys_created_by>
+            <sys_created_on>2024-10-21 08:15:47</sys_created_on>
+            <sys_id>3d711f3e53195210041791e0a0490e13</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-09-06 15:36:54</sys_updated_on>
+            <sys_updated_by>admin.lambertucci</sys_updated_by>
+            <sys_updated_on>2024-10-21 08:15:47</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Contract Request - Default view" name="x_cdltd_contractsy_contract_request" related_list="NULL" sys_domain="global" view="Default view">f0e6412cc36852106355351d05013157</list_id>
+            <list_id display_value="Contract Request - Default view" name="x_cdltd_contractsy_contract_request" related_list="NULL" sys_domain="global" view="Default view">fd711f3e53195210041791e0a0490e12</list_id>
             <order_by/>
             <position>1</position>
             <related_list>x_cdltd_contractsy_contract_task.parent</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-09-06 15:36:54</sys_created_on>
-            <sys_id>34e6412cc36852106355351d05013158</sys_id>
+            <sys_created_by>admin.lambertucci</sys_created_by>
+            <sys_created_on>2024-10-21 08:15:47</sys_created_on>
+            <sys_id>31711f3e53195210041791e0a0490e14</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-09-06 15:36:54</sys_updated_on>
+            <sys_updated_by>admin.lambertucci</sys_updated_by>
+            <sys_updated_on>2024-10-21 08:15:47</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Contract Request - Default view" name="x_cdltd_contractsy_contract_request" related_list="NULL" sys_domain="global" view="Default view">f0e6412cc36852106355351d05013157</list_id>
+            <list_id display_value="Contract Request - Default view" name="x_cdltd_contractsy_contract_request" related_list="NULL" sys_domain="global" view="Default view">fd711f3e53195210041791e0a0490e12</list_id>
             <order_by/>
             <position>2</position>
             <related_list>task_sla.task</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-09-06 15:36:54</sys_created_on>
-            <sys_id>38e6412cc36852106355351d05013158</sys_id>
+            <sys_created_by>admin.lambertucci</sys_created_by>
+            <sys_created_on>2024-10-21 08:15:47</sys_created_on>
+            <sys_id>35711f3e53195210041791e0a0490e14</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-09-06 15:36:54</sys_updated_on>
+            <sys_updated_by>admin.lambertucci</sys_updated_by>
+            <sys_updated_on>2024-10-21 08:15:47</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Contract Request - Default view" name="x_cdltd_contractsy_contract_request" related_list="NULL" sys_domain="global" view="Default view">fd711f3e53195210041791e0a0490e12</list_id>
+            <order_by/>
+            <position>3</position>
+            <related_list>sc_item_variables_task.task</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin.lambertucci</sys_created_by>
+            <sys_created_on>2024-10-21 08:15:47</sys_created_on>
+            <sys_id>39711f3e53195210041791e0a0490e14</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin.lambertucci</sys_updated_by>
+            <sys_updated_on>2024-10-21 08:15:47</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
             <calculated_name>Contract Request - Default view</calculated_name>
@@ -50,19 +64,19 @@
             <position/>
             <related_list/>
             <sys_class_name>sys_ui_related_list</sys_class_name>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-09-06 15:36:54</sys_created_on>
+            <sys_created_by>admin.lambertucci</sys_created_by>
+            <sys_created_on>2024-10-21 08:15:47</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>f0e6412cc36852106355351d05013157</sys_id>
+            <sys_id>fd711f3e53195210041791e0a0490e12</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Contract Request - Default view</sys_name>
             <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
             <sys_policy/>
             <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
             <sys_update_name>sys_ui_related_x_cdltd_contractsy_contract_request_null</sys_update_name>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-09-06 15:36:54</sys_updated_on>
+            <sys_updated_by>admin.lambertucci</sys_updated_by>
+            <sys_updated_on>2024-10-21 08:15:47</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

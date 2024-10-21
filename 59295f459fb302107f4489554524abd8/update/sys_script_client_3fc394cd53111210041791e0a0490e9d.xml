@@ -8,7 +8,7 @@
         <global>true</global>
         <isolate_script>false</isolate_script>
         <messages/>
-        <name>function onSufunction onSubmit() {     i</name>
+        <name>Confirm P1 Contract request</name>
         <order/>
         <script><![CDATA[function onSubmit() {
     if (g_form.getValue("priority") == "1") { // !g_user.hasRole("x_cdltd_contractsy.admin")
@@ -37,15 +37,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3fc394cd53111210041791e0a0490e9d</sys_id>
-        <sys_mod_count>10</sys_mod_count>
-        <sys_name>function onSufunction onSubmit() {     i</sys_name>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Confirm P1 Contract request</sys_name>
         <sys_overrides/>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
         <sys_policy/>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_update_name>sys_script_client_3fc394cd53111210041791e0a0490e9d</sys_update_name>
         <sys_updated_by>admin.lambertucci</sys_updated_by>
-        <sys_updated_on>2024-10-15 10:56:05</sys_updated_on>
+        <sys_updated_on>2024-10-21 07:18:51</sys_updated_on>
         <table>x_cdltd_contractsy_contract_request</table>
         <type>onSubmit</type>
         <ui_type>10</ui_type>

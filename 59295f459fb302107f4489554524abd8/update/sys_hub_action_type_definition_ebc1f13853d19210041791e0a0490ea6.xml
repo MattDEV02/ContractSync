@@ -16,7 +16,7 @@
         <flow_priority/>
         <ih_action>false</ih_action>
         <internal_name>active_contractsync_contract</internal_name>
-        <label_cache>[{"name":"{{action.variable}}","label":"action➛variable","type":"action","ref":"x_cdltd_contractsy_contract","reference_display":"Contract","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.variable1}}","label":"action➛variable1","type":"action","ref":"sys_user","reference_display":"User","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.contract}}","label":"action➛Contract","type":"action","ref":"x_cdltd_contractsy_contract","reference_display":"Contract","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.dependent}}","label":"action➛Dependent","type":"action","ref":"sys_user","reference_display":"User","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.contract.u_dependent}}","label":"action➛Contract➛Dependent","type":"action","ref":"sys_user","reference_display":"Dependent","base_type":"reference","parent_table_name":"x_cdltd_contractsy_contract","column_name":"u_dependent","choices":null,"attributes":{}},{"name":"{{step[ead3a072-fbcf-4544-bbaa-ae18b5800a98].record.number}}","label":"step➛Make Contract active = true.➛Contract Record➛Number","type":"step","ref":"","reference_display":"Number","base_type":"string","parent_table_name":"x_cdltd_contractsy_contract","column_name":"number","choices":null,"attributes":{}},{"name":"{{step[7cc0d282-e2fa-4000-b9f9-ea33c1ea46d3].record.name}}","label":"step➛Update Dependent Current Contract.➛User Record➛Name","type":"step","ref":"","reference_display":"Name","base_type":"string","parent_table_name":"sys_user","column_name":"name","choices":null,"attributes":{}},{"name":"{{step[ead3a072-fbcf-4544-bbaa-ae18b5800a98].record}}","label":"step➛Make Contract active = true.➛Contract Record","type":"step","ref":"x_cdltd_contractsy_contract","reference_display":"","base_type":"document_id","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[7cc0d282-e2fa-4000-b9f9-ea33c1ea46d3].record.x_cdltd_contractsy_current_contract.u_active}}","label":"step➛Update Dependent Current Contract.➛User Record➛Current Contract➛Active","type":"step","ref":"","reference_display":"Active","base_type":"boolean","parent_table_name":"x_cdltd_contractsy_contract","column_name":"u_active","choices":null,"attributes":{}},{"name":"{{step[ead3a072-fbcf-4544-bbaa-ae18b5800a98].record.u_dependent}}","label":"step➛Make Contract active = true.➛Contract Record➛Dependent","type":"step","ref":"sys_user","reference_display":"Dependent","base_type":"reference","parent_table_name":"x_cdltd_contractsy_contract","column_name":"u_dependent","choices":null,"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"{{action.variable}}","label":"action➛variable","type":"action","ref":"x_cdltd_contractsy_contract","reference_display":"Contract","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.variable1}}","label":"action➛variable1","type":"action","ref":"sys_user","reference_display":"User","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.contract}}","label":"action➛Contract","type":"action","ref":"x_cdltd_contractsy_contract","reference_display":"Contract","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.dependent}}","label":"action➛Dependent","type":"action","ref":"sys_user","reference_display":"User","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.contract.u_dependent}}","label":"action➛Contract➛Dependent","type":"action","ref":"sys_user","reference_display":"Dependent","base_type":"reference","parent_table_name":"x_cdltd_contractsy_contract","column_name":"u_dependent","choices":null,"attributes":{}},{"name":"{{action.contract.u_dependent.name}}","label":"action➛Contract➛Dependent➛Name","type":"action","ref":"","reference_display":"Name","base_type":"string","parent_table_name":"sys_user","column_name":"name","choices":null,"attributes":{}},{"name":"{{action.contract.u_contract_request}}","label":"action➛Contract Request","type":"action","ref":"x_cdltd_contractsy_contract_request","reference_display":"Contract Request","base_type":"reference","parent_table_name":"x_cdltd_contractsy_contract","column_name":"u_contract_request","choices":null,"attributes":{}},{"name":"{{step[ead3a072-fbcf-4544-bbaa-ae18b5800a98].record.number}}","label":"step➛Make Contract active = true.➛Contract Record➛Number","type":"step","ref":"","reference_display":"Number","base_type":"string","parent_table_name":"x_cdltd_contractsy_contract","column_name":"number","choices":null,"attributes":{}},{"name":"{{step[7cc0d282-e2fa-4000-b9f9-ea33c1ea46d3].record.name}}","label":"step➛Update Dependent Current Contract.➛User Record➛Name","type":"step","ref":"","reference_display":"Name","base_type":"string","parent_table_name":"sys_user","column_name":"name","choices":null,"attributes":{}},{"name":"{{step[ead3a072-fbcf-4544-bbaa-ae18b5800a98].record}}","label":"step➛Make Contract active = true.➛Contract Record","type":"step","ref":"x_cdltd_contractsy_contract","reference_display":"","base_type":"document_id","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[7cc0d282-e2fa-4000-b9f9-ea33c1ea46d3].record.x_cdltd_contractsy_current_contract.u_active}}","label":"step➛Update Dependent Current Contract.➛User Record➛Current Contract➛Active","type":"step","ref":"","reference_display":"Active","base_type":"boolean","parent_table_name":"x_cdltd_contractsy_contract","column_name":"u_active","choices":null,"attributes":{}},{"name":"{{step[ead3a072-fbcf-4544-bbaa-ae18b5800a98].record.u_dependent}}","label":"step➛Make Contract active = true.➛Contract Record➛Dependent","type":"step","ref":"sys_user","reference_display":"Dependent","base_type":"reference","parent_table_name":"x_cdltd_contractsy_contract","column_name":"u_dependent","choices":null,"attributes":{}}]</label_cache>
         <master_snapshot>68f2bdb853d19210041791e0a0490ee4</master_snapshot>
         <master_snapshot_digest/>
         <name>Active a ContractSync Contract</name>
@@ -24,14 +24,14 @@
         <outputs/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <state>draft</state>
+        <state>published</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>admin.lambertucci</sys_created_by>
         <sys_created_on>2024-10-14 20:09:58</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ebc1f13853d19210041791e0a0490ea6</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name>Active a ContractSync Contract</sys_name>
         <sys_overrides/>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
@@ -39,7 +39,7 @@
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_ebc1f13853d19210041791e0a0490ea6</sys_update_name>
         <sys_updated_by>admin.lambertucci</sys_updated_by>
-        <sys_updated_on>2024-10-14 20:20:08</sys_updated_on>
+        <sys_updated_on>2024-10-20 10:24:15</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -81,10 +81,10 @@
         <sys_created_by>admin.lambertucci</sys_created_by>
         <sys_created_on>2024-10-14 20:14:57</sys_created_on>
         <sys_id>d0f2bdb853d19210041791e0a0490ec7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin.lambertucci</sys_updated_by>
-        <sys_updated_on>2024-10-14 20:14:57</sys_updated_on>
-        <value>{"version":"1.0","serializationFormat":"JSON","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}}}</value>
+        <sys_updated_on>2024-10-20 10:24:14</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
         <variable display_value="Action Status">d4f2bdb853d19210041791e0a0490eba</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=ebc1f13853d19210041791e0a0490ea6"/>
@@ -124,7 +124,7 @@
         <table>var__m_sys_hub_action_output_ebc1f13853d19210041791e0a0490ea6</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_step_instance action="delete_multiple" query="action=ebc1f13853d19210041791e0a0490ea6^sys_idNOT IN90f2bdb853d19210041791e0a0490ea7,d0f2bdb853d19210041791e0a0490eaf,d8f2bdb853d19210041791e0a0490eb4"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=ebc1f13853d19210041791e0a0490ea6^sys_idNOT IN90f2bdb853d19210041791e0a0490ea7,d0f2bdb853d19210041791e0a0490eaf,d145aa2e53111210041791e0a0490eed,d8f2bdb853d19210041791e0a0490eb4"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Active a ContractSync Contract">ebc1f13853d19210041791e0a0490ea6</action>
         <cid>ead3a072-fbcf-4544-bbaa-ae18b5800a98</cid>
@@ -299,8 +299,101 @@
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_d0f2bdb853d19210041791e0a0490eaf"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Active a ContractSync Contract">ebc1f13853d19210041791e0a0490ea6</action>
-        <cid>e428b70f-9b09-499e-83a6-ab3aed52a95d</cid>
+        <cid>89b67035-c79f-4dfe-acd1-2b1c05b60c5d</cid>
         <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Update Record step</label>
+        <order>4</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Update Record">b51f683667003200553fafb49585ef3f</step_type>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-10-20 10:24:13</sys_created_on>
+        <sys_id>d145aa2e53111210041791e0a0490eed</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-10-20 10:24:13</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d145aa2e53111210041791e0a0490eed"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d145aa2e53111210041791e0a0490eed</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-10-20 10:24:13</sys_created_on>
+        <sys_id>6945aa2e53111210041791e0a0490ef2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-10-20 10:24:13</sys_updated_on>
+        <value>comments=Contract activated.</value>
+        <variable display_value="Field Values">fcbf6c3667003200553fafb49585ef2e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d145aa2e53111210041791e0a0490eed</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-10-20 10:24:13</sys_created_on>
+        <sys_id>e145aa2e53111210041791e0a0490ef3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-10-20 10:24:13</sys_updated_on>
+        <value>x_cdltd_contractsy_contract_request</value>
+        <variable display_value="Table">3930d57267003200553fafb49585efc5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d145aa2e53111210041791e0a0490eed"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>d145aa2e53111210041791e0a0490eed</id>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-10-20 10:24:13</sys_created_on>
+        <sys_id>e545aa2e53111210041791e0a0490ef2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-10-20 10:24:13</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value>{{action.contract.u_contract_request}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>d145aa2e53111210041791e0a0490eed</id>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-10-20 10:24:13</sys_created_on>
+        <sys_id>6d45aa2e53111210041791e0a0490ef1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-10-20 10:24:13</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>update_record_field_values</field>
+        <id>d145aa2e53111210041791e0a0490eed</id>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-10-20 10:24:13</sys_created_on>
+        <sys_id>2545aa2e53111210041791e0a0490ef2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-10-20 10:24:13</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=d145aa2e53111210041791e0a0490eed"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=d145aa2e53111210041791e0a0490eed"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=d145aa2e53111210041791e0a0490eed"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d145aa2e53111210041791e0a0490eed"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_d145aa2e53111210041791e0a0490eed"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Active a ContractSync Contract">ebc1f13853d19210041791e0a0490ea6</action>
+        <cid>e428b70f-9b09-499e-83a6-ab3aed52a95d</cid>
+        <error_handling_type>2</error_handling_type>
         <extended_inputs/>
         <extended_outputs/>
         <icon/>
@@ -314,10 +407,10 @@
         <sys_created_by>admin.lambertucci</sys_created_by>
         <sys_created_on>2024-10-14 20:14:57</sys_created_on>
         <sys_id>d8f2bdb853d19210041791e0a0490eb4</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_updated_by>admin.lambertucci</sys_updated_by>
-        <sys_updated_on>2024-10-14 20:18:56</sys_updated_on>
+        <sys_updated_on>2024-10-20 10:24:13</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d8f2bdb853d19210041791e0a0490eb4"/>
     <sys_element_mapping action="delete_multiple" query="id=d8f2bdb853d19210041791e0a0490eb4"/>
@@ -327,11 +420,11 @@
         <sys_created_by>admin.lambertucci</sys_created_by>
         <sys_created_on>2024-10-14 20:14:57</sys_created_on>
         <sys_id>90f2bdb853d19210041791e0a0490eb9</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin.lambertucci</sys_updated_by>
-        <sys_updated_on>2024-10-14 20:18:56</sys_updated_on>
+        <sys_updated_on>2024-10-20 10:24:13</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_a03fea9bc712220061f553c6f09763b1</table>
-        <value>Contract {{step[ead3a072-fbcf-4544-bbaa-ae18b5800a98].record.number}} activated for .</value>
+        <value>Contract {{step[ead3a072-fbcf-4544-bbaa-ae18b5800a98].record.number}} activated for {{action.contract.u_dependent.name}}.</value>
     </sys_element_mapping>
     <sys_translated_text action="delete_multiple" query="documentkey=d8f2bdb853d19210041791e0a0490eb4"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=d8f2bdb853d19210041791e0a0490eb4"/>
@@ -576,14 +669,14 @@
         <sys_created_by>admin.lambertucci</sys_created_by>
         <sys_created_on>2024-10-14 20:14:57</sys_created_on>
         <sys_id>d0f2bdb853d19210041791e0a0490ebf</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin.lambertucci</sys_updated_by>
-        <sys_updated_on>2024-10-14 20:20:08</sys_updated_on>
+        <sys_updated_on>2024-10-20 10:24:13</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -797,17 +890,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Active a ContractSync Contract">ebc1f13853d19210041791e0a0490ea6</action_id>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"b4f2fdb853d19210041791e0a0490e6b","name":"plan","plan_signature":null}}</plan>
-        <snapshot>47d3f13c53d19210041791e0a0490e72</snapshot>
+        <snapshot>3145ea2e53111210041791e0a0490e80</snapshot>
         <sys_created_by>admin.lambertucci</sys_created_by>
         <sys_created_on>2024-10-14 20:14:59</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b4f2fdb853d19210041791e0a0490e6b</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin.lambertucci</sys_updated_by>
-        <sys_updated_on>2024-10-14 20:18:58</sys_updated_on>
+        <sys_updated_on>2024-10-20 10:24:17</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -824,9 +917,9 @@
         <description>Make a ContractSync Contract active.</description>
         <flow_priority/>
         <internal_name>active_contractsync_contract</internal_name>
-        <label_cache>[{"name":"{{action.variable}}","label":"action➛variable","type":"action","ref":"x_cdltd_contractsy_contract","reference_display":"Contract","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.variable1}}","label":"action➛variable1","type":"action","ref":"sys_user","reference_display":"User","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.contract}}","label":"action➛Contract","type":"action","ref":"x_cdltd_contractsy_contract","reference_display":"Contract","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.dependent}}","label":"action➛Dependent","type":"action","ref":"sys_user","reference_display":"User","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.contract.u_dependent}}","label":"action➛Contract➛Dependent","type":"action","ref":"sys_user","reference_display":"Dependent","base_type":"reference","parent_table_name":"x_cdltd_contractsy_contract","column_name":"u_dependent","choices":null,"attributes":{}},{"name":"{{step[ead3a072-fbcf-4544-bbaa-ae18b5800a98].record.number}}","label":"step➛Make Contract active = true.➛Contract Record➛Number","type":"step","ref":"","reference_display":"Number","base_type":"string","parent_table_name":"x_cdltd_contractsy_contract","column_name":"number","choices":null,"attributes":{}},{"name":"{{step[7cc0d282-e2fa-4000-b9f9-ea33c1ea46d3].record.name}}","label":"step➛Update Dependent Current Contract.➛User Record➛Name","type":"step","ref":"","reference_display":"Name","base_type":"string","parent_table_name":"sys_user","column_name":"name","choices":null,"attributes":{}},{"name":"{{step[ead3a072-fbcf-4544-bbaa-ae18b5800a98].record}}","label":"step➛Make Contract active = true.➛Contract Record","type":"step","ref":"x_cdltd_contractsy_contract","reference_display":"","base_type":"document_id","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[7cc0d282-e2fa-4000-b9f9-ea33c1ea46d3].record.x_cdltd_contractsy_current_contract.u_active}}","label":"step➛Update Dependent Current Contract.➛User Record➛Current Contract➛Active","type":"step","ref":"","reference_display":"Active","base_type":"boolean","parent_table_name":"x_cdltd_contractsy_contract","column_name":"u_active","choices":null,"attributes":{}},{"name":"{{step[ead3a072-fbcf-4544-bbaa-ae18b5800a98].record.u_dependent}}","label":"step➛Make Contract active = true.➛Contract Record➛Dependent","type":"step","ref":"sys_user","reference_display":"Dependent","base_type":"reference","parent_table_name":"x_cdltd_contractsy_contract","column_name":"u_dependent","choices":null,"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"{{action.variable}}","label":"action➛variable","type":"action","ref":"x_cdltd_contractsy_contract","reference_display":"Contract","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.variable1}}","label":"action➛variable1","type":"action","ref":"sys_user","reference_display":"User","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.contract}}","label":"action➛Contract","type":"action","ref":"x_cdltd_contractsy_contract","reference_display":"Contract","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.dependent}}","label":"action➛Dependent","type":"action","ref":"sys_user","reference_display":"User","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.contract.u_dependent}}","label":"action➛Contract➛Dependent","type":"action","ref":"sys_user","reference_display":"Dependent","base_type":"reference","parent_table_name":"x_cdltd_contractsy_contract","column_name":"u_dependent","choices":null,"attributes":{}},{"name":"{{action.contract.u_dependent.name}}","label":"action➛Contract➛Dependent➛Name","type":"action","ref":"","reference_display":"Name","base_type":"string","parent_table_name":"sys_user","column_name":"name","choices":null,"attributes":{}},{"name":"{{action.contract.u_contract_request}}","label":"action➛Contract Request","type":"action","ref":"x_cdltd_contractsy_contract_request","reference_display":"Contract Request","base_type":"reference","parent_table_name":"x_cdltd_contractsy_contract","column_name":"u_contract_request","choices":null,"attributes":{}},{"name":"{{step[ead3a072-fbcf-4544-bbaa-ae18b5800a98].record.number}}","label":"step➛Make Contract active = true.➛Contract Record➛Number","type":"step","ref":"","reference_display":"Number","base_type":"string","parent_table_name":"x_cdltd_contractsy_contract","column_name":"number","choices":null,"attributes":{}},{"name":"{{step[7cc0d282-e2fa-4000-b9f9-ea33c1ea46d3].record.name}}","label":"step➛Update Dependent Current Contract.➛User Record➛Name","type":"step","ref":"","reference_display":"Name","base_type":"string","parent_table_name":"sys_user","column_name":"name","choices":null,"attributes":{}},{"name":"{{step[ead3a072-fbcf-4544-bbaa-ae18b5800a98].record}}","label":"step➛Make Contract active = true.➛Contract Record","type":"step","ref":"x_cdltd_contractsy_contract","reference_display":"","base_type":"document_id","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[7cc0d282-e2fa-4000-b9f9-ea33c1ea46d3].record.x_cdltd_contractsy_current_contract.u_active}}","label":"step➛Update Dependent Current Contract.➛User Record➛Current Contract➛Active","type":"step","ref":"","reference_display":"Active","base_type":"boolean","parent_table_name":"x_cdltd_contractsy_contract","column_name":"u_active","choices":null,"attributes":{}},{"name":"{{step[ead3a072-fbcf-4544-bbaa-ae18b5800a98].record.u_dependent}}","label":"step➛Make Contract active = true.➛Contract Record➛Dependent","type":"step","ref":"sys_user","reference_display":"Dependent","base_type":"reference","parent_table_name":"x_cdltd_contractsy_contract","column_name":"u_dependent","choices":null,"attributes":{}}]</label_cache>
         <master>true</master>
-        <name>Active ContractSync Contract</name>
+        <name>Active a ContractSync Contract</name>
         <natlang/>
         <outputs/>
         <outputs/>
@@ -837,7 +930,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>68f2bdb853d19210041791e0a0490ee4</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -845,7 +938,7 @@
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin.lambertucci</sys_updated_by>
-        <sys_updated_on>2024-10-14 20:18:57</sys_updated_on>
+        <sys_updated_on>2024-10-20 10:24:15</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -873,10 +966,10 @@
         <sys_created_by>admin.lambertucci</sys_created_by>
         <sys_created_on>2024-10-14 20:14:58</sys_created_on>
         <sys_id>6cf2fdb853d19210041791e0a0490e19</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin.lambertucci</sys_updated_by>
-        <sys_updated_on>2024-10-14 20:14:58</sys_updated_on>
-        <value>{"version":"1.0","serializationFormat":"JSON","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}}}</value>
+        <sys_updated_on>2024-10-20 10:24:15</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
         <variable display_value="Action Status">68f2fdb853d19210041791e0a0490e0e</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -930,9 +1023,102 @@
         <table>var__m_sys_hub_action_output_68f2bdb853d19210041791e0a0490ee4</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_step_instance action="delete_multiple" query="action=68f2bdb853d19210041791e0a0490ee4^sys_idNOT IN64f2fdb853d19210041791e0a0490e04,e8f2bdb853d19210041791e0a0490efe,e8f2fdb853d19210041791e0a0490e09"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=68f2bdb853d19210041791e0a0490ee4^sys_idNOT IN3145ea2e53111210041791e0a0490e70,64f2fdb853d19210041791e0a0490e04,e8f2bdb853d19210041791e0a0490efe,e8f2fdb853d19210041791e0a0490e09"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Active ContractSync Contract">68f2bdb853d19210041791e0a0490ee4</action>
+        <action display_value="Active a ContractSync Contract">68f2bdb853d19210041791e0a0490ee4</action>
+        <cid>89b67035-c79f-4dfe-acd1-2b1c05b60c5d</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Update Record step</label>
+        <order>4</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Update Record">b51f683667003200553fafb49585ef3f</step_type>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-10-20 10:24:15</sys_created_on>
+        <sys_id>3145ea2e53111210041791e0a0490e70</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-10-20 10:24:15</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3145ea2e53111210041791e0a0490e70"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3145ea2e53111210041791e0a0490e70</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-10-20 10:24:15</sys_created_on>
+        <sys_id>b945ea2e53111210041791e0a0490e74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-10-20 10:24:15</sys_updated_on>
+        <value>x_cdltd_contractsy_contract_request</value>
+        <variable display_value="Table">3930d57267003200553fafb49585efc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3145ea2e53111210041791e0a0490e70</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-10-20 10:24:15</sys_created_on>
+        <sys_id>f545ea2e53111210041791e0a0490e74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-10-20 10:24:15</sys_updated_on>
+        <value>comments=Contract activated.</value>
+        <variable display_value="Field Values">fcbf6c3667003200553fafb49585ef2e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3145ea2e53111210041791e0a0490e70"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>3145ea2e53111210041791e0a0490e70</id>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-10-20 10:24:15</sys_created_on>
+        <sys_id>7545ea2e53111210041791e0a0490e74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-10-20 10:24:15</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value>{{action.contract.u_contract_request}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>3145ea2e53111210041791e0a0490e70</id>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-10-20 10:24:15</sys_created_on>
+        <sys_id>fd45ea2e53111210041791e0a0490e73</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-10-20 10:24:15</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>update_record_field_values</field>
+        <id>3145ea2e53111210041791e0a0490e70</id>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-10-20 10:24:15</sys_created_on>
+        <sys_id>b145ea2e53111210041791e0a0490e74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-10-20 10:24:15</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=3145ea2e53111210041791e0a0490e70"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=3145ea2e53111210041791e0a0490e70"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=3145ea2e53111210041791e0a0490e70"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3145ea2e53111210041791e0a0490e70"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_3145ea2e53111210041791e0a0490e70"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Active a ContractSync Contract">68f2bdb853d19210041791e0a0490ee4</action>
         <cid>7cc0d282-e2fa-4000-b9f9-ea33c1ea46d3</cid>
         <error_handling_type>1</error_handling_type>
         <extended_inputs/>
@@ -1011,7 +1197,7 @@
     <sys_hub_input_scripts action="delete_multiple" query="instance=64f2fdb853d19210041791e0a0490e04"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_64f2fdb853d19210041791e0a0490e04"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Active ContractSync Contract">68f2bdb853d19210041791e0a0490ee4</action>
+        <action display_value="Active a ContractSync Contract">68f2bdb853d19210041791e0a0490ee4</action>
         <cid>ead3a072-fbcf-4544-bbaa-ae18b5800a98</cid>
         <error_handling_type>1</error_handling_type>
         <extended_inputs/>
@@ -1104,9 +1290,9 @@
     <sys_hub_input_scripts action="delete_multiple" query="instance=e8f2bdb853d19210041791e0a0490efe"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_e8f2bdb853d19210041791e0a0490efe"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="Active ContractSync Contract">68f2bdb853d19210041791e0a0490ee4</action>
+        <action display_value="Active a ContractSync Contract">68f2bdb853d19210041791e0a0490ee4</action>
         <cid>e428b70f-9b09-499e-83a6-ab3aed52a95d</cid>
-        <error_handling_type>1</error_handling_type>
+        <error_handling_type>2</error_handling_type>
         <extended_inputs/>
         <extended_outputs/>
         <icon/>
@@ -1120,10 +1306,10 @@
         <sys_created_by>admin.lambertucci</sys_created_by>
         <sys_created_on>2024-10-14 20:14:58</sys_created_on>
         <sys_id>e8f2fdb853d19210041791e0a0490e09</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_updated_by>admin.lambertucci</sys_updated_by>
-        <sys_updated_on>2024-10-14 20:18:57</sys_updated_on>
+        <sys_updated_on>2024-10-20 10:24:15</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e8f2fdb853d19210041791e0a0490e09"/>
     <sys_element_mapping action="delete_multiple" query="id=e8f2fdb853d19210041791e0a0490e09"/>
@@ -1133,11 +1319,11 @@
         <sys_created_by>admin.lambertucci</sys_created_by>
         <sys_created_on>2024-10-14 20:14:58</sys_created_on>
         <sys_id>a4f2fdb853d19210041791e0a0490e0d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin.lambertucci</sys_updated_by>
-        <sys_updated_on>2024-10-14 20:18:57</sys_updated_on>
+        <sys_updated_on>2024-10-20 10:24:15</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_a03fea9bc712220061f553c6f09763b1</table>
-        <value>Contract {{step[ead3a072-fbcf-4544-bbaa-ae18b5800a98].record.number}} activated for .</value>
+        <value>Contract {{step[ead3a072-fbcf-4544-bbaa-ae18b5800a98].record.number}} activated for {{action.contract.u_dependent.name}}.</value>
     </sys_element_mapping>
     <sys_translated_text action="delete_multiple" query="documentkey=e8f2fdb853d19210041791e0a0490e09"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=e8f2fdb853d19210041791e0a0490e09"/>
@@ -1185,7 +1371,7 @@
         <label>Contract</label>
         <mandatory>true</mandatory>
         <max_length>32</max_length>
-        <model display_value="Active ContractSync Contract">68f2bdb853d19210041791e0a0490ee4</model>
+        <model display_value="Active a ContractSync Contract">68f2bdb853d19210041791e0a0490ee4</model>
         <model_id>68f2bdb853d19210041791e0a0490ee4</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_68f2bdb853d19210041791e0a0490ee4</name>
@@ -1272,7 +1458,7 @@
         <label>Action Status</label>
         <mandatory>false</mandatory>
         <max_length>65000</max_length>
-        <model display_value="Active ContractSync Contract">68f2bdb853d19210041791e0a0490ee4</model>
+        <model display_value="Active a ContractSync Contract">68f2bdb853d19210041791e0a0490ee4</model>
         <model_id>68f2bdb853d19210041791e0a0490ee4</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_68f2bdb853d19210041791e0a0490ee4</name>
@@ -1359,7 +1545,7 @@
         <label>Contract activated</label>
         <mandatory>true</mandatory>
         <max_length>40</max_length>
-        <model display_value="Active ContractSync Contract">68f2bdb853d19210041791e0a0490ee4</model>
+        <model display_value="Active a ContractSync Contract">68f2bdb853d19210041791e0a0490ee4</model>
         <model_id>68f2bdb853d19210041791e0a0490ee4</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_68f2bdb853d19210041791e0a0490ee4</name>
@@ -1446,7 +1632,7 @@
         <label>Don't Treat as Error</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Active ContractSync Contract">68f2bdb853d19210041791e0a0490ee4</model>
+        <model display_value="Active a ContractSync Contract">68f2bdb853d19210041791e0a0490ee4</model>
         <model_id>68f2bdb853d19210041791e0a0490ee4</model_id>
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_68f2bdb853d19210041791e0a0490ee4</name>
@@ -1469,14 +1655,14 @@
         <sys_created_by>admin.lambertucci</sys_created_by>
         <sys_created_on>2024-10-14 20:14:58</sys_created_on>
         <sys_id>e8f2fdb853d19210041791e0a0490e12</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin.lambertucci</sys_updated_by>
-        <sys_updated_on>2024-10-14 20:18:57</sys_updated_on>
+        <sys_updated_on>2024-10-20 10:24:15</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1494,7 +1680,7 @@
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=68f2bdb853d19210041791e0a0490ee4"/>
     <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=68f2bdb853d19210041791e0a0490ee4^sys_idNOT INe0f2fdb853d19210041791e0a0490e1b"/>
     <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
-        <action_type_id display_value="Active ContractSync Contract">68f2bdb853d19210041791e0a0490ee4</action_type_id>
+        <action_type_id display_value="Active a ContractSync Contract">68f2bdb853d19210041791e0a0490ee4</action_type_id>
         <sys_created_by>admin.lambertucci</sys_created_by>
         <sys_created_on>2024-10-14 20:14:58</sys_created_on>
         <sys_id>e0f2fdb853d19210041791e0a0490e1b</sys_id>

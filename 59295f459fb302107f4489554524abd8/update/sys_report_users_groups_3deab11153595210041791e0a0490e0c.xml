@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
     <sys_report_users_groups action="INSERT_OR_UPDATE">
         <group_id/>
-        <report_id display_value="Contract Tasks SLA Elapsed time SUM group by Priority or State or Active">71eab11153595210041791e0a0490e0c</report_id>
+        <report_id display_value="Contract Tasks Task SLA Elapsed time SUM group by Priority or State or Active">71eab11153595210041791e0a0490e0c</report_id>
         <sys_class_name>sys_report_users_groups</sys_class_name>
         <sys_created_by>admin.lambertucci</sys_created_by>
         <sys_created_on>2024-10-16 10:06:41</sys_created_on>

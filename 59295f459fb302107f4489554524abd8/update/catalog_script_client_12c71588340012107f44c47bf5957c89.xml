@@ -25,12 +25,11 @@
 
     // Set Contract Request Description value on requested for change with form data.
 
-    var assignmentGroup = g_form.getDisplayBox("assignment_group").value;
-    var assignedtTo = g_form.getDisplayBox("assigned_to").value;
-    var priority = g_form.getValue("priority");
+    var assignmentGroup = g_form.getDisplayValue("assignment_group");
+    var assignedtTo = g_form.getDisplayValue("assigned_to");
 
-    var requestedFor = g_form.getDisplayBox("requested_for").value;
-    var contractType = g_form.getValue("u_contract_type");
+    var requestedFor = g_form.getDisplayValue("requested_for");
+    var contractType = g_form.getDisplayValue("u_contract_type");
     var automaticRenewal = g_form.getValue("u_automatic_renewal") == "true" ? "automatic renewal " : "";
     var configurationItems = g_form.getValue("u_configuration_items");
     var startDate = g_form.getValue("u_start_date");
@@ -38,9 +37,9 @@
 
     var recipient = assignedtTo ? assignedtTo : assignmentGroup;
     var configurationItemsNumber = configurationItems == "" ? 0 : configurationItems.split(",").length;
-	var priorityText = g_form.getOption("priority", priority).text;
+	var priority = g_form.getDisplayValue("priority");
 
-    var newDescription = "Please " + recipient + ", prepare a New " + automaticRenewal + contractType + " Contract for " + requestedFor + " with " + configurationItemsNumber + " Configuration items. \n \nOther Contract Request informations: \n \n" + "   - Request priority: " + priorityText + ". \n \n   - Start date: " + startDate + ". \n \n   - End date: " + endDate + ".\n \n";
+    var newDescription = "Please " + recipient + ", prepare a New " + automaticRenewal + contractType + " Contract for " + requestedFor + " with " + configurationItemsNumber + " Configuration items. \n \nOther Contract Request informations: \n \n" + "   - Request priority: " + priority + ". \n \n   - Start date: " + startDate + ". \n \n   - End date: " + endDate + ".\n \n";
 
 	g_form.setValue("description", newDescription);
 	
@@ -54,7 +53,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>12c71588340012107f44c47bf5957c89</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Set CONR description on AG change - SC</sys_name>
         <sys_overrides/>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
@@ -62,11 +61,11 @@
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_update_name>catalog_script_client_12c71588340012107f44c47bf5957c89</sys_update_name>
         <sys_updated_by>admin.lambertucci</sys_updated_by>
-        <sys_updated_on>2024-10-14 17:42:40</sys_updated_on>
+        <sys_updated_on>2024-10-20 13:01:52</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>
-        <va_supported>false</va_supported>
+        <va_supported>true</va_supported>
         <variable_set/>
         <view/>
     </catalog_script_client>
