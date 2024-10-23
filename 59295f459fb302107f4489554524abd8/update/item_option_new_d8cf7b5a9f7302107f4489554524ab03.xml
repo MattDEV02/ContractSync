@@ -77,16 +77,16 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-06 08:46:52</sys_created_on>
         <sys_id>d8cf7b5a9f7302107f4489554524ab03</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>What is the priority of this request?</sys_name>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
         <sys_policy/>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_update_name>item_option_new_d8cf7b5a9f7302107f4489554524ab03</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-06 13:18:06</sys_updated_on>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-10-23 15:02:49</sys_updated_on>
         <table/>
-        <tooltip/>
+        <tooltip>Contract Request Priority</tooltip>
         <type>5</type>
         <ui_page/>
         <unique>false</unique>

@@ -12,7 +12,7 @@ for (var i = 0; i < configurationItems.length; i++) {
    
 		if(configurationItemGR) {
 
-			if(configurationItemGR.sys_class_name == "cmdb_ci_computer" && configurationItemGR.u_reserved) { // configurationItemGR.assigned_to == dependent
+			if(configurationItemGR.sys_class_name == "cmdb_ci_computer" && configurationItemGR.u_reserved) { // && configurationItemGR.assigned_to == dependent
 			
 				var contractUtils = new ContractUtils();
 				var appScopeName = contractUtils.appScopeName;
@@ -23,9 +23,9 @@ for (var i = 0; i < configurationItems.length; i++) {
 				request.setEndpoint(
 					"https://" +
 					domain +
-					"/api/now/table/u_password_vault?sysparm_query=u_asset%3D" +
+					"/api/now/table/x_cdltd_contractsy_password_vault?sysparm_query=asset%3D" +
 					configurationItemGR.asset_tag +
-					"&sysparm_fields=u_password&sysparm_limit=1"
+					"&sysparm_fields=password&sysparm_limit=1"
 				);
 				request.setHttpMethod("GET");
 				request.setBasicAuth(username, password);
@@ -35,7 +35,7 @@ for (var i = 0; i < configurationItems.length; i++) {
 				var parsedBody = JSON.parse(body);
 				var u_password = parsedBody.result[0].u_password;
 				if (u_password) {
-					template.print("Configuration item: " + configurationItemGR.name + " | password: " + u_password + "\n \n");
+					template.print("Configuration item: " + configurationItemGR.name + " | password: " + password + "\n \n");
 				}
 			} else if(configurationItemGR.sys_class_name != "cmdb_ci_computer") {
 				template.print("Configuration item: " + configurationItemGR.name + " | password: Not available.\n \n");
@@ -47,14 +47,14 @@ for (var i = 0; i < configurationItems.length; i++) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-08 12:54:19</sys_created_on>
         <sys_id>509b070bcdb702107f44cc990e1cd585</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>x_cdltd_contractsy_contract_script_8</sys_name>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
         <sys_policy/>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_update_name>sys_script_email_509b070bcdb702107f44cc990e1cd585</sys_update_name>
         <sys_updated_by>admin.lambertucci</sys_updated_by>
-        <sys_updated_on>2024-10-21 07:31:51</sys_updated_on>
+        <sys_updated_on>2024-10-23 14:12:39</sys_updated_on>
     </sys_script_email>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
         <id>509b070bcdb702107f44cc990e1cd585</id>

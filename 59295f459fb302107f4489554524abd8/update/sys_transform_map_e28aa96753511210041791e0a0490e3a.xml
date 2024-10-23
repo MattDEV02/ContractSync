@@ -13,19 +13,19 @@
 	// Add your code here
 
 })(source, target, map, log, action==="update");]]></script>
-        <source_table>x_cdltd_contractsy_asset_password_import_file</source_table>
+        <source_table>x_cdltd_contractsy_password_import_file</source_table>
         <sys_class_name>sys_transform_map</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-09-09 15:01:42</sys_created_on>
-        <sys_id>a37bdca9c368d2106355351d0501316f</sys_id>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-10-23 08:42:35</sys_created_on>
+        <sys_id>e28aa96753511210041791e0a0490e3a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Password Transform Map</sys_name>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
         <sys_policy/>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
-        <sys_update_name>sys_transform_map_a37bdca9c368d2106355351d0501316f</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-09 15:01:42</sys_updated_on>
+        <sys_update_name>sys_transform_map_e28aa96753511210041791e0a0490e3a</sys_update_name>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-10-23 08:42:35</sys_updated_on>
         <target_table>x_cdltd_contractsy_password_vault</target_table>
     </sys_transform_map>
 </record_update>

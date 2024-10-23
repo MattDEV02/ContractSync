@@ -56,8 +56,8 @@
         <record/>
         <record_producer_table>x_cdltd_contractsy_contract_request</record_producer_table>
         <reference/>
-        <reference_qual/>
-        <reference_qual_condition/>
+        <reference_qual>null</reference_qual>
+        <reference_qual_condition>null</reference_qual_condition>
         <rich_text/>
         <roles_to_use_also_request_for/>
         <save_script><![CDATA[/** This script is executed before the Record is generated
@@ -77,16 +77,16 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-06 08:46:56</sys_created_on>
         <sys_id>91cfbb5a9f7302107f4489554524ab07</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>When it will start?</sys_name>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
         <sys_policy/>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_update_name>item_option_new_91cfbb5a9f7302107f4489554524ab07</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-06 12:57:54</sys_updated_on>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-10-23 15:25:18</sys_updated_on>
         <table/>
-        <tooltip/>
+        <tooltip>Contract Start date</tooltip>
         <type>10</type>
         <ui_page/>
         <unique>false</unique>
