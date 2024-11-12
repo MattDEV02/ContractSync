@@ -6,7 +6,7 @@
         <client_script_v2><![CDATA[function onClick(g_form) {
 
 }]]></client_script_v2>
-        <comments>Make Contract Request In progress.</comments>
+        <comments>Make Contract Requests In progress.</comments>
         <condition>!current.isNewRecord()  &amp;&amp; current.state != 2</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
@@ -16,7 +16,7 @@
         <form_menu_button_v2>false</form_menu_button_v2>
         <form_style>primary</form_style>
         <format_for_configurable_workspace>false</format_for_configurable_workspace>
-        <hint>Make Contract Request In progress</hint>
+        <hint>Make Contract Requests In progress</hint>
         <isolate_script>false</isolate_script>
         <list_action>true</list_action>
         <list_banner_button>true</list_banner_button>
@@ -26,12 +26,18 @@
         <list_link>true</list_link>
         <list_save_with_form_button>false</list_save_with_form_button>
         <list_style>primary</list_style>
-        <messages>Contract Request state updated from New to In progress.</messages>
+        <messages>Contract Requests state updated from New to In progress.</messages>
         <name>Make in progress</name>
         <onclick/>
         <order>100</order>
         <script><![CDATA[current.state = 2;
 current.update();
+
+gs.addInfoMessage("Contract request " + current.number + " In progress.");
+var url = action.getGlideURI().toString();
+if (url.indexOf("x_cdltd_contractsy_contract_request_list.do") <= - 1) {
+    action.setRedirectURL(current);
+} 
 ]]></script>
         <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
@@ -43,15 +49,15 @@ current.update();
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>749e5144344012107f44c47bf5957cac</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name>Make in progress</sys_name>
         <sys_overrides/>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
         <sys_policy/>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_update_name>sys_ui_action_749e5144344012107f44c47bf5957cac</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-07 11:19:44</sys_updated_on>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-11-12 10:38:29</sys_updated_on>
         <table>x_cdltd_contractsy_contract_request</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
