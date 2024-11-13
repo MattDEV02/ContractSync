@@ -4,16 +4,6 @@
         <element attributes="ref_ac_columns=x_cdltd_contractsy_u_name,ref_ac_columns_search=x_cdltd_contractsy_u_name,ref_ac_display_value=x_cdltd_contractsy_u_name,ref_qual_elements=x_cdltd_contractsy_u_name" label="Manager approval" max_length="32" name="u_contract_approval" reference="sysapproval_approver" reference_qual="sysapprovalLIKECONR^EQ" reference_qual_condition="sysapprovalLIKECONR^EQ" type="reference" use_dependent_field="true"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Configuration items" max_length="1024" name="u_configuration_items" reference="cmdb_ci" reference_qual="u_reserved=false^EQ" reference_qual_condition="u_reserved=false^EQ" type="glide_list"/>
         <element attributes="edge_encryption_enabled=true" label="End Date" mandatory="true" max_length="40" name="u_end_date" type="glide_date_time"/>
-        <element choice="3" default="not requested" label="Approval status" max_length="40" name="u_approval_status" type="string">
-            <choice>
-                <element inactive_on_update="false" label="Approved" sequence="2" value="approved"/>
-                <element inactive_on_update="false" label="No Longer Required" sequence="5" value="not_required"/>
-                <element inactive_on_update="false" label="Requested" sequence="1" value="requested"/>
-                <element inactive_on_update="false" label="Cancelled" sequence="4" value="cancelled"/>
-                <element inactive_on_update="false" label="Not Yet Requested" sequence="0" value="not requested"/>
-                <element inactive_on_update="false" label="Rejected" sequence="3" value="rejected"/>
-            </choice>
-        </element>
         <element attributes="edge_encryption_enabled=true" choice="3" default="part-time" label="Contract Type" mandatory="true" max_length="40" name="u_contract_type" type="string">
             <choice>
                 <element inactive_on_update="false" label="Freelance" sequence="2" value="freelance"/>
