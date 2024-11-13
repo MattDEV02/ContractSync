@@ -27,17 +27,21 @@
         <rest_service_text/>
         <rest_variables/>
         <role_conditions/>
-        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
 
-	function capitalizeFirstCharacter(string) {
-       return string.charAt(0).toUpperCase() + string.slice(1);
-	}
+    function capitalizeFirstCharacter(string) {
+        return string.charAt(0).toUpperCase() + string.slice(1);
+    }
 
-	
-	if(current.state && current.approver) {
-		current.x_cdltd_contractsy_u_name = capitalizeFirstCharacter(current.state) + " | " + current.approver.getDisplayValue();
-		current.update();
-	}
+    function replaceCharacter(string, targetCharacter, replacementCharacter) {
+        return string.split(targetCharacter).join(replacementCharacter);
+    }
+
+
+    if (current.state && current.approver) {
+        current.x_cdltd_contractsy_u_name = capitalizeFirstCharacter(replaceCharacter(current.state, "_", "")) + " | " + current.approver.getDisplayValue() + " for " + current.sysapproval.getDisplayValue();
+        current.update();
+    }
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
@@ -46,15 +50,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>32894c2b30f302107f443ea7e178183d</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Set Approval name value</sys_name>
         <sys_overrides/>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
         <sys_policy/>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_update_name>sys_script_32894c2b30f302107f443ea7e178183d</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-05 19:11:38</sys_updated_on>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-11-12 20:16:07</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>

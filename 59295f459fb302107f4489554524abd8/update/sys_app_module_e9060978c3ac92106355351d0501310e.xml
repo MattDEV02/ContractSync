@@ -13,7 +13,7 @@
         <mobile_title>Change</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name/>
-        <order>33</order>
+        <order>41</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -25,15 +25,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e9060978c3ac92106355351d0501310e</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Change</sys_name>
         <sys_overrides/>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
         <sys_policy/>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_update_name>sys_app_module_e9060978c3ac92106355351d0501310e</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-07 10:16:07</sys_updated_on>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-11-13 08:03:24</sys_updated_on>
         <timeline_page/>
         <title>Change</title>
         <uncancelable>false</uncancelable>

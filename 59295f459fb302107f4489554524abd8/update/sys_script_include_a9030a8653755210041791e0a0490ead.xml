@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_cdltd_contractsy.CalculateContractEndDate</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>Client callable AJAX script include that generates a new Contract End date from Start date plus minimum distance between them.</description>
+        <mobile_callable>false</mobile_callable>
+        <name>CalculateContractEndDate</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var CalculateContractEndDate = Class.create();
+CalculateContractEndDate.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	/*
+
+	*/
+    calculateFromStartDate: function() {
+        var startDate = this.getParameter("u_start_date");
+        var startDateGlideDateTime = new GlideDateTime(startDate);
+		var minimumDistanceBetweenStartAndEndDateInDays = gs.getProperty("x_cdltd_contractsy.contract.minDatesDifferenceInDays", 60);
+		var minimumDistanceBetweenStartAndEndDateInMonths = minimumDistanceBetweenStartAndEndDateInDays / 30;
+        startDateGlideDateTime.addMonthsLocalTime(minimumDistanceBetweenStartAndEndDateInMonths);
+		var newEndDate = startDateGlideDateTime.getValue();
+        return newEndDate;
+    },
+    type: 'CalculateContractEndDate'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-11-12 15:10:13</sys_created_on>
+        <sys_id>a9030a8653755210041791e0a0490ead</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>CalculateContractEndDate</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name>sys_script_include_a9030a8653755210041791e0a0490ead</sys_update_name>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-11-12 15:16:08</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>a9030a8653755210041791e0a0490ead</id>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-11-12 15:10:12</sys_created_on>
+        <sys_id>8f43c24a53755210041791e0a0490e3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-11-12 15:10:12</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9c81d8b253411210041791e0a0490ec0</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>ContractSync Request fulfillment - Error Handler</sys_name>
         <sys_overrides/>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
@@ -44,7 +44,7 @@
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_update_name>sys_hub_flow_9c81d8b253411210041791e0a0490ec0</sys_update_name>
         <sys_updated_by>admin.lambertucci</sys_updated_by>
-        <sys_updated_on>2024-11-04 08:37:04</sys_updated_on>
+        <sys_updated_on>2024-11-12 14:15:18</sys_updated_on>
         <type>subflow</type>
         <version>2</version>
     </sys_hub_flow>
@@ -333,11 +333,11 @@
         <sys_created_on>2024-10-14 08:45:37</sys_created_on>
         <sys_id>aa2557ac53955210041791e0a0490ec0</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Error status</sys_name>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
         <sys_policy/>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_9c81d8b253411210041791e0a0490ec0_error_status_en</sys_update_name>
         <sys_updated_by>admin.lambertucci</sys_updated_by>
         <sys_updated_on>2024-10-14 08:45:37</sys_updated_on>
         <url/>
@@ -674,7 +674,7 @@
         <sys_created_on>2024-10-14 08:46:04</sys_created_on>
         <sys_id>d9455bac53955210041791e0a0490e5e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Error status</sys_name>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
         <sys_policy/>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
@@ -697,7 +697,7 @@
     <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"b1455bac53955210041791e0a0490eae","name":"plan","plan_signature":null}}</plan>
         <plan_id display_value="ContractSync Request fulfillment - Error Handler">9c81d8b253411210041791e0a0490ec0</plan_id>
-        <snapshot>31e16d3b5329d210041791e0a0490ef5</snapshot>
+        <snapshot>33539e0253f55210041791e0a0490e81</snapshot>
         <sys_created_by>admin.lambertucci</sys_created_by>
         <sys_created_on>2024-10-14 08:46:06</sys_created_on>
         <sys_domain>global</sys_domain>

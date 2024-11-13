@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Set Contract Request (Contract) End date on (Contract) Start date change to (Contract) Start date + 2 months</description>
+        <field>u_start_date</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Set CONR End date on Start date change</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === "") {
+        return;
+    }
+
+    var startDateFieldName = "u_start_date";
+    var startDate = newValue;
+
+    if (startDate) {
+        var endDateFieldName = "u_end_date";
+        var endDate = g_form.getValue(endDateFieldName);
+        
+        if (!endDate) {
+            
+            var calculateContractEndDate = new GlideAjax("CalculateContractEndDate");
+            calculateContractEndDate.addParam("sysparm_name", "calculateFromStartDate");
+            calculateContractEndDate.addParam(startDateFieldName, startDate);
+            
+            calculateContractEndDate.getXMLAnswer(function(answer) {
+                var newEndDate = answer;
+                g_form.showFieldMsg(endDateFieldName ,"End date calculated automatically. You can set it.", "INFO", false);
+                g_form.setValue(endDateFieldName, newEndDate, newEndDate);
+            });
+        }
+    }
+}
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-11-12 14:39:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b89bb1ce53355210041791e0a0490e68</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Set CONR End date on Start date change</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name>sys_script_client_b89bb1ce53355210041791e0a0490e68</sys_update_name>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-11-12 15:25:54</sys_updated_on>
+        <table>x_cdltd_contractsy_contract_request</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

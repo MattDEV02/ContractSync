@@ -5,7 +5,7 @@
         <api_name>x_cdltd_contractsy.NumberGeneratorAjaxProcessor</api_name>
         <caller_access/>
         <client_callable>true</client_callable>
-        <description>AJAX script include that generates a new unique number by Table prefix parameter.</description>
+        <description>Client callable AJAX script include that generates a new unique number by Table prefix parameter.</description>
         <mobile_callable>false</mobile_callable>
         <name>NumberGeneratorAjaxProcessor</name>
         <sandbox_callable>true</sandbox_callable>
@@ -40,13 +40,24 @@ NumberGeneratorAjaxProcessor.prototype = Object.extendsObject(global.AbstractAja
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-06 19:42:36</sys_created_on>
         <sys_id>ed85dea29f3b02107f4489554524abaa</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>33</sys_mod_count>
         <sys_name>NumberGeneratorAjaxProcessor</sys_name>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
         <sys_policy/>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_update_name>sys_script_include_ed85dea29f3b02107f4489554524abaa</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-07 09:22:45</sys_updated_on>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-11-12 15:09:25</sys_updated_on>
     </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>ed85dea29f3b02107f4489554524abaa</id>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-11-12 15:09:25</sys_created_on>
+        <sys_id>9f138a0a53755210041791e0a0490e0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-11-12 15:09:25</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
 </record_update>

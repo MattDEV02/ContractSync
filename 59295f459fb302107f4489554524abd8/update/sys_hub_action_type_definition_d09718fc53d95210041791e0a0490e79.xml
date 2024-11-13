@@ -31,7 +31,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d09718fc53d95210041791e0a0490e79</sys_id>
-        <sys_mod_count>79</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Create Remote Contract Request Task</sys_name>
         <sys_overrides/>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
@@ -39,7 +39,7 @@
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_d09718fc53d95210041791e0a0490e79</sys_update_name>
         <sys_updated_by>admin.lambertucci</sys_updated_by>
-        <sys_updated_on>2024-10-15 14:19:35</sys_updated_on>
+        <sys_updated_on>2024-11-12 14:15:17</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -174,18 +174,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=804d5c78531d5210041791e0a0490eb4"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>804d5c78531d5210041791e0a0490eb4</id>
-        <sys_created_by>admin.lambertucci</sys_created_by>
-        <sys_created_on>2024-10-14 14:00:34</sys_created_on>
-        <sys_id>144d5c78531d5210041791e0a0490ec5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.lambertucci</sys_updated_by>
-        <sys_updated_on>2024-10-14 14:00:34</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>body</field>
         <id>804d5c78531d5210041791e0a0490eb4</id>
         <sys_created_by>admin.lambertucci</sys_created_by>
@@ -196,18 +184,6 @@
         <sys_updated_on>2024-10-14 14:00:34</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_804d5c78531d5210041791e0a0490eb4</table>
         <value>{{step[d3f38348-f69f-4ddc-bb89-ef53f79c6f4b].response_body}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>804d5c78531d5210041791e0a0490eb4</id>
-        <sys_created_by>admin.lambertucci</sys_created_by>
-        <sys_created_on>2024-10-14 14:00:34</sys_created_on>
-        <sys_id>d44d5c78531d5210041791e0a0490ec5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.lambertucci</sys_updated_by>
-        <sys_updated_on>2024-10-14 14:00:34</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>status_code</field>
@@ -490,7 +466,7 @@
         <sys_created_on>2024-10-14 14:00:34</sys_created_on>
         <sys_id>d44d5c78531d5210041791e0a0490ec1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Task</sys_name>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
         <sys_policy/>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
@@ -997,7 +973,7 @@
         <sys_created_on>2024-10-14 14:34:03</sys_created_on>
         <sys_id>e2e4a034535d5210041791e0a0490e3d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Credential Value</sys_name>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
         <sys_policy/>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
@@ -1800,7 +1776,7 @@
         <sys_created_on>2024-10-14 14:08:28</sys_created_on>
         <sys_id>001fd03c531d5210041791e0a0490e09</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Due Date</sys_name>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
         <sys_policy/>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
@@ -1823,7 +1799,7 @@
         <sys_created_on>2024-10-14 15:13:24</sys_created_on>
         <sys_id>03ed2c70539d5210041791e0a0490e67</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Description</sys_name>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
         <sys_policy/>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
@@ -1846,7 +1822,7 @@
         <sys_created_on>2024-10-14 14:08:28</sys_created_on>
         <sys_id>401fd03c531d5210041791e0a0490e01</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>State</sys_name>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
         <sys_policy/>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
@@ -1869,7 +1845,7 @@
         <sys_created_on>2024-10-14 15:13:24</sys_created_on>
         <sys_id>43ed2c70539d5210041791e0a0490e71</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Priority</sys_name>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
         <sys_policy/>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
@@ -1892,7 +1868,7 @@
         <sys_created_on>2024-10-14 14:08:28</sys_created_on>
         <sys_id>841f903c531d5210041791e0a0490ef6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Short Description</sys_name>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
         <sys_policy/>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
@@ -1915,7 +1891,7 @@
         <sys_created_on>2024-10-14 14:08:28</sys_created_on>
         <sys_id>c41fd03c531d5210041791e0a0490e05</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Assignment Group</sys_name>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
         <sys_policy/>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
@@ -1940,7 +1916,7 @@
         <sys_created_on>2024-10-14 13:43:40</sys_created_on>
         <sys_id>68691074531d5210041791e0a0490ecc</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Task</sys_name>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
         <sys_policy/>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
@@ -1963,7 +1939,7 @@
         <sys_created_on>2024-10-14 13:43:40</sys_created_on>
         <sys_id>7c691074531d5210041791e0a0490ed2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
         <sys_policy/>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
@@ -1986,7 +1962,7 @@
         <sys_created_on>2024-10-14 13:43:40</sys_created_on>
         <sys_id>e0691074531d5210041791e0a0490ec8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
         <sys_policy/>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
@@ -2618,7 +2594,7 @@
         <sys_created_on>2024-10-14 14:36:15</sys_created_on>
         <sys_id>8765ec34535d5210041791e0a0490e30</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Credential Value</sys_name>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
         <sys_policy/>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
@@ -2691,18 +2667,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=c2302c7c531d5210041791e0a0490e39"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>c2302c7c531d5210041791e0a0490e39</id>
-        <sys_created_by>admin.lambertucci</sys_created_by>
-        <sys_created_on>2024-10-14 14:13:31</sys_created_on>
-        <sys_id>42302c7c531d5210041791e0a0490e49</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.lambertucci</sys_updated_by>
-        <sys_updated_on>2024-10-14 14:13:31</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>body</field>
         <id>c2302c7c531d5210041791e0a0490e39</id>
         <sys_created_by>admin.lambertucci</sys_created_by>
@@ -2713,18 +2677,6 @@
         <sys_updated_on>2024-10-14 14:13:31</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_c2302c7c531d5210041791e0a0490e39</table>
         <value>{{step[d3f38348-f69f-4ddc-bb89-ef53f79c6f4b].response_body}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>c2302c7c531d5210041791e0a0490e39</id>
-        <sys_created_by>admin.lambertucci</sys_created_by>
-        <sys_created_on>2024-10-14 14:13:31</sys_created_on>
-        <sys_id>06302c7c531d5210041791e0a0490e49</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin.lambertucci</sys_updated_by>
-        <sys_updated_on>2024-10-14 14:13:31</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>status_code</field>
@@ -3007,7 +2959,7 @@
         <sys_created_on>2024-10-14 14:13:31</sys_created_on>
         <sys_id>ca302c7c531d5210041791e0a0490e45</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Task</sys_name>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
         <sys_policy/>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
@@ -3810,7 +3762,7 @@
         <sys_created_on>2024-10-14 14:13:31</sys_created_on>
         <sys_id>06302c7c531d5210041791e0a0490e16</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Due Date</sys_name>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
         <sys_policy/>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
@@ -3833,7 +3785,7 @@
         <sys_created_on>2024-10-14 15:13:33</sys_created_on>
         <sys_id>15fdac70539d5210041791e0a0490e00</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Description</sys_name>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
         <sys_policy/>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
@@ -3856,7 +3808,7 @@
         <sys_created_on>2024-10-14 14:13:31</sys_created_on>
         <sys_id>3d302c7c531d5210041791e0a0490e12</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Assignment Group</sys_name>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
         <sys_policy/>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
@@ -3879,7 +3831,7 @@
         <sys_created_on>2024-10-14 15:13:33</sys_created_on>
         <sys_id>55fdac70539d5210041791e0a0490e0a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Priority</sys_name>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
         <sys_policy/>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
@@ -3902,7 +3854,7 @@
         <sys_created_on>2024-10-14 14:13:30</sys_created_on>
         <sys_id>71302c7c531d5210041791e0a0490e04</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Short Description</sys_name>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
         <sys_policy/>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
@@ -3925,7 +3877,7 @@
         <sys_created_on>2024-10-14 14:13:31</sys_created_on>
         <sys_id>79302c7c531d5210041791e0a0490e0e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>State</sys_name>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
         <sys_policy/>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
@@ -3950,7 +3902,7 @@
         <sys_created_on>2024-10-14 14:13:32</sys_created_on>
         <sys_id>0a302c7c531d5210041791e0a0490e5a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
         <sys_policy/>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
@@ -3973,7 +3925,7 @@
         <sys_created_on>2024-10-14 14:13:32</sys_created_on>
         <sys_id>46302c7c531d5210041791e0a0490e55</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Task</sys_name>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
         <sys_policy/>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
@@ -3996,7 +3948,7 @@
         <sys_created_on>2024-10-14 14:13:32</sys_created_on>
         <sys_id>82302c7c531d5210041791e0a0490e51</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
         <sys_policy/>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
