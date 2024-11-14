@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=169000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=2606405000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>26000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category display_value="">{}</category>
@@ -15,7 +15,7 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>convert_ci_glidelist_to_string</internal_name>
-        <label_cache>[{"name":"subflow.glide_list","label":"Input➛Glide List","reference":"cmdb_ci","reference_display":"Configuration Item","type":"glide_list","base_type":"glide_list","usedInstances":{"4ea89755-2db7-49ca-9f6b-701b3f1872c7":["items"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"056dd5d7-f86c-4f41-960b-58b95c8bb014","uiTypeLabel":"List"}},{"name":"flow_variable.string_list","label":"Flow Variables➛String List","type":"string","base_type":"string","usedInstances":{"d6cb4c98-050c-41cc-95bb-b91e8f625732":["string_list-0"],"53f60fae-a43a-4a40-9166-4aaf117907c0":["string_list-0"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"c5a8dcec-3055-4ede-b1b8-07e27ec85975"}},{"name":"4ea89755-2db7-49ca-9f6b-701b3f1872c7.item.name","label":"1 - For Each➛Configuration Item Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"cmdb_ci","column_name":"name","usedInstances":{"d6cb4c98-050c-41cc-95bb-b91e8f625732":["string_list-0"]}}]</label_cache>
+        <label_cache>[{"name":"4ea89755-2db7-49ca-9f6b-701b3f1872c7.item.name","label":"1 - For Each➛Configuration Item Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"cmdb_ci","column_name":"name","usedInstances":{"d6cb4c98-050c-41cc-95bb-b91e8f625732":["string_list-0"]}},{"name":"flow_variable.string_list","label":"Flow Variables➛String List","type":"string","base_type":"string","usedInstances":{"d6cb4c98-050c-41cc-95bb-b91e8f625732":["string_list-0"],"53f60fae-a43a-4a40-9166-4aaf117907c0":["string_list-0"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"c5a8dcec-3055-4ede-b1b8-07e27ec85975"}},{"name":"subflow.glide_list","label":"Input➛Glide List","reference":"cmdb_ci","reference_display":"Configuration Item","type":"glide_list","base_type":"glide_list","usedInstances":{"4ea89755-2db7-49ca-9f6b-701b3f1872c7":["items"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"056dd5d7-f86c-4f41-960b-58b95c8bb014","uiTypeLabel":"List"}}]</label_cache>
         <master_snapshot>fdc1010d53151210041791e0a0490e8e</master_snapshot>
         <master_snapshot_digest/>
         <name>Convert CI GlideList to String</name>
@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>98218d8953151210041791e0a0490e87</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Convert CI GlideList to String</sys_name>
         <sys_overrides/>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
@@ -44,7 +44,7 @@
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_update_name>sys_hub_flow_98218d8953151210041791e0a0490e87</sys_update_name>
         <sys_updated_by>admin.lambertucci</sys_updated_by>
-        <sys_updated_on>2024-10-15 11:18:39</sys_updated_on>
+        <sys_updated_on>2024-11-14 14:15:54</sys_updated_on>
         <type>subflow</type>
         <version>2</version>
     </sys_hub_flow>
@@ -244,7 +244,7 @@
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
         <attributes/>
         <block display_value="">3dc1010d53151210041791e0a0490e49</block>
-        <comment/>
+        <comment>result += GlideList[i] + "\n";</comment>
         <connected_to/>
         <decision_table/>
         <display_text/>
@@ -259,18 +259,18 @@
         <sys_created_by>admin.lambertucci</sys_created_by>
         <sys_created_on>2024-10-15 11:18:37</sys_created_on>
         <sys_id>35c1010d53151210041791e0a0490e4a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_updated_by>admin.lambertucci</sys_updated_by>
-        <sys_updated_on>2024-10-15 11:18:37</sys_updated_on>
+        <sys_updated_on>2024-11-14 14:15:53</sys_updated_on>
         <ui_id>d6cb4c98-050c-41cc-95bb-b91e8f625732</ui_id>
-        <values>H4sIAAAAAAAA/82RPQsCMQyG/4p0toff9dwc3cVFRXptT4O1PZreiZT+d1tUdHQR3MKTkPchCcS2vmk9ru0SEY6GLLb7PgGTWaoDAUkWhPSJ4ReVKvQOzPGgAX2CHddtpiHU2l4PHXfAK62Kj6kYd4b2QpgoPi/ZdEpHsmJ0UgpOy3pWUTYYVuN6OGcjwQrw6lLkpBjTdgnYaH7bPEMSESfQ0qmnJQoHjV8KD13q11yjivss9bD4N//fhHx1EqkEIFizzsGr13Nz45YWgfhEV+vOWfTN4h13c0HsJgIAAA==</values>
+        <values>H4sIAAAAAAAA/+1Vz2+bMBT+VyqfAzIJDJJbpalSpW6V1qyXpULGfiTWjE2xSZoh/vc9A03TaNdpO/Rmf37P3w+eRUdM6+rW2bW5tlZuNVn9eJoRqT2G645IQVaEzIhmFeDKukbqba6kdQjumWo9utFdVypzyPeskaxQEJ7V9f1Gb3Rw1XUxsGyZJkkwF0UaxEvOgmX5qQhSGhWLMsrSOU9D6aAKPZvvQw4hba3Y8XGiQoTvpBINTFpr1mCxg4asuosjd6whV6wAhY0PgyJsHxwtIh7RiIpkESXRPKI0jtJlBJTReEkhXmDd+8aru9HyH3PwRCcQ96YRXg+dEXhxoAUgZcmUhRmpmBbMmeZ4Qhpg4l6rN2AntRudVuzFyl94dUYp9ZUloDl+ysFIDve1k0aPiPPZT4dGtZX+Oqr1MULJWuXOYmwt5AJqL8/zTeTlw84cvr0S3Ug9OJkOleFMnXbMod+idWB99K1cX6QwIneX+YOCChnzitW1z7BuzF4OLCi6CrcKN+EwTQL8SIaMe4chxsbCG8Q/D/DjNGpf8Bps9nTftXxu4dZ/X56wTHDgwYLivMUgICiiIgtoCvMUeJbgHJJ+iDR/br2pMaQpjnxMFAssb2TtrlHCHibn/ZOf/JH9/3wkf5Pq4/V9vL5//foEcGlR1dpLuH39WfmDI06I5OfQwTQ/vZ83rP8NyLlS+vYGAAA=</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
         <attributes/>
         <block display_value="">79c1010d53151210041791e0a0490e4a</block>
-        <comment/>
+        <comment>return result;</comment>
         <connected_to/>
         <decision_table/>
         <display_text/>
@@ -285,18 +285,18 @@
         <sys_created_by>admin.lambertucci</sys_created_by>
         <sys_created_on>2024-10-15 11:18:37</sys_created_on>
         <sys_id>71c1010d53151210041791e0a0490e4b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_updated_by>admin.lambertucci</sys_updated_by>
-        <sys_updated_on>2024-10-15 11:18:37</sys_updated_on>
+        <sys_updated_on>2024-11-14 14:15:53</sys_updated_on>
         <ui_id>53f60fae-a43a-4a40-9166-4aaf117907c0</ui_id>
-        <values>H4sIAAAAAAAA/42PMQ7DIAxF7+I56gGyZeweZamqiAJJrbqAMCSKEHcvqK3K2NFP79vfCWwMLgYe7cCMq4H+ksCIp4YeOHg060zIATrYBMVKU1rI7vMmPIob6VNj5Vw8hexIHNOfurwjKa/r4WsHLD26MMiAWwkvgljngtHUjm/lu+kzKi2R0ZqxsnPjqaO8gbJFu/WP2ubH8gtZ7mkFAQEAAA==</values>
+        <values>H4sIAAAAAAAA/41Ty27bMBD8lYJnW6Aky69bgCJAgLQBGjeXohAocmUTpUiGpOy4gv+9S0l2HKOHHHd2uLMzWnXEtMG2wW/Mnfdyq8n6V0ekIGuyWPGUplQUeVqkWUrpLF2sUqCMzlYUck4mRLMGkOmDk3pbKukDgnum2oh2Xa3ModwzJ1mlILlinU7IE9JbxY4vn6TznVTCQVzw94RY5lA7gCPr7qYVjhZKxSpQOPW5n4LPP2vp48Mvj4On/xqNQhcQa+NE3CedEHgLoAWgZM2UhwlpmBYsGHe8IA6YeNLqHdhJHXAaieQ3L//i6CWlNDJrQHMchi7fGcnhyQZp9ICEmNfYNKpt9Pdh25gx1KxV4ZwxIq2HUoCN60W9Ubx+3pnDj7PQvdS9k7GpDGfqUrGAfqs2gI/Rt3Jzk8KAPN7mDwoaVCwbZm3M0Dqzl70KLt0kW4VF0l+AgHiHCePRYYKxseQe8a89/DKexzccg4+j3E8tX1t4iN+XF8s5sGU9FdUym84W82xasSybzrOsqvN8lRdFTk59pOVrG00NIY1xlEOiSPDcSRvucIU9jM5PeFpSx19lOLPzoY6lAC49LryJ2MMVTxzxeCS/hg7G/YlW37HTP9fNReiIAwAA</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
         <attributes/>
         <block display_value="">b1c1010d53151210041791e0a0490e48</block>
-        <comment/>
+        <comment>For each Item in the String GlideList object...</comment>
         <connected_to/>
         <decision_table/>
         <display_text/>
@@ -311,12 +311,12 @@
         <sys_created_by>admin.lambertucci</sys_created_by>
         <sys_created_on>2024-10-15 11:18:37</sys_created_on>
         <sys_id>fdc1010d53151210041791e0a0490e48</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_updated_by>admin.lambertucci</sys_updated_by>
-        <sys_updated_on>2024-10-15 11:18:37</sys_updated_on>
+        <sys_updated_on>2024-11-14 14:15:53</sys_updated_on>
         <ui_id>4ea89755-2db7-49ca-9f6b-701b3f1872c7</ui_id>
-        <values>H4sIAAAAAAAA/41STW/bMAz9LzoHhu0MwZJbgaFAD1uBruhlKAxZohNisqTpI6ln+L+PjO1s6KU72Xwk33ukOAqXk88pPru7GPFoxeHH60agZYz+R4FaHES1192+KvdqW++2dVnWnz9V7W7bVrXeStA7sRFW9kCVmKCPFJ6lyRyPY8xtZ9ylOBrU0BiMaZqoQGP0Rg4vH9WpExodYDHmZSCdBEEcxnepNHhqky0YonsC5YJmI//rf+18WAZ4Nw+zUxhuvPRhF3W5EfCWwGogoU6aCBvRS6tlcmEQhxQyAQGkfrRmuFWc0CaiE1z7FvE3cVdlyYUd0EQK5qQ6OVTw6BM6OyNJtmZNOpN7+232yRuFTmaT1o0SkiM0GjybY7lFu/t+cpenVege7XWQJWmckuYWyZQCtjlB5H2DgZ6Iml56j/bY+ODOeG0mL/38cAW/IYnyLRVSsfGCdiGLe8K/XOEXGZCn+Eo01Dxdp25+Zdad51gcN/PQVBBVQJ/uiO4Mi7nplY9sZorzBWhQGEnwmbGH9YQ5MdBrovoXurjwk63+xaY/rI+umgwDAAA=</values>
+        <values>H4sIAAAAAAAA/4VSTW/bMAz9LzoHhu0MwZJbgaFAD2uBruhlKAxZohNisqTqI6ln+L+PjO1s6GUnm4/ke48UR+Fy8jnFF3cXIx6tOPx82wi0jNH/KKzsQRwEJuij2IizNJnjcYy57Yy7FEeDGhqDMU0TFWiM3sjh9X916oRGB1gEvQykkyCIw/gplQZPbbIFQ3TPoFzQbAQ1hdVed/uq3KttvdvWZVl//VK1u21b1XorQe+obu18WAb4NA+zUxhuvPRhF3W5EfCRwGogoU6aCBvRS6tlcmEQhxQyAQGkfrJmuFWc0CaiE1z7EfE3cVdlyYUd0EQK5qQ6OVTw5BM6OyNJtmZNOpN7+zj75I1CJ7NJ60YJyREaDZ7Nsdyi3f04ucvzKnSP9jrIkjROSXOLZEoB25wg8r7BQE9ETS+9R3tsfHBnvDaTl35+uILfkET5Rgqp2HhBu5DFPeHfrvCrDMhTfCcaap6uUzfvmXXnORbHzTw0FUQV0Kc7ojvDYm564yObmeJ8ARoURhJ8YexhPU1ODPSaqP6FLi78Yqt/sekPFLzmo+QCAAA=</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=98218d8953151210041791e0a0490e87"/>
@@ -468,7 +468,7 @@
         <description>Convert cmdb_ci GlideList to a formatted String.</description>
         <flow_priority>MEDIUM</flow_priority>
         <internal_name>convert_ci_glidelist_to_string</internal_name>
-        <label_cache>[{"name":"subflow.glide_list","label":"Input➛Glide List","reference":"cmdb_ci","reference_display":"Configuration Item","type":"glide_list","base_type":"glide_list","usedInstances":{"4ea89755-2db7-49ca-9f6b-701b3f1872c7":["items"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"056dd5d7-f86c-4f41-960b-58b95c8bb014","uiTypeLabel":"List"}},{"name":"flow_variable.string_list","label":"Flow Variables➛String List","type":"string","base_type":"string","usedInstances":{"d6cb4c98-050c-41cc-95bb-b91e8f625732":["string_list-0"],"53f60fae-a43a-4a40-9166-4aaf117907c0":["string_list-0"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"c5a8dcec-3055-4ede-b1b8-07e27ec85975"}},{"name":"4ea89755-2db7-49ca-9f6b-701b3f1872c7.item.name","label":"1 - For Each➛Configuration Item Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"cmdb_ci","column_name":"name","usedInstances":{"d6cb4c98-050c-41cc-95bb-b91e8f625732":["string_list-0"]}}]</label_cache>
+        <label_cache>[{"name":"4ea89755-2db7-49ca-9f6b-701b3f1872c7.item.name","label":"1 - For Each➛Configuration Item Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"cmdb_ci","column_name":"name","usedInstances":{"d6cb4c98-050c-41cc-95bb-b91e8f625732":["string_list-0"]}},{"name":"flow_variable.string_list","label":"Flow Variables➛String List","type":"string","base_type":"string","usedInstances":{"d6cb4c98-050c-41cc-95bb-b91e8f625732":["string_list-0"],"53f60fae-a43a-4a40-9166-4aaf117907c0":["string_list-0"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"c5a8dcec-3055-4ede-b1b8-07e27ec85975"}},{"name":"subflow.glide_list","label":"Input➛Glide List","reference":"cmdb_ci","reference_display":"Configuration Item","type":"glide_list","base_type":"glide_list","usedInstances":{"4ea89755-2db7-49ca-9f6b-701b3f1872c7":["items"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"056dd5d7-f86c-4f41-960b-58b95c8bb014","uiTypeLabel":"List"}}]</label_cache>
         <master>true</master>
         <name>Convert CI GlideList to String</name>
         <natlang/>
@@ -485,7 +485,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fdc1010d53151210041791e0a0490e8e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -493,7 +493,7 @@
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin.lambertucci</sys_updated_by>
-        <sys_updated_on>2024-10-15 11:18:38</sys_updated_on>
+        <sys_updated_on>2024-11-14 14:15:54</sys_updated_on>
         <type>subflow</type>
         <version>2</version>
     </sys_hub_flow_snapshot>
@@ -693,7 +693,7 @@
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
         <attributes/>
         <block display_value="">3dc1010d53151210041791e0a0490e49</block>
-        <comment/>
+        <comment>result += GlideList[i] + "\n";</comment>
         <connected_to/>
         <decision_table/>
         <display_text/>
@@ -708,18 +708,18 @@
         <sys_created_by>admin.lambertucci</sys_created_by>
         <sys_created_on>2024-10-15 11:18:39</sys_created_on>
         <sys_id>0ac1010d53151210041791e0a0490ec1</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_updated_by>admin.lambertucci</sys_updated_by>
-        <sys_updated_on>2024-10-15 11:18:39</sys_updated_on>
+        <sys_updated_on>2024-11-14 14:15:54</sys_updated_on>
         <ui_id>d6cb4c98-050c-41cc-95bb-b91e8f625732</ui_id>
-        <values>H4sIAAAAAAAA/+1VS0/cMBD+K8jnTeTso8nuDYGQkGiRCuVS0GpiT1irjhNiZ2Eb5b93HGcfpb32UnGLv3l9882M0rGqdXXr7H11bq16Nmz1/WnClPEYfXdMSbZibMIMlEhf1jXKPK+1so7ALejWo11X6Op1vYVGQa4xPvHq+0cTnXXdHCFbpotFNJV5Gs2XAqJl8SmPUp7ksyLJ0qlIY+WwjH2lvqfsUtlaw+7hnxYRG6Vlg2PjNTRkcNiwVffONAgxS0TCEy4Xs2SRTBPO50m6TJADny85zmeUUEOOmlzvBnpnN0Gpv8rndvURHN83v4UTWDXS0+EThm8OjUTiUYC2OGElGAmuanYHpEGQt0YfgY0yLgywhDerflK9jHPuPQuk3gQG6+F577W9DMoHU3EJDohOK1zbjO5iUymBNigjsYBWu4tTLDjc1k5VJoQ4n3iMrnRbmi9BEnZIsB80Ia3FtcTat+v5j80Ud5vq9eue6ZUygzKjUVcC9OEFjvTLW+f5dKxV9++kDsgfYqPGkiquS6hrP6i6qbZqqEKky/hZ0yMe1lCiP5cYhO8wpjFAfEX45QA/jDv6mdJQsC/3zaiXFq/9EokFZFKgiGacVnWOEqM8ybOIpzhNUWQLWmHWT5jd2QsN1h6FoimtX1rfZpBtFGgdNPYholG1OydSWxy16J/8nQY+Hyf9cdIfJ/1fnLREoSzxHIZ7vf9fe8OOFlOJU+i1an74Do9Y/wtRyNtg+QcAAA==</values>
+        <values>H4sIAAAAAAAA/+1VTW/bMAz9K4XOsSHnY3ZyK1oUKNCtwNr1shQBLdGJMFl2LTltZuS/j7KcpOt23mHIzXwkxcdHEu5Y1bq6dfaxurRWrQ1bfH8eMWU8Rt8dU5ItGBsxAyXSl3WNMuuVVtYRuAXdenRpuq7Q1etqC42CXGP8Lm6/X5qliS66boqQzdPZLBrLPI2mcwHRvPiURylP8kmRZOlYpLFyWMa+ms+jGlLZWsPu6R+UEhulZYODCDU05HLYsEX3wdWLMklEwhMuZ5NklowTzqdJOk+QA5/OOU4n9KCGHDWFPvQUL+6Can+V0u3qEzjYd7+lE1g10tPhI4ZvDo1E4lGAtjhiJRgJrmp2R6RBkPdGn4CNMi4Ms4Q3q35SvYxz7iMLpN4EBu/RfPT6Xgf9g6u4BgdEpxWubYZwsamUQBuUkVhAq93VeywE3NdOVSakOP/wkF3ptjRfgiTs+MBh3IS0FlcSa9+u5z80UzxsqtevB6Y3yvTKDE5dCdBHCxzpl7fO8+lYqx4/SB2QP8RGjSVVXJVQ135QdVNtVV+FSJfxWpMR96so0Z9ODMJ3GNMYIL4h/LqHn4Y9/UzPULIv982olxZv/RKJGWRSoIgmnJZ1ihKjPMmziKc4TlFkM1pith8xu7NXGqw9CUVTWr20vs0g2yDQKmjsU0SjandJpLY4aLF/9jcb+JzP+3ze5/P+785bolCWePbDvT38x71jR4upxHvotWp++A5P2P4Xm1ueRxEIAAA=</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
         <attributes/>
         <block display_value="">79c1010d53151210041791e0a0490e4a</block>
-        <comment/>
+        <comment>return result;</comment>
         <connected_to/>
         <decision_table/>
         <display_text/>
@@ -734,18 +734,18 @@
         <sys_created_by>admin.lambertucci</sys_created_by>
         <sys_created_on>2024-10-15 11:18:39</sys_created_on>
         <sys_id>4ac1010d53151210041791e0a0490ec2</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_updated_by>admin.lambertucci</sys_updated_by>
-        <sys_updated_on>2024-10-15 11:18:39</sys_updated_on>
+        <sys_updated_on>2024-11-14 14:15:54</sys_updated_on>
         <ui_id>53f60fae-a43a-4a40-9166-4aaf117907c0</ui_id>
-        <values>H4sIAAAAAAAA/41Ty27bMBD8lYJnW5Dkt29BjAAB3AZo3FyKQFiRK5sIRSkkZccV/O9divKjTQ+9aYf7mJldtaxqXN04u6nurJVbzZY/W6ahRLZk1hmpt5mS1rEB24NqPNq2haoO2R6MhFxhdJN1OlGekLZWcHz5z3S+k0oY9INfB6wGQ7MdGrZsmdT0oUGtpX6jTp+SpSB0tuBJnMRiMkomSZrE8TiZLRKMIR4vYhxxqlKQo6LU5270l3XQ80+R7lhfwT5e/1FOYGWEJ5gMGH441AKJRwHK4oCVoAW4yhwviEEQT1pdgR3JCmpK+LDyF82bx3HsMwskbRzD6yXceN9WwdXwVKzAAdFpuGsMnq2pJEcbnBFYQKPc/S0WEp5qJysdSpxv3FdXqin1t2AJuzQ4L5GQxmImsPZyPf9eTPG8qw7fz0wfpO6c6R9VxUFdInDkX944z6dljdz8ZXVAPpmNCkuamJVQ135Rtan2sptCpMtoqyiIuhMT6A84Au4VRrQGiB4IX3XwS39/X6kNFftxP7R8b/DRHxGfzKcI82Io8nk6HM+m6TCHNB1O0zQvRqPFaDIZsdOA2aO9V2Dt1SjaUvbeeJnBtt6gLHjsS7iRtbsjUnvsvTj529X+rwubOf8bl+VxaUlCt/fHmzxxpJuV/BY6VObNi79ip99JCowT0wMAAA==</values>
+        <values>H4sIAAAAAAAA/41Ty27bMBD8lYJnW9DD71sQI0AAtwEaN5eiEFbiyiZCkQpJ2XEN/3uXovxo00Nu4nCWOzO7OjLduqZ1dq3vrBUbxRY/j0xwtmDTeZnESczHWTJO0iSOR8l0nmAM8WgeY1ayAVNQIzGtM0JtcimsI3AHsvXo8VhJvc93YAQUEqMb1ulEPC5sI+Hw8kl6uRWSG/QCfw1YA4Z6OzRsQXIVfSiQK6Fe6aUP5M/akVCgJOpz1/rLKvj5r0l3aK5gf179VU6gNtwLTAYM3x0qjqSjAmlxwGpQHJw2hwtiEPiTkldgS7aCmxrerfhN/WZxHHtmheStxHB7Oa59bsuQariqluCA5LSlaw2eo9GiRBuS4VhBK939LRYIT40TWoUS5x/uq7Vsa/UtRMIuD5yHSEhrMefYeLtef2+met7q/fez0gehumT6S6lLkJcTOMqvaJ3Xc2StWP8TdUA+hI0Sa+qY19A0flCN0TvRdSHRdbSRdIi6FePoFz2C0juMaAwQPRC+7OCXfv++0jNU7Nv9UOKtxUe/ROV4NkGYVUNezNLhaDpJhwWk6XCSpkWVZfNsPM7YacDswd5LsPYaFE0pf2u9zRBbH1AeMvYlpRGNuyNRO+yzOPndVf7vDJM5/xuX4ZXCkoVu7o83PH6gnRXlLbTX5tWbv2KnPzhlNFL7AwAA</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
         <attributes/>
         <block display_value="">b1c1010d53151210041791e0a0490e48</block>
-        <comment/>
+        <comment>For each Item in the String GlideList object...</comment>
         <connected_to/>
         <decision_table/>
         <display_text/>
@@ -760,12 +760,12 @@
         <sys_created_by>admin.lambertucci</sys_created_by>
         <sys_created_on>2024-10-15 11:18:39</sys_created_on>
         <sys_id>c2c1010d53151210041791e0a0490ec0</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_updated_by>admin.lambertucci</sys_updated_by>
-        <sys_updated_on>2024-10-15 11:18:39</sys_updated_on>
+        <sys_updated_on>2024-11-14 14:15:54</sys_updated_on>
         <ui_id>4ea89755-2db7-49ca-9f6b-701b3f1872c7</ui_id>
-        <values>H4sIAAAAAAAA/41TTW/bMAz9Lzobge0MwZJb0aBAgW0F2qKXoTBoiU6EyZKmj6Se4f8+KnLcopftZPPxkXx8pkdmYrAx+Gdz4708aLb7+VowqRNG7yOTgu1YtRXdtiq3fF1v1nVZ1l+/VO1m3Va1WAOKDSuYhh6JKQP2nsITqJjicfSx7ZQ5rw5KCmyU9GGaiCCktwqGl3/x+FEq4XAWZsHRnICO7cZPqf8VqqBFRdT7Wekn4WGwKXTIjRNX4Ntc87ig9Egi6rJg+BZQC6TxHSiPBetBCwjGDWwXXCTAIYgHrYaFcZQ6UDuWuG9e/qGJVVkmYoe0EMecXMJnaBXus2M51e0hwBO15yG6mc6PRnL02Q6BHUQVbj9imfBggzQ6l4TUeK42Kvb6R3aDLQ2uH4iQ6LERaNOySf68S/d0NOfHq9I7qS/GzEllOKglghCcbGNIekaGCntq1PRgrdSHxjpzkpdi0tLnO1ilk6Ch6TRXwJPwFXkLqzvC9xf4BZxMW3ynNlQ8FcwP/laB9++7kJHN75iU5M3mHZpsQyrhTtpwQwNOOMudXtMV596Lp1x6knD5HPfXfyQlBroiyT9CZ+N+JfHv2PQXsI0LfW0DAAA=</values>
+        <values>H4sIAAAAAAAA/4VSTW/bMAz9Lzobge0MwZJb0aBAgW0F2qKXoTBoiU6EyZKmj6Se4f8+KnLcopeebD4+Pj5SHJmJwcbgn82N9/Kg2e73a8GkThj9j0xDj2zHZMDes4KdQMUUj6OPbafMeXVQUmCjpA/TRAQhvVUwvHzF40ephMO5oQVHfQI6ths/paQgmWorum1Vbvm63qzrsqy/f6vazbqtarEGFBsSVNCiIur97PST8TDYFDrkxokr8GOueVxQ+iQTdVkwfAuoBVL7DpTHgvWgBQTjBrYLLhLgEMSDVsPCOEodSI4l7puX/6hjVZaJ2CENxDEnl/AZWoX7vLGc6vYQ4InkeYhupvOjkRx9XofADqIKtx+xTHiwQRqdS0ISnquNir3+lbfBFoHrAxESPTYCbRo22Z9n6Z6O5vx4dXon9WUxc1IZDmqJIAQn2xiSn5Ghwp6Emh6slfrQWGdO8lJMXvp8B6t0EtQ0ndwKeDK+ot3C6o7w/QV+ASfTFD9JhoqngvnB3yrw/n0WWmTzNyYnebJ5hiavIZVwJ224oQYnnO1Or+mKs/ayUy49Wbg8x/319lNioCuS/CN0Nu5PMv+OTf8BTVBi0kUDAAA=</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=fdc1010d53151210041791e0a0490e8e"/>
@@ -906,23 +906,23 @@
     <sys_hub_flow action="UPDATE">
         <sys_id>98218d8953151210041791e0a0490e87</sys_id>
         <latest_snapshot>fdc1010d53151210041791e0a0490e8e</latest_snapshot>
-        <compiler_build/>
+        <compiler_build>glide-xanadu-07-02-2024__patch1-08-24-2024_09-01-2024_1853.zip</compiler_build>
     </sys_hub_flow>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=98218d8953151210041791e0a0490e87"/>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=98218d8953151210041791e0a0490e87^sys_idNOT IN4ec1010d53151210041791e0a0490ec7"/>
     <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
-        <plan>com.snc.process_flow.engine.ProcessPlan@d08d5c1</plan>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"4ec1010d53151210041791e0a0490ec7","name":"plan","plan_signature":null}}</plan>
         <plan_id display_value="Convert CI GlideList to String">98218d8953151210041791e0a0490e87</plan_id>
-        <snapshot>fdc1010d53151210041791e0a0490e8e</snapshot>
+        <snapshot>dc6b08be53f51210041791e0a0490e5c</snapshot>
         <sys_created_by>admin.lambertucci</sys_created_by>
         <sys_created_on>2024-10-15 11:18:39</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4ec1010d53151210041791e0a0490ec7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin.lambertucci</sys_updated_by>
-        <sys_updated_on>2024-10-15 11:18:39</sys_updated_on>
+        <sys_updated_on>2024-11-14 14:15:54</sys_updated_on>
     </sys_flow_subflow_plan>
 </record_update>
