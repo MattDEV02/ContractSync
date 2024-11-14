@@ -38,7 +38,7 @@
         <message/>
         <message_html><![CDATA[<p>Dear <strong>${u_dependent.first_name}</strong>,&nbsp;</p>
 <p>&nbsp;</p>
-<p>Your<strong> ${u_contract_type}</strong> Contract started on <strong>${u_start_date}</strong> is expired on <em><strong>${u_end_date} </strong></em>and it is inactive now. Please reply at this emai if you are interested in renewing it.</p>
+<p>Your<strong> ${u_contract_type}</strong> Contract started on <strong>${u_start_date}</strong> is expired on <em><strong>${u_end_date} </strong></em>and it is inactive now. Please reply at this emai with <em>"Yes I want to renew my Contract."</em> if you are interested in renewing it.</p>
 <p>&nbsp;</p>
 <p>Your (inactive) Contract data: ${URI_REF}</p>
 <p>&nbsp;</p>
@@ -76,15 +76,15 @@ Best regards, ContractSync Service desk Team]]></sms_alternate>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b05dd713307302107f443ea7e1781802</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Contract expired Notification</sys_name>
         <sys_overrides/>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
         <sys_policy/>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_update_name>sysevent_email_action_b05dd713307302107f443ea7e1781802</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-27 13:12:29</sys_updated_on>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-11-14 20:37:59</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Employee notification template">1462e7ca918a3010f877b1d70a4d6a3d</template>
         <type>email</type>
