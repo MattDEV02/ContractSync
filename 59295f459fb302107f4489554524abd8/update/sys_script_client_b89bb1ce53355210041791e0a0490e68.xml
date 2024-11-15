@@ -22,18 +22,18 @@
         var endDateFieldName = "u_end_date";
         var endDate = g_form.getValue(endDateFieldName);
         
-        if (!endDate) {
+    //    if (!endDate) {
             
-            var calculateContractEndDate = new GlideAjax("CalculateContractEndDate");
-            calculateContractEndDate.addParam("sysparm_name", "calculateFromStartDate");
-            calculateContractEndDate.addParam(startDateFieldName, startDate);
+            var contractDatesCalculator = new GlideAjax("ContractDatesCalculator");
+            contractDatesCalculator.addParam("sysparm_name", "calculateEndDateFromStartDate");
+            contractDatesCalculator.addParam(startDateFieldName, startDate);
             
-            calculateContractEndDate.getXMLAnswer(function(answer) {
+            contractDatesCalculator.getXMLAnswer(function(answer) {
                 var newEndDate = answer;
                 g_form.showFieldMsg(endDateFieldName ,"End date calculated automatically. You can set it.", "INFO", false);
                 g_form.setValue(endDateFieldName, newEndDate, newEndDate);
             });
-        }
+      //  }
     }
 }
 ]]></script>
@@ -43,7 +43,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b89bb1ce53355210041791e0a0490e68</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Set CONR End date on Start date change</sys_name>
         <sys_overrides/>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
@@ -51,7 +51,7 @@
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_update_name>sys_script_client_b89bb1ce53355210041791e0a0490e68</sys_update_name>
         <sys_updated_by>admin.lambertucci</sys_updated_by>
-        <sys_updated_on>2024-11-12 15:25:54</sys_updated_on>
+        <sys_updated_on>2024-11-15 16:38:28</sys_updated_on>
         <table>x_cdltd_contractsy_contract_request</table>
         <type>onChange</type>
         <ui_type>10</ui_type>

@@ -2,42 +2,53 @@
     <sys_script_include action="INSERT_OR_UPDATE">
         <access>package_private</access>
         <active>true</active>
-        <api_name>x_cdltd_contractsy.CalculateContractEndDate</api_name>
+        <api_name>x_cdltd_contractsy.ContractDatesCalculator</api_name>
         <caller_access/>
         <client_callable>true</client_callable>
         <description>Client callable AJAX script include that generates a new Contract End date from Start date plus minimum distance between them.</description>
         <mobile_callable>false</mobile_callable>
-        <name>CalculateContractEndDate</name>
+        <name>ContractDatesCalculator</name>
         <sandbox_callable>false</sandbox_callable>
-        <script><![CDATA[var CalculateContractEndDate = Class.create();
-CalculateContractEndDate.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
-	/*
+        <script><![CDATA[var ContractDatesCalculator = Class.create();
+ContractDatesCalculator.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    /* 
+    
+    */
+    calculateStartDateFromToday: function() {
+        var todayDateGlideDateTime = new GlideDateTime();
+        var minimumDistanceBetweenTodayAndStartDateInDays = gs.getProperty("x_cdltd_contractsy.contract.overdue.daysBeforeStartDate", 14);
+        todayDateGlideDateTime.addDaysLocalTime(minimumDistanceBetweenTodayAndStartDateInDays);
+        todayDateGlideDateTime.addDaysLocalTime(1);
+        var newStartDate = todayDateGlideDateTime.getValue();
+        return newStartDate;
+    },
+    /*
 
-	*/
-    calculateFromStartDate: function() {
+    */
+    calculateEndDateFromStartDate: function() {
         var startDate = this.getParameter("u_start_date");
         var startDateGlideDateTime = new GlideDateTime(startDate);
-		var minimumDistanceBetweenStartAndEndDateInDays = gs.getProperty("x_cdltd_contractsy.contract.minDatesDifferenceInDays", 60);
-		var minimumDistanceBetweenStartAndEndDateInMonths = minimumDistanceBetweenStartAndEndDateInDays / 30;
+        var minimumDistanceBetweenStartAndEndDateInDays = gs.getProperty("x_cdltd_contractsy.contract.minDatesDifferenceInDays", 60);
+        var minimumDistanceBetweenStartAndEndDateInMonths = minimumDistanceBetweenStartAndEndDateInDays / 30;
         startDateGlideDateTime.addMonthsLocalTime(minimumDistanceBetweenStartAndEndDateInMonths);
-		startDateGlideDateTime.addDaysLocalTime(1); 
-		var newEndDate = startDateGlideDateTime.getValue();
+        startDateGlideDateTime.addDaysLocalTime(1);
+        var newEndDate = startDateGlideDateTime.getValue();
         return newEndDate;
     },
-    type: 'CalculateContractEndDate'
+    type: 'ContractDatesCalculator'
 });]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin.lambertucci</sys_created_by>
         <sys_created_on>2024-11-12 15:10:13</sys_created_on>
         <sys_id>a9030a8653755210041791e0a0490ead</sys_id>
-        <sys_mod_count>8</sys_mod_count>
-        <sys_name>CalculateContractEndDate</sys_name>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>ContractDatesCalculator</sys_name>
         <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
         <sys_update_name>sys_script_include_a9030a8653755210041791e0a0490ead</sys_update_name>
         <sys_updated_by>admin.lambertucci</sys_updated_by>
-        <sys_updated_on>2024-11-14 11:52:25</sys_updated_on>
+        <sys_updated_on>2024-11-15 16:28:40</sys_updated_on>
     </sys_script_include>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
         <id>a9030a8653755210041791e0a0490ead</id>
