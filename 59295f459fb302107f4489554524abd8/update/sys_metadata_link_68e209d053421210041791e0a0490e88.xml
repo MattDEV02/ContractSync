@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>284fa160c36c52106355351d05013132</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="service_offering">
+    <service_offering action="INSERT_OR_UPDATE">
+        <aliases/>
+        <asset/>
+        <asset_tag/>
+        <assigned/>
+        <assigned_to/>
+        <assignment_group display_value="ContractSync Fulfillers" name="ContractSync Fulfillers">8b03134d9f7302107f4489554524abdb</assignment_group>
+        <attestation_score/>
+        <attestation_status>Not Yet Reviewed</attestation_status>
+        <attested>false</attested>
+        <attested_by/>
+        <attested_date/>
+        <attributes/>
+        <billing>monthly</billing>
+        <busines_criticality>2 - somewhat critical</busines_criticality>
+        <business_contact/>
+        <business_need/>
+        <business_relation_manager/>
+        <business_unit/>
+        <can_print>false</can_print>
+        <category/>
+        <change_control display_value="ContractSync Admins" name="ContractSync Admins">7e51d3c99f7302107f4489554524ab8e</change_control>
+        <checked_in/>
+        <checked_out/>
+        <checkout/>
+        <comments>ContractSync service offering.</comments>
+        <company/>
+        <compatibility_dependencies/>
+        <consumer_type>internal</consumer_type>
+        <contract/>
+        <correlation_id/>
+        <cost/>
+        <cost_cc>USD</cost_cc>
+        <cost_center/>
+        <delivery_date/>
+        <delivery_manager/>
+        <department/>
+        <description>ContractSync service offering.</description>
+        <discovery_source/>
+        <dns_domain/>
+        <due/>
+        <due_in/>
+        <duplicate_of/>
+        <end_date/>
+        <environment/>
+        <fault_count>0</fault_count>
+        <first_discovered/>
+        <fqdn/>
+        <gl_account/>
+        <install_date/>
+        <install_status>1</install_status>
+        <invoice_number/>
+        <ip_address/>
+        <justification/>
+        <last_discovered/>
+        <last_review_date/>
+        <lease_id/>
+        <life_cycle_stage/>
+        <life_cycle_stage_status/>
+        <location/>
+        <mac_address/>
+        <maintenance_schedule/>
+        <managed_by display_value="Matteo Lambertucci">6816f79cc0a8016401c5a33be04be441</managed_by>
+        <managed_by_group/>
+        <manufacturer/>
+        <model_id/>
+        <model_number/>
+        <monitor>false</monitor>
+        <monitoring_requirements/>
+        <name>ContractSync offering</name>
+        <number>BSN0001002</number>
+        <operational_status>1</operational_status>
+        <order/>
+        <order_date/>
+        <owned_by display_value="Matteo Lambertucci">6816f79cc0a8016401c5a33be04be441</owned_by>
+        <parent display_value="ContractSync">fcde2920c36c52106355351d05013104</parent>
+        <po_number/>
+        <portfolio_status>pipeline</portfolio_status>
+        <prerequisites/>
+        <price_model>per_unit</price_model>
+        <price_unit/>
+        <product_instance_id/>
+        <published_ref/>
+        <purchase_date/>
+        <schedule/>
+        <serial_number/>
+        <service_classification>Application Service</service_classification>
+        <service_level_requirement/>
+        <service_owner_delegate/>
+        <service_status>requirements</service_status>
+        <short_description>ContractSync service offering</short_description>
+        <skip_sync>false</skip_sync>
+        <sla/>
+        <spm_service_portfolio/>
+        <spm_taxonomy_node/>
+        <stakeholders/>
+        <start_date/>
+        <state/>
+        <subcategory/>
+        <support_group display_value="ContractSync Service desk" name="ContractSync Service desk">2b407d659f7302107f4489554524abbb</support_group>
+        <supported_by/>
+        <sys_class_name>service_offering</sys_class_name>
+        <sys_class_path>/!!/!7/!$</sys_class_path>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-06 18:34:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>284fa160c36c52106355351d05013132</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-07 08:54:20</sys_updated_on>
+        <technical_contact/>
+        <u_reserved>false</u_reserved>
+        <unit_description/>
+        <unverified>false</unverified>
+        <used_for>Production</used_for>
+        <user_group/>
+        <vendor display_value="ServiceNow">93d4ecfac0a8000b6294d71b733977fb</vendor>
+        <version>1.0</version>
+        <warranty_expiration/>
+    </service_offering>
+    <sys_translated_text action="delete_multiple" query="documentkey=284fa160c36c52106355351d05013132"/>
+    <fx_price action="delete_multiple" query="id=284fa160c36c52106355351d05013132"/>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-11-19 10:15:06</sys_created_on>
+        <sys_id>68e209d053421210041791e0a0490e88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ContractSync offering</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name>sys_metadata_link_68e209d053421210041791e0a0490e88</sys_update_name>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-11-19 10:15:06</sys_updated_on>
+        <tablename>cmdb_ci</tablename>
+    </sys_metadata_link>
+</record_update>

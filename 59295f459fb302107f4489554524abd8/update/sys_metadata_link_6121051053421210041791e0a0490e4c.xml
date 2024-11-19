@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>1efafe0653641210041791e0a0490ee8</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_map_source">
+    <sys_report_map_source action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <aggregate_field>u_dependent.location.country</aggregate_field>
+        <join_by_column>hc-key</join_by_column>
+        <name>Contract by Dependent Location (level 1)</name>
+        <parent display_value="Contract by Dependent Location">68fabe4653641210041791e0a0490ef9</parent>
+        <report_map_source_mapping display_value="Country mappings">82a231b2d7a30200bd4a4ebfae610308</report_map_source_mapping>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-11 15:54:58</sys_created_on>
+        <sys_id>1efafe0653641210041791e0a0490ee8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-11 15:54:58</sys_updated_on>
+        <table>x_cdltd_contractsy_contract</table>
+        <type display_value="Level 1">7bbdd872d7101200bd4a4ebfae61031c</type>
+        <type_mapping>mapping</type_mapping>
+    </sys_report_map_source>
+    <sys_translated_text action="delete_multiple" query="documentkey=1efafe0653641210041791e0a0490ee8"/>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-11-19 10:07:32</sys_created_on>
+        <sys_id>6121051053421210041791e0a0490e4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Contract by Dependent Location (level 1)</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name>sys_metadata_link_6121051053421210041791e0a0490e4c</sys_update_name>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-11-19 10:07:32</sys_updated_on>
+        <tablename>sys_report_map_source</tablename>
+    </sys_metadata_link>
+</record_update>

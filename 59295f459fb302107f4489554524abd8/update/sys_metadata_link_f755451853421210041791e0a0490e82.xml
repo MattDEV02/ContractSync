@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>4c3540f147330200ba13a5554ee49012</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_vlist"&gt;
+    &lt;sp_instance_vlist action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;class_name/&gt;
+        &lt;color&gt;primary&lt;/color&gt;
+        &lt;css/&gt;
+        &lt;display_field&gt;short_description&lt;/display_field&gt;
+        &lt;field_list/&gt;
+        &lt;filter table="incident"&gt;opened_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe^active=true^EQORDERBYDESCsys_created_on&lt;item endquery="false" field="opened_by" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/&gt;
+            &lt;item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/&gt;
+            &lt;item endquery="false" field="EQ" goto="false" newquery="false" operator="ORDERBYDESC" or="false" value="sys_created_on"/&gt;
+        &lt;/filter&gt;
+        &lt;glyph&gt;folder-open&lt;/glyph&gt;
+        &lt;id/&gt;
+        &lt;maximum_entries&gt;5&lt;/maximum_entries&gt;
+        &lt;order&gt;1&lt;/order&gt;
+        &lt;order_by&gt;sys_updated_on&lt;/order_by&gt;
+        &lt;order_direction&gt;desc&lt;/order_direction&gt;
+        &lt;roles/&gt;
+        &lt;short_description/&gt;
+        &lt;size&gt;md&lt;/size&gt;
+        &lt;sp_column display_value="3"&gt;0ec8e193d7333100a9ad1e173e24d44a&lt;/sp_column&gt;
+        &lt;sp_page display_value="ticket"&gt;84af292247132100ba13a5554ee4909e&lt;/sp_page&gt;
+        &lt;sp_widget display_value="Simple List"&gt;5b255672cb03020000f8d856634c9c28&lt;/sp_widget&gt;
+        &lt;sys_class_name&gt;sp_instance_vlist&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;fred.luddy&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2015-11-18 14:17:10&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;4c3540f147330200ba13a5554ee49012&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;29&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;My Open Incidents&lt;/sys_name&gt;
+        &lt;sys_package display_value="Service Portal - Core" source="com.glide.service-portal"&gt;f14934f17df1311076daf29f52070d92&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sp_instance_vlist_4c3540f147330200ba13a5554ee49012&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin.lambertucci&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2024-10-21 13:08:42&lt;/sys_updated_on&gt;
+        &lt;table&gt;incident&lt;/table&gt;
+        &lt;title&gt;My Open Incidents&lt;/title&gt;
+        &lt;url/&gt;
+        &lt;widget_parameters&gt;&lt;![CDATA[{
+	"always_show": {
+		"displayValue": "true",
+		"value": "true"
+	},
+	"image_field": {
+		"value": null,
+		"displayValue": ""
+	},
+	"secondary_fields": {
+		"value": "number,sys_updated_on",
+		"displayValue": "number,sys_updated_on"
+	},
+	"panel_body_height": {
+		"value": null,
+		"displayValue": ""
+	},
+	"rounded_images": {
+		"displayValue": true,
+		"value": true
+	},
+	"list_page": {
+		"value": "b574e51147132100ba13a5554ee4903e",
+		"displayValue": "list"
+	},
+	"hide_footer": {
+		"value": "",
+		"displayValue": ""
+	},
+	"view": {
+		"value": "",
+		"displayValue": ""
+	},
+	"disable_record_watcher": {
+		"value": "",
+		"displayValue": ""
+	},
+	"filter_acls": {
+		"value": "false",
+		"displayValue": "false"
+	}
+}]]&gt;&lt;/widget_parameters&gt;
+    &lt;/sp_instance_vlist&gt;
+    &lt;sys_translated_text action="delete_multiple" query="documentkey=4c3540f147330200ba13a5554ee49012"/&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-11-19 10:25:58</sys_created_on>
+        <sys_id>f755451853421210041791e0a0490e82</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Open Incidents</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name>sys_metadata_link_f755451853421210041791e0a0490e82</sys_update_name>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-11-19 10:25:58</sys_updated_on>
+        <tablename>sp_instance</tablename>
+    </sys_metadata_link>
+</record_update>

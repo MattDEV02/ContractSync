@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>96adc382c30230106a154a93d840dd47</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>primary</color>
+        <css/>
+        <glyph>commenting-o</glyph>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">6cc8a193d7333100a9ad1e173e24d4de</sp_column>
+        <sp_widget display_value="My Surveys">04b1cc07c3231200e44574e1c1d3ae96</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-20 05:43:53</sys_created_on>
+        <sys_id>96adc382c30230106a154a93d840dd47</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>My Surveys</sys_name>
+        <sys_package display_value="Service Portal Surveys" source="sn_portal_surveys">67ac5062db10220035417878f0b8f5c4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Service Portal Surveys">67ac5062db10220035417878f0b8f5c4</sys_scope>
+        <sys_update_name>sp_instance_96adc382c30230106a154a93d840dd47</sys_update_name>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-10-17 12:47:00</sys_updated_on>
+        <title>My Surveys</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=96adc382c30230106a154a93d840dd47"/>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-11-19 10:25:59</sys_created_on>
+        <sys_id>b755451853421210041791e0a0490e9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Surveys</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name>sys_metadata_link_b755451853421210041791e0a0490e9d</sys_update_name>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-11-19 10:25:59</sys_updated_on>
+        <tablename>sp_instance</tablename>
+    </sys_metadata_link>
+</record_update>

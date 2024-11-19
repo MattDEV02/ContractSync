@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>a5dd12655311d210041791e0a0490ec0</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="taxonomy">
+    <taxonomy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>ContractSync Taxonomy.</description>
+        <managers display_value="ContractSync Admins">2e9d66c553191210041791e0a0490ed2</managers>
+        <name>ContractSync</name>
+        <sys_class_name>taxonomy</sys_class_name>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-10-17 07:18:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a5dd12655311d210041791e0a0490ec0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ContractSync</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name>taxonomy_a5dd12655311d210041791e0a0490ec0</sys_update_name>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-10-17 07:18:12</sys_updated_on>
+    </taxonomy>
+    <sys_translated_text action="delete_multiple" query="documentkey=a5dd12655311d210041791e0a0490ec0"/>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-11-19 10:27:20</sys_created_on>
+        <sys_id>eba589d453421210041791e0a0490ea3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ContractSync</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name>sys_metadata_link_eba589d453421210041791e0a0490ea3</sys_update_name>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-11-19 10:27:20</sys_updated_on>
+        <tablename>taxonomy</tablename>
+    </sys_metadata_link>
+</record_update>

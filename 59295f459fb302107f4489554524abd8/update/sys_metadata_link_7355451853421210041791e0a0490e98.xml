@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>81233982cb21020000f8d856634c9ca7</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>primary</color>
+        <css/>
+        <glyph>empty</glyph>
+        <id/>
+        <order>0</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">45133982cb21020000f8d856634c9ca3</sp_column>
+        <sp_widget display_value="Search Nav">81299142cb21020000f8d856634c9cc1</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2015-07-30 20:34:26</sys_created_on>
+        <sys_id>81233982cb21020000f8d856634c9ca7</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Search Nav</sys_name>
+        <sys_package display_value="Service Portal - Core" source="com.glide.service-portal">f14934f17df1311076daf29f52070d92</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name>sp_instance_81233982cb21020000f8d856634c9ca7</sys_update_name>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-10-23 09:31:01</sys_updated_on>
+        <title>Search Nav</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=81233982cb21020000f8d856634c9ca7"/>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-11-19 10:25:58</sys_created_on>
+        <sys_id>7355451853421210041791e0a0490e98</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Search Nav</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name>sys_metadata_link_7355451853421210041791e0a0490e98</sys_update_name>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-11-19 10:25:58</sys_updated_on>
+        <tablename>sp_instance</tablename>
+    </sys_metadata_link>
+</record_update>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>46cc384147532100ba13a5554ee49009</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <category>other</category>
+        <css>section.page {
+	background-color: $sp-homepage-bg;
+}
+section.page, main.body {
+    padding-top: 0px !important;
+}
+</css>
+        <draft>false</draft>
+        <dynamic_title_structure>ContractSync Home Page</dynamic_title_structure>
+        <human_readable_url_structure/>
+        <id>index</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>false</public>
+        <roles>x_cdltd_contractsy.user</roles>
+        <seo_script/>
+        <short_description>ContractSync Home Page</short_description>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>fredex</sys_created_by>
+        <sys_created_on>2014-09-19 21:30:53</sys_created_on>
+        <sys_id>46cc384147532100ba13a5554ee49009</sys_id>
+        <sys_mod_count>87</sys_mod_count>
+        <sys_name>index</sys_name>
+        <sys_package display_value="Service Portal for Enterprise Service Management" source="com.glide.service-portal.esm">794934f17df1311076daf29f52070d91</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name>sp_page_46cc384147532100ba13a5554ee49009</sys_update_name>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-10-23 09:11:02</sys_updated_on>
+        <title>ContractSync Home Page</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=46cc384147532100ba13a5554ee49009"/>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-11-19 10:10:33</sys_created_on>
+        <sys_id>31d1c9d053421210041791e0a0490e15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>index</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name>sys_metadata_link_31d1c9d053421210041791e0a0490e15</sys_update_name>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-11-19 10:10:33</sys_updated_on>
+        <tablename>sp_page</tablename>
+    </sys_metadata_link>
+</record_update>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>35f65f8083e412107f4497d0beda1ecc</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_group_has_role">
+    <sys_group_has_role action="INSERT_OR_UPDATE">
+        <granted_by/>
+        <group display_value="ContractSync Users" name="ContractSync Users">8b71d3c99f7302107f4489554524ab92</group>
+        <inherits>true</inherits>
+        <role display_value="x_cdltd_contractsy.user" name="x_cdltd_contractsy.user">d45913859fb302107f4489554524abdb</role>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-05 12:49:26</sys_created_on>
+        <sys_id>35f65f8083e412107f4497d0beda1ecc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-05 12:49:26</sys_updated_on>
+    </sys_group_has_role>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-11-19 10:36:00</sys_created_on>
+        <sys_id>eaa7c5d853421210041791e0a0490ea7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created 2024-09-05 14:49:26</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name>sys_metadata_link_eaa7c5d853421210041791e0a0490ea7</sys_update_name>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-11-19 10:36:00</sys_updated_on>
+        <tablename>sys_group_has_role</tablename>
+    </sys_metadata_link>
+</record_update>

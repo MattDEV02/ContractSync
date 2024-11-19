@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>c914c26330bb02107f443ea7e1781833</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="kb_knowledge"&gt;
+    &lt;kb_knowledge action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;article_type&gt;text&lt;/article_type&gt;
+        &lt;author display_value="Matteo Lambertucci"&gt;6816f79cc0a8016401c5a33be04be441&lt;/author&gt;
+        &lt;can_read_user_criteria/&gt;
+        &lt;cannot_read_user_criteria/&gt;
+        &lt;category/&gt;
+        &lt;cmdb_ci/&gt;
+        &lt;description/&gt;
+        &lt;direct&gt;false&lt;/direct&gt;
+        &lt;disable_commenting&gt;false&lt;/disable_commenting&gt;
+        &lt;disable_suggesting&gt;false&lt;/disable_suggesting&gt;
+        &lt;display_attachments&gt;false&lt;/display_attachments&gt;
+        &lt;flagged&gt;false&lt;/flagged&gt;
+        &lt;generated_with_now_assist&gt;false&lt;/generated_with_now_assist&gt;
+        &lt;helpful_count&gt;0&lt;/helpful_count&gt;
+        &lt;image/&gt;
+        &lt;instrumentation_metadata/&gt;
+        &lt;kb_category display_value="Users"&gt;9debaa0553191210041791e0a0490edb&lt;/kb_category&gt;
+        &lt;kb_knowledge_base display_value="ContractSync"&gt;89914e0153551210041791e0a0490ed9&lt;/kb_knowledge_base&gt;
+        &lt;meta/&gt;
+        &lt;meta_description&gt;How can I see my Contracts ? Requirements You must be an employee with an active Contract and a ContractSync&lt;/meta_description&gt;
+        &lt;number&gt;KB0010001&lt;/number&gt;
+        &lt;published&gt;2024-08-13&lt;/published&gt;
+        &lt;rating&gt;5&lt;/rating&gt;
+        &lt;replacement_article/&gt;
+        &lt;retired/&gt;
+        &lt;roles/&gt;
+        &lt;short_description&gt;How can I see my Contracts?&lt;/short_description&gt;
+        &lt;source/&gt;
+        &lt;sys_class_name&gt;kb_knowledge&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2024-08-09 20:58:56&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;c914c26330bb02107f443ea7e1781833&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;admin.lambertucci&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2024-10-15 19:06:29&lt;/sys_updated_on&gt;
+        &lt;sys_view_count&gt;3&lt;/sys_view_count&gt;
+        &lt;taxonomy_topic/&gt;
+        &lt;text&gt;&lt;![CDATA[&lt;h1 style="font-family: Times New Roman,Arial; color: #335b8a; ;margin-top: 24.0pt;"&gt;&lt;span style="font-family: &amp;#39;Century Gothic&amp;#39;, Arial; font-size: 24pt;"&gt;How can I see my Contracts ?&lt;/span&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;span style="font-size: 10pt;"&gt;&lt;strong&gt;&lt;span style="font-family: &amp;#39;Century Gothic&amp;#39;, Arial;"&gt;Requirements&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-family: &amp;#39;Century Gothic&amp;#39;, Arial; font-size: 10pt;"&gt;You must be an employee with an active Contract and a ContractSync User role.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 10pt;"&gt;&lt;strong&gt;&lt;span style="font-family: &amp;#39;Century Gothic&amp;#39;, Arial;"&gt;To-do&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-family: &amp;#39;Century Gothic&amp;#39;, Arial; font-size: 10pt;"&gt;Follow these steps to see your Contracts:&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0.0pt 0.0pt 0.0pt 36.0pt;" align="left"&gt;&lt;span style="font-size: 10pt;"&gt;1. &lt;span style="font-family: &amp;#39;Century Gothic&amp;#39;, Arial; color: rgb(0, 0, 0);"&gt;Log into &lt;/span&gt;&lt;span style="font-family: &amp;#39;Century Gothic&amp;#39;, Arial;"&gt;your &lt;/span&gt;&lt;span style="font-family: &amp;#39;Century Gothic&amp;#39;, Arial; color: rgb(0, 0, 0);"&gt;ServiceNow instance&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0.0pt 0.0pt 0.0pt 36.0pt;" align="left"&gt;&lt;span style="font-size: 10pt;"&gt;2. &lt;span style="font-family: &amp;#39;Century Gothic&amp;#39;, Arial; color: rgb(0, 0, 0);"&gt;Navigate to &lt;/span&gt;&lt;strong&gt;&lt;span style="font-family: &amp;#39;Century Gothic&amp;#39;, Arial;"&gt;ContractSync &lt;/span&gt;&lt;span style="font-family: &amp;#39;Century Gothic&amp;#39;, Arial; color: rgb(0, 0, 0);"&gt;&amp;gt; &lt;/span&gt;&lt;span style="font-family: &amp;#39;Century Gothic&amp;#39;, Arial;"&gt;My Contracts&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0.0pt 0.0pt 0.0pt 36.0pt;" align="left"&gt;&lt;span style="font-size: 10pt;"&gt;3. &lt;span style="font-family: &amp;#39;Century Gothic&amp;#39;, Arial;"&gt;Select a Contract, the first one is your current (and active) Contract.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0.0pt 0.0pt 0.0pt 36.0pt;" align="left"&gt; &lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 10pt;"&gt;&lt;strong&gt;&lt;span style="font-family: &amp;#39;Century Gothic&amp;#39;, Arial;"&gt;What if I run into problems?&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-family: &amp;#39;Century Gothic&amp;#39;, Arial; font-size: 10pt;"&gt;Problems – small or big – as well as any other feedback (comments, concerns, questions) can be address to our Service desk team at servicedesk&amp;#64;contractsync.com.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 10pt;"&gt;&lt;em&gt;&lt;span style="font-family: &amp;#39;Century Gothic&amp;#39;, Arial;"&gt;The ContractSync Service desk Team&lt;/span&gt;&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;]]&gt;&lt;/text&gt;
+        &lt;topic&gt;General&lt;/topic&gt;
+        &lt;use_count&gt;0&lt;/use_count&gt;
+        &lt;valid_to&gt;2100-01-01&lt;/valid_to&gt;
+        &lt;view_as_allowed&gt;true&lt;/view_as_allowed&gt;
+        &lt;wiki/&gt;
+        &lt;workflow_state&gt;published&lt;/workflow_state&gt;
+    &lt;/kb_knowledge&gt;
+    &lt;sys_translated_text action="delete_multiple" query="documentkey=c914c26330bb02107f443ea7e1781833"/&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-11-19 09:35:01</sys_created_on>
+        <sys_id>65b978d453021210041791e0a0490ec4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>KB0010001</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name>sys_metadata_link_65b978d453021210041791e0a0490ec4</sys_update_name>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-11-19 09:35:01</sys_updated_on>
+        <tablename>kb_knowledge</tablename>
+    </sys_metadata_link>
+</record_update>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>07ec4e79c3e456106355351d05013177</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image">
+    <db_image action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>system</category>
+        <format>png</format>
+        <height>239</height>
+        <image>1dee4e06531d1210041791e0a0490eb4</image>
+        <name>x_cdltd_contractsy.ContractSync icon.png</name>
+        <size_bytes>2911</size_bytes>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-10 17:55:47</sys_created_on>
+        <sys_id>07ec4e79c3e456106355351d05013177</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>x_cdltd_contractsy.ContractSync icon.png</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name>db_image_07ec4e79c3e456106355351d05013177</sys_update_name>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-10-18 19:29:29</sys_updated_on>
+        <thumbnail/>
+        <width>210</width>
+    </db_image>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#669999</average_image_color>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>image</file_name>
+        <hash>f180d7d2c24ba19343cdd1b2b84e9e003202575bd2b71e780fdec17d275d0b22</hash>
+        <image_height>239</image_height>
+        <image_width>210</image_width>
+        <size_bytes>2911</size_bytes>
+        <size_compressed>2934</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-10-18 19:29:29</sys_created_on>
+        <sys_id>1dee4e06531d1210041791e0a0490eb4</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-10-18 19:29:29</sys_updated_on>
+        <table_name>ZZ_YYdb_image</table_name>
+        <table_sys_id>07ec4e79c3e456106355351d05013177</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAA/w==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="image" sys_id="1dee4e06531d1210041791e0a0490eb4">1dee4e06531d1210041791e0a0490eb4</sys_attachment>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-10-18 19:29:29</sys_created_on>
+        <sys_id>5dee4e06531d1210041791e0a0490eb4</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>3900</length>
+        <position>1</position>
+        <sys_attachment display_value="image" sys_id="1dee4e06531d1210041791e0a0490eb4">1dee4e06531d1210041791e0a0490eb4</sys_attachment>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-10-18 19:29:29</sys_created_on>
+        <sys_id>ddee4e06531d1210041791e0a0490eb4</sys_id>
+    </sys_attachment_doc>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-11-19 10:22:04</sys_created_on>
+        <sys_id>6a7441d453421210041791e0a0490e96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cdltd_contractsy.ContractSync icon.png</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name>sys_metadata_link_6a7441d453421210041791e0a0490e96</sys_update_name>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-11-19 10:22:04</sys_updated_on>
+        <tablename>db_image</tablename>
+    </sys_metadata_link>
+</record_update>

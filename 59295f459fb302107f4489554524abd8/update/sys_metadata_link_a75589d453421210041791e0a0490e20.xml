@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>0e6e4cb3cb21020000f8d856634c9c33</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;
+    &lt;sp_instance action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;class_name/&gt;
+        &lt;color&gt;primary&lt;/color&gt;
+        &lt;css/&gt;
+        &lt;glyph/&gt;
+        &lt;id/&gt;
+        &lt;order&gt;0&lt;/order&gt;
+        &lt;roles/&gt;
+        &lt;short_description/&gt;
+        &lt;size&gt;md&lt;/size&gt;
+        &lt;sp_column display_value="1"&gt;694e0cb3cb21020000f8d856634c9c57&lt;/sp_column&gt;
+        &lt;sp_widget display_value="SC Categories"&gt;4c03cba0cb11020000f8d856634c9ce1&lt;/sp_widget&gt;
+        &lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2015-08-04 23:43:52&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;0e6e4cb3cb21020000f8d856634c9c33&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;40&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;Categories&lt;/sys_name&gt;
+        &lt;sys_package display_value="Service Portal - Service Catalog (do not activate...see plugin description)" source="com.glide.service-portal.service-catalog"&gt;807978357df1311076daf29f52070dd1&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sp_instance_0e6e4cb3cb21020000f8d856634c9c33&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin.lambertucci&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2024-10-23 09:35:06&lt;/sys_updated_on&gt;
+        &lt;title&gt;Categories&lt;/title&gt;
+        &lt;url/&gt;
+        &lt;widget_parameters&gt;&lt;![CDATA[{
+	"hide_xs": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"omit_badges": {
+		"value": "false",
+		"displayValue": "false"
+	},
+	"check_can_view": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"category_layout": {
+		"value": "Nested",
+		"displayValue": "Nested"
+	},
+	"page": {
+		"value": "",
+		"displayValue": ""
+	},
+	"number_of_categories_to_load": {
+		"value": null,
+		"displayValue": "15"
+	}
+}]]&gt;&lt;/widget_parameters&gt;
+    &lt;/sp_instance&gt;
+    &lt;sys_translated_text action="delete_multiple" query="documentkey=0e6e4cb3cb21020000f8d856634c9c33"/&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-11-19 10:25:58</sys_created_on>
+        <sys_id>a75589d453421210041791e0a0490e20</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Categories</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name>sys_metadata_link_a75589d453421210041791e0a0490e20</sys_update_name>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-11-19 10:25:58</sys_updated_on>
+        <tablename>sp_instance</tablename>
+    </sys_metadata_link>
+</record_update>

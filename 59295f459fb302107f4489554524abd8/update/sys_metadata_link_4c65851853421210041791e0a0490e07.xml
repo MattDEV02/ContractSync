@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>e3cbcb70d7000200a9ad1e173e24d4ca</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;
+    &lt;sp_instance action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;class_name/&gt;
+        &lt;color&gt;primary&lt;/color&gt;
+        &lt;css/&gt;
+        &lt;glyph&gt;empty&lt;/glyph&gt;
+        &lt;id/&gt;
+        &lt;order&gt;0&lt;/order&gt;
+        &lt;roles/&gt;
+        &lt;short_description/&gt;
+        &lt;size&gt;md&lt;/size&gt;
+        &lt;sp_column display_value="2"&gt;5acbcb70d7000200a9ad1e173e24d4f1&lt;/sp_column&gt;
+        &lt;sp_widget display_value="Search Page"&gt;b8c57073cb10020000f8d856634c9cfc&lt;/sp_widget&gt;
+        &lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2015-05-13 16:15:19&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;e3cbcb70d7000200a9ad1e173e24d4ca&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;12&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;Search&lt;/sys_name&gt;
+        &lt;sys_package display_value="Service Portal - Core" source="com.glide.service-portal"&gt;f14934f17df1311076daf29f52070d92&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sp_instance_e3cbcb70d7000200a9ad1e173e24d4ca&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin.lambertucci&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2024-10-23 09:33:36&lt;/sys_updated_on&gt;
+        &lt;title&gt;Search&lt;/title&gt;
+        &lt;url/&gt;
+        &lt;widget_parameters&gt;&lt;![CDATA[{
+	"show_score": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"max_all": {
+		"value": null,
+		"displayValue": ""
+	},
+	"max_group": {
+		"value": null,
+		"displayValue": ""
+	},
+	"show_did_you_mean": {
+		"value": "true",
+		"displayValue": "true"
+	}
+}]]&gt;&lt;/widget_parameters&gt;
+    &lt;/sp_instance&gt;
+    &lt;sys_translated_text action="delete_multiple" query="documentkey=e3cbcb70d7000200a9ad1e173e24d4ca"/&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-11-19 10:25:59</sys_created_on>
+        <sys_id>4c65851853421210041791e0a0490e07</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Search</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name>sys_metadata_link_4c65851853421210041791e0a0490e07</sys_update_name>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-11-19 10:25:59</sys_updated_on>
+        <tablename>sp_instance</tablename>
+    </sys_metadata_link>
+</record_update>

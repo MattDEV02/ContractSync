@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>dbbb5b9b53695210041791e0a0490ef5</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="cmdb_ci_spkg">
+    <cmdb_ci_spkg action="INSERT_OR_UPDATE">
+        <asset/>
+        <asset_tag/>
+        <assigned/>
+        <assigned_to/>
+        <assignment_group/>
+        <attestation_score/>
+        <attestation_status>Not Yet Reviewed</attestation_status>
+        <attested>false</attested>
+        <attested_by/>
+        <attested_date/>
+        <attributes/>
+        <business_unit/>
+        <can_print>false</can_print>
+        <category>Software</category>
+        <change_control/>
+        <checked_in/>
+        <checked_out/>
+        <comments/>
+        <company/>
+        <correlation_id/>
+        <cost/>
+        <cost_cc>USD</cost_cc>
+        <cost_center/>
+        <delivery_date/>
+        <department/>
+        <discovery_source/>
+        <dns_domain/>
+        <due/>
+        <due_in/>
+        <duplicate_of/>
+        <environment/>
+        <fault_count>0</fault_count>
+        <first_discovered/>
+        <fqdn/>
+        <gl_account/>
+        <install_count>0</install_count>
+        <install_date/>
+        <install_status>1</install_status>
+        <invoice_number/>
+        <ip_address/>
+        <justification/>
+        <key>ContractSync SW_:::_1.0.0</key>
+        <last_discovered/>
+        <lease_id/>
+        <license_available>0</license_available>
+        <license_count>0</license_count>
+        <life_cycle_stage/>
+        <life_cycle_stage_status/>
+        <location/>
+        <mac_address/>
+        <maintenance_schedule/>
+        <managed_by/>
+        <managed_by_group/>
+        <manufacturer display_value="ContractSync">f66b14e1c611227b0166c3a0df4046ff</manufacturer>
+        <model_id/>
+        <model_number/>
+        <monitor>false</monitor>
+        <msft_sms_id>0</msft_sms_id>
+        <name>ContractSync SW</name>
+        <operational_status>1</operational_status>
+        <order_date/>
+        <owned_by/>
+        <package_name>ContractSync SW 1.0.0</package_name>
+        <part_of/>
+        <po_number/>
+        <product_instance_id/>
+        <purchase_date/>
+        <schedule/>
+        <serial_number/>
+        <short_description/>
+        <skip_sync>false</skip_sync>
+        <start_date/>
+        <subcategory>Package</subcategory>
+        <support_group/>
+        <supported_by/>
+        <sys_class_name>cmdb_ci_spkg</sys_class_name>
+        <sys_class_path>/!!/#,</sys_class_path>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-11-04 08:33:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dbbb5b9b53695210041791e0a0490ef5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-11-04 08:33:42</sys_updated_on>
+        <u_reserved>false</u_reserved>
+        <unverified>false</unverified>
+        <vendor/>
+        <version>1.0.0</version>
+        <warranty_expiration/>
+    </cmdb_ci_spkg>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-11-19 10:15:06</sys_created_on>
+        <sys_id>a0e2415453421210041791e0a0490ea9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ContractSync SW</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name>sys_metadata_link_a0e2415453421210041791e0a0490ea9</sys_update_name>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-11-19 10:15:06</sys_updated_on>
+        <tablename>cmdb_ci</tablename>
+    </sys_metadata_link>
+</record_update>
