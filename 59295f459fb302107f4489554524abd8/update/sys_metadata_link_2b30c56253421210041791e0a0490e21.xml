@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>aef8749653c21210041791e0a0490e02</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="x_cdltd_contractsy_contract_request">
+    <x_cdltd_contractsy_contract_request action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <activity_due/>
+        <additional_assignee_list/>
+        <approval>approved</approval>
+        <approval_history/>
+        <approval_set>2024-11-25 14:46:43</approval_set>
+        <assigned_to display_value="Beth Anglin">46d44a23a9fe19810012d100cca80666</assigned_to>
+        <assignment_group display_value="ContractSync Service desk" name="ContractSync Service desk">2b407d659f7302107f4489554524abbb</assignment_group>
+        <business_duration>1970-01-01 00:07:03</business_duration>
+        <business_service/>
+        <calendar_duration/>
+        <calendar_stc>423</calendar_stc>
+        <close_notes/>
+        <closed_at>2024-11-25 14:46:43</closed_at>
+        <closed_by/>
+        <cmdb_ci/>
+        <comments/>
+        <comments_and_work_notes/>
+        <company/>
+        <contact_type/>
+        <contract/>
+        <correlation_display/>
+        <correlation_id/>
+        <delivery_address/>
+        <delivery_plan/>
+        <delivery_task/>
+        <description>Please Beth Anglin, prepare a New automatic renewal part-time Contract for Abraham Lincoln with 2 Configuration items. &#13;
+ &#13;
+Other Contract Request informations: &#13;
+ &#13;
+   - Request priority: 1 - Critical. &#13;
+ &#13;
+   - Start date: 2024-12-10 14:39:47. &#13;
+ &#13;
+   - End date: 2025-02-11 14:39:47.&#13;
+ &#13;
+</description>
+        <due_date/>
+        <escalation>0</escalation>
+        <expected_start/>
+        <follow_up/>
+        <group_list/>
+        <impact>3</impact>
+        <knowledge>false</knowledge>
+        <location/>
+        <made_sla>true</made_sla>
+        <number>CONR000122</number>
+        <opened_at>2024-11-25 14:39:40</opened_at>
+        <opened_by display_value="Matteo Lambertucci">6816f79cc0a8016401c5a33be04be441</opened_by>
+        <order/>
+        <parent/>
+        <parent_interaction/>
+        <priority>1</priority>
+        <reassignment_count>0</reassignment_count>
+        <rejection_goto/>
+        <request_state>closed_complete</request_state>
+        <requested_date/>
+        <requested_for display_value="Abraham Lincoln">a8f98bb0eb32010045e1a5115206fe3a</requested_for>
+        <route_reason/>
+        <service_offering/>
+        <short_description>test</short_description>
+        <sla_due/>
+        <sn_fin_accounting_period/>
+        <special_instructions/>
+        <stage>requested</stage>
+        <state>4</state>
+        <sys_class_name>x_cdltd_contractsy_contract_request</sys_class_name>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-11-25 14:41:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>aef8749653c21210041791e0a0490e02</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-11-25 14:46:43</sys_updated_on>
+        <task_effective_number>CONR000122</task_effective_number>
+        <time_worked/>
+        <u_automatic_renewal>true</u_automatic_renewal>
+        <u_configuration_items>6ccab11cc611222500e1549797d1c1e5,46c19ca5a9fe198100435274d4df4b32</u_configuration_items>
+        <u_contract display_value="CON001038">cab978d653c21210041791e0a0490ef7</u_contract>
+        <u_contract_approval display_value="Approved | Geri Forness for CONR000122">684a741a53c21210041791e0a0490e31</u_contract_approval>
+        <u_contract_type>part-time</u_contract_type>
+        <u_end_date>2025-02-11 13:39:47</u_end_date>
+        <u_start_date>2024-12-10 13:39:47</u_start_date>
+        <universal_request/>
+        <upon_approval>proceed</upon_approval>
+        <upon_reject>cancel</upon_reject>
+        <urgency>3</urgency>
+        <user_input/>
+        <variables/>
+        <watch_list/>
+        <wf_activity/>
+        <work_end/>
+        <work_notes/>
+        <work_notes_list/>
+        <work_start/>
+    </x_cdltd_contractsy_contract_request>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-11-26 09:49:54</sys_created_on>
+        <sys_id>2b30c56253421210041791e0a0490e21</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CONR000122</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name>sys_metadata_link_2b30c56253421210041791e0a0490e21</sys_update_name>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-11-26 09:49:54</sys_updated_on>
+        <tablename>x_cdltd_contractsy_contract_request</tablename>
+    </sys_metadata_link>
+</record_update>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>0ce67c2653021210041791e0a0490e31</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_cdltd_contractsy_contract">
+    <x_cdltd_contractsy_contract action="INSERT_OR_UPDATE">
+        <number>CON001040</number>
+        <sys_class_name>x_cdltd_contractsy_contract</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-11-26 09:08:59</sys_created_on>
+        <sys_id>0ce67c2653021210041791e0a0490e31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-11-26 09:08:59</sys_updated_on>
+        <u_active>false</u_active>
+        <u_automatic_renewal>false</u_automatic_renewal>
+        <u_configuration_items>a9a2d47cc611227601f05c0852e26457</u_configuration_items>
+        <u_contract_almost_expired_reminder/>
+        <u_contract_expired_reminder/>
+        <u_contract_renewal_reminder/>
+        <u_contract_request display_value="CONR000124">6b26b8e253021210041791e0a0490e9d</u_contract_request>
+        <u_contract_type>Part-time</u_contract_type>
+        <u_dependent display_value="Aileen Mottern">71826bf03710200044e0bfc8bcbe5d3b</u_dependent>
+        <u_end_date>2025-02-12 08:06:13</u_end_date>
+        <u_start_date>2024-12-11 08:06:13</u_start_date>
+        <u_thank_you_message_reminder/>
+    </x_cdltd_contractsy_contract>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-11-26 09:50:23</sys_created_on>
+        <sys_id>6250096253421210041791e0a0490e70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CON001040</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name>sys_metadata_link_6250096253421210041791e0a0490e70</sys_update_name>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-11-26 09:50:23</sys_updated_on>
+        <tablename>x_cdltd_contractsy_contract</tablename>
+    </sys_metadata_link>
+</record_update>

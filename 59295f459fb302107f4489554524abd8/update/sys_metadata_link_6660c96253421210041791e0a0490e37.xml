@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>a02c70da53c21210041791e0a0490e5a</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sysapproval_approver">
+    <sysapproval_approver action="INSERT_OR_UPDATE">
+        <approval_column>approval</approval_column>
+        <approval_journal_column>approval_history</approval_journal_column>
+        <approval_source>ui.desktop</approval_source>
+        <approver display_value="Andrew Och">800b174138d089c868d09de320f9833b</approver>
+        <comments/>
+        <document_id>a0fbfc5a53c21210041791e0a0490eea</document_id>
+        <due_date>2024-11-26 13:52:41</due_date>
+        <expected_start>2024-11-25 14:53:27</expected_start>
+        <group display_value="GAPRV0010035">542c70da53c21210041791e0a0490e50</group>
+        <iteration>1</iteration>
+        <order/>
+        <process_step/>
+        <source_table>x_cdltd_contractsy_contract_request</source_table>
+        <state>approved</state>
+        <state_binding/>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-11-25 14:53:27</sys_created_on>
+        <sys_id>a02c70da53c21210041791e0a0490e5a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-11-25 14:55:36</sys_updated_on>
+        <sysapproval display_value="CONR000123">a0fbfc5a53c21210041791e0a0490eea</sysapproval>
+        <wf_activity/>
+        <x_cdltd_contractsy_u_name>Approved | Andrew Och for CONR000123</x_cdltd_contractsy_u_name>
+    </sysapproval_approver>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-11-26 09:50:39</sys_created_on>
+        <sys_id>6660c96253421210041791e0a0490e37</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approved | Andrew Och for CONR000123</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name>sys_metadata_link_6660c96253421210041791e0a0490e37</sys_update_name>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-11-26 09:50:39</sys_updated_on>
+        <tablename>sysapproval_approver</tablename>
+    </sys_metadata_link>
+</record_update>

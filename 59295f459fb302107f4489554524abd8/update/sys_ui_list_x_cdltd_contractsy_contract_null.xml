@@ -61,34 +61,34 @@
             <sys_updated_on>2024-09-06 12:55:59</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
+            <average_value>true</average_value>
             <element>u_start_date</element>
             <list_id display_value="x_cdltd_contractsy_contract" element="NULL" name="x_cdltd_contractsy_contract" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6f022ce0c3a452106355351d05013104</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
+            <max_value>true</max_value>
+            <min_value>true</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-09-06 12:55:59</sys_created_on>
             <sys_id>fb022ce0c3a452106355351d05013107</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-09-06 12:55:59</sys_updated_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin.lambertucci</sys_updated_by>
+            <sys_updated_on>2024-11-26 09:11:35</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
+            <average_value>true</average_value>
             <element>u_end_date</element>
             <list_id display_value="x_cdltd_contractsy_contract" element="NULL" name="x_cdltd_contractsy_contract" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6f022ce0c3a452106355351d05013104</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
+            <max_value>true</max_value>
+            <min_value>true</min_value>
             <position>5</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-09-06 12:55:59</sys_created_on>
             <sys_id>ff022ce0c3a452106355351d05013107</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-09-06 12:55:59</sys_updated_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin.lambertucci</sys_updated_by>
+            <sys_updated_on>2024-11-26 09:11:58</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -124,16 +124,16 @@
             <average_value>false</average_value>
             <element>u_configuration_items</element>
             <list_id display_value="x_cdltd_contractsy_contract" element="NULL" name="x_cdltd_contractsy_contract" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6f022ce0c3a452106355351d05013104</list_id>
-            <max_value>true</max_value>
-            <min_value>true</min_value>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
             <position>8</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-09-06 12:55:59</sys_created_on>
             <sys_id>fb022ce0c3a452106355351d05013108</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin.lambertucci</sys_updated_by>
-            <sys_updated_on>2024-11-18 09:18:18</sys_updated_on>
+            <sys_updated_on>2024-11-26 09:11:11</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>6b26b8e253021210041791e0a0490e9d</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="x_cdltd_contractsy_contract_request">
+    <x_cdltd_contractsy_contract_request action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_due/>
+        <additional_assignee_list/>
+        <approval>requested</approval>
+        <approval_history/>
+        <approval_set/>
+        <assigned_to/>
+        <assignment_group display_value="ContractSync Service desk" name="ContractSync Service desk">2b407d659f7302107f4489554524abbb</assignment_group>
+        <business_duration/>
+        <business_service/>
+        <calendar_duration/>
+        <calendar_stc/>
+        <close_notes/>
+        <closed_at/>
+        <closed_by/>
+        <cmdb_ci/>
+        <comments/>
+        <comments_and_work_notes/>
+        <company/>
+        <contact_type/>
+        <contract/>
+        <correlation_display/>
+        <correlation_id/>
+        <delivery_address/>
+        <delivery_plan/>
+        <delivery_task/>
+        <description>Please ContractSync Service desk, prepare a New part-time Contract for Aileen Mottern with 1 Configuration items. &#13;
+ &#13;
+Other Contract Request informations: &#13;
+ &#13;
+   - Request priority: 4 - Low. &#13;
+ &#13;
+   - Start date: 2024-12-11 09:06:13. &#13;
+ &#13;
+   - End date: 2025-02-12 09:06:13.&#13;
+ &#13;
+</description>
+        <due_date/>
+        <escalation>0</escalation>
+        <expected_start/>
+        <follow_up/>
+        <group_list/>
+        <impact>3</impact>
+        <knowledge>false</knowledge>
+        <location/>
+        <made_sla>true</made_sla>
+        <number>CONR000124</number>
+        <opened_at>2024-11-26 09:05:56</opened_at>
+        <opened_by display_value="Matteo Lambertucci">6816f79cc0a8016401c5a33be04be441</opened_by>
+        <order/>
+        <parent/>
+        <parent_interaction/>
+        <priority>4</priority>
+        <reassignment_count>0</reassignment_count>
+        <rejection_goto/>
+        <request_state>requested</request_state>
+        <requested_date/>
+        <requested_for display_value="Aileen Mottern">71826bf03710200044e0bfc8bcbe5d3b</requested_for>
+        <route_reason/>
+        <service_offering/>
+        <short_description>test boh</short_description>
+        <sla_due/>
+        <sn_fin_accounting_period/>
+        <special_instructions/>
+        <stage>requested</stage>
+        <state>3</state>
+        <sys_class_name>x_cdltd_contractsy_contract_request</sys_class_name>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-11-26 09:08:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6b26b8e253021210041791e0a0490e9d</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-11-26 09:09:26</sys_updated_on>
+        <task_effective_number>CONR000124</task_effective_number>
+        <time_worked/>
+        <u_automatic_renewal>false</u_automatic_renewal>
+        <u_configuration_items>a9a2d47cc611227601f05c0852e26457</u_configuration_items>
+        <u_contract display_value="CON001040">0ce67c2653021210041791e0a0490e31</u_contract>
+        <u_contract_approval/>
+        <u_contract_type>part-time</u_contract_type>
+        <u_end_date>2025-02-12 08:06:13</u_end_date>
+        <u_start_date>2024-12-11 08:06:13</u_start_date>
+        <universal_request/>
+        <upon_approval>proceed</upon_approval>
+        <upon_reject>cancel</upon_reject>
+        <urgency>3</urgency>
+        <user_input/>
+        <variables/>
+        <watch_list/>
+        <wf_activity/>
+        <work_end/>
+        <work_notes/>
+        <work_notes_list/>
+        <work_start/>
+    </x_cdltd_contractsy_contract_request>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin.lambertucci</sys_created_by>
+        <sys_created_on>2024-11-26 09:49:54</sys_created_on>
+        <sys_id>ef30c56253421210041791e0a0490e23</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CONR000124</sys_name>
+        <sys_package display_value="ContractSync" source="x_cdltd_contractsy">59295f459fb302107f4489554524abd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ContractSync">59295f459fb302107f4489554524abd8</sys_scope>
+        <sys_update_name>sys_metadata_link_ef30c56253421210041791e0a0490e23</sys_update_name>
+        <sys_updated_by>admin.lambertucci</sys_updated_by>
+        <sys_updated_on>2024-11-26 09:49:54</sys_updated_on>
+        <tablename>x_cdltd_contractsy_contract_request</tablename>
+    </sys_metadata_link>
+</record_update>
